@@ -1,0 +1,41 @@
+<div class="create_app_view" style="display:none"></div>
+
+<div class="tm_page-header">
+  <h1>Apps</h1>
+</div>
+
+<div class="tm_content-box">
+  <div class="tm_box-heading">
+    <svg class="icon"><use xlink:href="/images/symbols.svg#section-rules"></use></svg>
+    <div class="expander">
+      <h2>Apps</h2>
+      <p>Below are Turing &amp; third-party apps for further enhancing your email experience.</p>
+    </div>
+    <% if (developer_enabled) { %>
+      <button class="tm_button tm_button-submit create-app-button">Create App</button>
+    <% } %>
+  </div>
+
+  {{#if apps[0]}}
+    <table class="tm_datagrid apps-table">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Name</th>
+          <th>Install</th>
+        </tr>
+      </thead>
+      <tbody>
+      {{#apps}}
+        <tr>
+          <td>{{name}}</td>
+          <td>{{description}}</td>
+          <td><button class="tm_button install-app-button">Install</button></td>
+        </tr>
+      {{/apps}}
+      </tbody>
+    </table>
+  {{else}}
+    <div class="tm_settings-empty">You have no apps to install</div>
+  {{/if}}
+</div>

@@ -1,0 +1,198 @@
+// ---------------------------
+// TOP TOOLBAR COMPONENTS
+// ---------------------------
+
+
+// Header toolbar
+
+.tm_headbar {
+  z-index: 9;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  padding: 0 15px;
+  background: #FFF;
+  position: relative;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+  box-shadow: 0 1px 0 rgba(#000, 0.1);
+}
+
+.tm_headbar-toolbar {
+  display: flex;
+  align-items: center;
+  &.threads-toolbar {
+    flex-shrink: 0;
+    margin-right: 15px
+  }
+  &.shared-toolbar {
+    flex-grow: 1;
+  }
+
+  > * {
+    margin-left: 5px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .tm_search-form {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .tm_user-details {
+    max-width: 200px;
+    margin-left: 20px;
+  }
+}
+
+
+// Search
+
+.tm_search-form {
+  margin: 0;
+  padding: 0;
+  min-width: 110px;
+  position: relative;
+  display: inline-block;
+
+  input[type="search"] {
+    width: 100%;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 16px;
+    padding: 0 50px 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #E3E3E3;
+    transition: border-color 0.2s;
+    &:focus {
+      outline: none;
+      border-color: #CCC;
+    }
+  }
+}
+
+.tm_search-buttons {
+  top: 50%;
+  right: 1px;
+  height: 30px;
+  margin-top: -15px;
+  position: absolute;
+  display: inline-block;
+
+  button {
+    width: 16px;
+    float: left;
+    height: 100%;
+    border: none;
+    overflow: hidden;
+    background: none;
+    text-indent: 100px;
+    white-space: nowrap;
+    transition: opacity 0.2s;
+    &:focus, &:active {
+      outline: none;
+    }
+
+    &[type="reset"] {
+      opacity: 0.25;
+      background-position: center;
+      background-repeat: no-repeat;
+      @include background-svg(16, 16, '<path fill="#000" d="#{$svg-reset}"/>');
+      &:hover {
+        opacity: 0.4;
+      }
+    }
+
+    &[type="submit"] {
+      width: 28px;
+      opacity: 0.6;
+      border-radius: 0 15px 15px 0;
+      background-repeat: no-repeat;
+      background-position: 5px center;
+      @include background-svg(13, 13, '<path fill="#000" d="#{$svg-search}"/>');
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+// User details
+
+.tm_user-details {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+
+  .tm_user-info {
+    flex-grow: 1;
+    text-align: right;
+    white-space: nowrap;
+
+    strong, small {
+      width: 100%;
+      display: block;
+      overflow: hidden;
+      font-weight: normal;
+      text-overflow: ellipsis;
+    }
+
+    small {
+      color: #AAA;
+      font-size: 11px;
+    }
+  }
+
+  .tm_user-avatar {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+
+// Headbar drop-down menu
+
+.tm_headbar-menu {
+  min-width: 0;
+  margin-top: 3px;
+  max-height: none;
+  overflow: visible;
+
+  > li > a {
+    color: #888;
+    position: relative;
+    padding: 3px 75px 3px 10px;
+    &:after {
+      top: 6px;
+      right: 10px;
+      color: #FFF;
+      display: block;
+      padding: 0 3px;
+      min-width: 11px;
+      font-size: 10px;
+      background: #DDD;
+      line-height: 17px;
+      position: absolute;
+      border-radius: 3px;
+      text-align: center;
+      content: attr(data-shortcut);
+    }
+    &:hover:after {
+      color: #09F;
+      background: rgba(#FFF, 0.8);
+    }
+  }
+
+  .divider {
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,169 @@
+// ---------------------------
+// INFORMATION MODAL
+// ---------------------------
+
+
+// General
+
+.tm_info-modal {
+  &:before, &:after {
+    display: none;
+  }
+
+  .tm_modal-button {
+    top: 25px;
+    right: 25px;
+    z-index: 10;
+    position: absolute;
+  }
+
+  .modal-dialog {
+    width: 100%;
+    color: #FFF;
+    height: inherit;
+    line-height: 1.5;
+    min-width: 800px;
+    max-width: 1200px;
+    position: relative;
+    text-align: center;
+    display: inline-table;
+    box-sizing: border-box;
+    padding: 65px 35px 0 35px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    line-height: 1;
+    color: inherit;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 58px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+  }
+
+  p {
+    margin: 2em 0;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  .big {
+    font-size: 18px;
+  }
+
+  .faded {
+    color: rgba(#FFF, 0.6);
+  }
+}
+
+.tm_info-modal-content {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+
+  aside {
+    float: left;
+    width: 300px;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  article {
+    overflow: auto;
+    padding: 0 20px;
+    text-align: left;
+    max-height: 100%;
+  }
+}
+
+
+// About
+
+.tm_info-modal-about {
+  width: 700px;
+  display: inline-block;
+}
+
+.tm_info-modal-cite {
+  margin-top: 50px;
+
+  blockquote {
+    font-size: 16px;
+    padding: 0 50px;
+    position: relative;
+    margin-bottom: 30px;
+    &:before, &:after {
+      top: 50%;
+      content: '';
+      width: 28px;
+      height: 21px;
+      opacity: 0.2;
+      margin-top: -10px;
+      position: absolute;
+      background-repeat: no-repeat;
+    }
+    &:before {
+      left: 0;
+      @include background-svg(28, 21, '<path fill="#FFF" d="M0,11.8C0,3.3,4.5,0.2,11.7,0l0.9,4.2C8.7,4.6,6.8,6.6,7,9.7h4.3V21H0V11.8z M15,11.8C15,3.3,19.5,0.2,26.7,0l0.9,4.2 c-3.9,0.4-5.8,2.3-5.7,5.5h4.4V21H15V11.8z"/>');
+    }
+    &:after {
+      right: 0;
+      left: auto;
+      @include background-svg(28, 21, '<path fill="#FFF" d="M28,9.2c0,8.5-4.5,11.5-11.7,11.8l-0.9-4.2c3.9-0.4,5.8-2.3,5.6-5.5h-4.3V0H28V9.2z M13,9.2C13,17.7,8.5,20.8,1.3,21 l-0.9-4.2c3.9-0.4,5.8-2.3,5.7-5.5H1.7V0H13V9.2z"/>');
+    }
+  }
+
+  .tm_cite-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tm_cite-author {
+    span {
+      display: block;
+      font-size: 17px;
+    }
+    small {
+      display: block;
+      font-size: 11px;
+      color: rgba(#FFF, 0.6);
+    }
+  }
+}
+
+// FAQ
+
+.tm_info-modal-qa {
+  padding: 30px 0;
+  border-top: 1px solid rgba(#FFF, 0.1);
+  &:first-child {
+    border: 0;
+    padding-top: 0;
+  }
+
+  p {
+    margin: 20px 0 0 0;
+    &:first-child {
+      margin: 0;
+    }
+  }
+}

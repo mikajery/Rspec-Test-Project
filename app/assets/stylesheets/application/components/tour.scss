@@ -1,0 +1,211 @@
+// ---------------------------
+// WELCOME TOUR
+// ---------------------------
+
+
+// General
+
+.tm_tour {
+  width: 90%;
+  color: #FFF;
+  height: 600px;
+  max-width: 950px;
+  overflow: hidden;
+  background: #09F;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tm_tour-background {
+  width: 800px;
+  height: 600px;
+  right: -280px;
+  bottom: -200px;
+  position: absolute;
+  color: rgba(#FFF, 0.08);
+}
+
+.tm_tour-layout {
+  width: 100%;
+  display: table;
+  height: inherit;
+}
+
+.tm_tour-chapters {
+  padding: 30px 0;
+  text-align: right;
+  display: table-cell;
+  vertical-align: top;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-right: 1px solid transparent;
+  &.visible {
+    background: rgba(#000, 0.05);
+    border-color: rgba(#FFF, 0.16);
+    .tm_tour-chapter {
+      margin-left: 50px;
+      &.active {
+        color: #FFF;
+        border-color: #FFF;
+      }
+    }
+  }
+}
+
+.tm_tour-chapter {
+  display: block;
+  line-height: 1;
+  font-size: 14px;
+  position: relative;
+  color: rgba(#FFF, 0.6);
+  padding: 4px 30px 4px 0;
+  margin: 8px -1px 8px -250px;
+  border-right: 1px solid transparent;
+  transition: margin 0.4s, color 0.2s;
+  &:hover {
+    color: #FFF;
+  }
+}
+
+.tm_tour-slides {
+  width: 100%;
+  position: relative;
+  display: table-cell;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.tm_tour-slide {
+  padding: 50px;
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute;
+  &.active {
+    position: relative;
+    visibility: visible;
+  }
+
+  .figure {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
+  .caption {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 1em auto;
+    color: rgba(#FFF, 0.7);
+    &.heading {
+      margin: 0;
+      color: inherit;
+      line-height: 1;
+      font-size: 30px;
+      max-width: none;
+    }
+    &.big {
+      color: inherit;
+      font-size: 22px;
+      line-height: 1.4;
+    }
+  }
+}
+
+.tm_tour-footer {
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  text-align: right;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.tm_tour-prev, .tm_tour-next {
+  width: 32px;
+  height: 32px;
+  opacity: 0.7;
+  margin-left: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(#FFF, 0.05);
+  border: 1px solid rgba(#FFF, 0.3);
+  transform: translate3d(0, 0, 0);
+  &:hover, &:active {
+    opacity: 1;
+  }
+}
+
+.tm_tour-prev {
+  @include background-svg(10, 13, '<polyline fill="none" stroke="#FFF" stroke-width="1.25" points="7,0 0.5,6.5 7,13"/>');
+}
+
+.tm_tour-next {
+  @include background-svg(10, 13, '<polyline fill="none" stroke="#FFF" stroke-width="1.25" points="3,0 9.5,6.5 3,13"/>');
+}
+
+.tm_tour-skip {
+  top: 30px;
+  right: 30px;
+  line-height: 32px;
+  position: absolute;
+  text-decoration: none;
+  color: rgba(#FFF, 0.6);
+  transition: color 0.2s;
+  &:hover, &:active {
+    color: #FFF;
+
+    .tm_tour-skip-button {
+      opacity: 1;
+    }
+  }
+
+  .tm_tour-skip-button {
+    color: #FFF;
+    opacity: 0.7;
+    padding: 8px;
+    margin-left: 5px;
+    line-height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    transition: opacity 0.2s;
+    border: 1px solid rgba(#FFF, 0.3);
+    background-color: rgba(#FFF, 0.05);
+  }
+}
+
+
+// Animation
+
+.tm_tour {
+  .figure {
+    opacity: 0;
+    transform: scale3d(0.5,0.5,1);
+    transition: opacity 0.3s, transform 0.3s cubic-bezier(0.1, 1.3, 0.7, 1.1);
+  }
+  .caption {
+    opacity: 0;
+    transform: translate3d(0,20%,0);
+    transition: opacity 0.5s, transform 0.5s;
+    transition-delay: 0.5s;
+    &:nth-child(2) {
+      transition-delay: 1s;
+    }
+  }
+  &.animate .active {
+    .figure, .caption {
+      opacity: 1;
+      transform: scale3d(1,1,1) translate3d(0,0,0);
+    }
+  }
+}

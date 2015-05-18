@@ -1,0 +1,62 @@
+// ---------------------------
+// TOP NAVIGATION TABS
+// ---------------------------
+
+.tm_toptabs {
+  margin: 0;
+  font-size: 0;
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 0 55px 0 15px;
+  text-justify: newspaper;
+  text-align-last: justify;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &:after {
+    height: 0;
+    width: 100%;
+    content: '';
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+  }
+
+  > a {
+    color: #FFF;
+    opacity: 0.5;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 40px;
+    white-space: nowrap;
+    display: inline-block;
+    text-align-last: auto;
+    vertical-align: middle;
+    box-sizing: border-box;
+    transition: opacity 0.2s;
+    &:hover {
+      opacity: 0.8;
+    }
+    &.active {
+      opacity: 1;
+    }
+  }
+}
+
+.tm_toptabs-options {
+  top: 0;
+  right: 0;
+  border: 0;
+  padding: 0;
+  color: #FFF;
+  width: 44px;
+  height: 40px;
+  background: #000;
+  text-align: center;
+  position: absolute;
+  &:focus, &:active {
+    outline: none;
+  }
+  > a {
+    color: #FFF;
+  }
+}

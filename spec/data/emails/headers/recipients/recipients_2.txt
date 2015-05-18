@@ -1,0 +1,108 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.94.118 with SMTP id f109csp246641qge;
+        Fri, 29 Aug 2014 13:29:11 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.107.37])
+        by 10.180.107.37 with SMTP id gz5mr3988664wib.40.1409344151438 (num_hops = 1);
+        Fri, 29 Aug 2014 13:29:11 -0700 (PDT)
+X-Received: by 10.180.107.37 with SMTP id gz5mr6461047wib.40.1409344151062;
+        Fri, 29 Aug 2014 13:29:11 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp256240wem;
+        Fri, 29 Aug 2014 13:29:10 -0700 (PDT)
+X-Received: by 10.66.146.70 with SMTP id ta6mr18301916pab.131.1409344149212;
+        Fri, 29 Aug 2014 13:29:09 -0700 (PDT)
+Return-Path: <gsc-members-bounces@mailman.stanford.edu>
+Received: from smtp2.cs.Stanford.EDU (smtp2.cs.Stanford.EDU. [171.64.64.26])
+        by mx.google.com with ESMTPS id f2si1736704pdk.241.2014.08.29.13.29.07
+        for <gobaudd@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 29 Aug 2014 13:29:08 -0700 (PDT)
+Received-SPF: neutral (google.com: 171.64.64.26 is neither permitted nor denied by domain of gsc-members-bounces@mailman.stanford.edu) client-ip=171.64.64.26;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 171.64.64.26 is neither permitted nor denied by domain of gsc-members-bounces@mailman.stanford.edu) smtp.mail=gsc-members-bounces@mailman.stanford.edu;
+       dkim=neutral (body hash did not verify) header.i=@
+Received: from smtp3.stanford.edu ([171.67.219.83]:38600 helo=smtp.stanford.edu)
+	by smtp2.cs.Stanford.EDU with esmtps (UNKNOWN:DHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.80.1)
+	(envelope-from <gsc-members-bounces@mailman.stanford.edu>)
+	id 1XNSnC-0002MI-9Y; Fri, 29 Aug 2014 13:29:07 -0700
+Received: from codegreen2.stanford.edu (codegreen2.Stanford.EDU [171.67.224.3])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by smtp.stanford.edu (Postfix) with ESMTPS id 1478E101796;
+	Fri, 29 Aug 2014 13:29:05 -0700 (PDT)
+Received: from codegreen2.stanford.edu (localhost.localdomain [127.0.0.1])
+	by codegreen2.stanford.edu (Postfix) with ESMTP id 06D806D;
+	Fri, 29 Aug 2014 13:29:05 -0700 (PDT)
+Received: from smtp.stanford.edu (smtp3.Stanford.EDU [171.67.219.83])
+	(using TLSv1 with cipher ADH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by codegreen2.stanford.edu (Postfix) with ESMTP id DF09265;
+	Fri, 29 Aug 2014 13:29:04 -0700 (PDT)
+Received: from smtp.stanford.edu (localhost [127.0.0.1])
+	by localhost (Postfix) with SMTP id BEA8C1017A5;
+	Fri, 29 Aug 2014 13:29:04 -0700 (PDT)
+Received: from mailman.Stanford.EDU (mailman.Stanford.EDU [171.67.216.245])
+	by smtp.stanford.edu (Postfix) with ESMTP id A582F1016A4;
+	Fri, 29 Aug 2014 13:29:02 -0700 (PDT)
+X-Original-To: gsc-members@lists.stanford.edu
+Delivered-To: gsc-members@lists.stanford.edu
+Received: from mailman.stanford.edu (localhost [127.0.0.1])
+ by mailman.stanford.edu (Postfix) with SMTP id AF0018160E
+ for <gsc-members@lists.stanford.edu>; Fri, 29 Aug 2014 13:29:01 -0700 (PDT)
+Received: from mail-lb0-f175.google.com (mail-lb0-f175.google.com
+ [209.85.217.175])
+ (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits))
+ (No client certificate requested)
+ by mailman.stanford.edu (Postfix) with ESMTPS id C1A3B81603
+ for <gsc-members@lists.stanford.edu>; Fri, 29 Aug 2014 13:29:00 -0700 (PDT)
+Received: by mail-lb0-f175.google.com with SMTP id u10so3259807lbd.34
+ for <gsc-members@lists.stanford.edu>; Fri, 29 Aug 2014 13:28:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+ h=mime-version:sender:in-reply-to:references:from:date:message-id
+ :subject:to:cc:content-type;
+ bh=49WtXhYjJIKev3BX+dVHl0X28h48ZJpV8gXP0NaaAxQ=;
+ b=HOPX1RtDRztgtD2K6v5bWNSwwQ7K+t1OTkOox78nszpSpOYHuTe8vGWxnuqqRhqSuR
+ kNy9osev5wzRM3AzxwTSOsqHesfqfVmw0N9u6a5+AFbs8EHtYXOpcg2Q32Ug0t9Cun4q
+ i10qf4r8Iq8ahvS1ZNxUney/tkP6uPV+lxhylLLbn5K0NDhwowlt0cZDHVI0kZTJnFoh
+ IibOBKedi/3apls+K14g0h9CGfkGEeFFsqf0LAAkDZbBalZnCXLr8sFoRz588bg4cOQV
+ iMIMtzW4+apAW8YlKiTkGFQP12NCo3j/9b9DqW3BTg3AoalWLD5S/g5srjlLnJHu8Kfm
+ M+PQ==
+X-Received: by 10.152.28.199 with SMTP id d7mr13387580lah.55.1409344138606;
+ Fri, 29 Aug 2014 13:28:58 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.114.81.40 with HTTP; Fri, 29 Aug 2014 13:28:38 -0700 (PDT)
+In-Reply-To: <CAASrSirznYxpQAC832OR3nLsiCCV3XzfeyW2Zr8XkhAPcWe9mQ@mail.gmail.com>
+References: <CAPThV_HR4GTJLwdwjZJFydeCE4+04ChGW-A3Rr_QKypAj9EKNA@mail.gmail.com>
+ <CAPO82Vb=64bT8kgdVybjpddVPg-WB3+8nBZzHO+EnjnikKVz=g@mail.gmail.com>
+ <CAELfRhL+AYO1Gbpt1Hpd6wA5SoBMTzb+eq1=Y41aTPZV3evfLA@mail.gmail.com>
+ <CAASrSirznYxpQAC832OR3nLsiCCV3XzfeyW2Zr8XkhAPcWe9mQ@mail.gmail.com>
+From: GSC Chair <chair@gsc.stanford.edu>
+Date: Fri, 29 Aug 2014 13:28:38 -0700
+X-Google-Sender-Auth: nnH30IMyVE2pltbEmIydf5sucac
+Message-ID: <CAER-vRw9m4Xm=8g1Jca12aCMmzTNDkO6SHMbtE6U7Zm-i4jKZw@mail.gmail.com>
+To: Sam Bydlon <sbydlon@stanford.edu>
+Cc: gsc-members <gsc-members@lists.stanford.edu>
+Subject: Re: GSC: VSO Funding Requests this Week (Voting Member's Replies
+ Needed ASAP!)
+X-BeenThere: gsc-members@lists.stanford.edu
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: <gsc-members.lists.stanford.edu>
+List-Unsubscribe: <https://mailman.stanford.edu/mailman/options/gsc-members>, 
+ <mailto:gsc-members-request@lists.stanford.edu?subject=unsubscribe>
+List-Archive: <http://mailman.stanford.edu/pipermail/gsc-members/>
+List-Post: <mailto:gsc-members@lists.stanford.edu>
+List-Help: <mailto:gsc-members-request@lists.stanford.edu?subject=help>
+List-Subscribe: <https://mailman.stanford.edu/mailman/listinfo/gsc-members>,
+ <mailto:gsc-members-request@lists.stanford.edu?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============7381364925144058075=="
+Errors-To: gsc-members-bounces@lists.stanford.edu
+Sender: "gsc-members" <gsc-members-bounces@lists.stanford.edu>
+Received-SPF: pass (smtp2.cs.Stanford.EDU: domain of mailman.stanford.edu designates 171.67.219.83 as permitted sender) client-ip=171.67.219.83; envelope-from=gsc-members-bounces@mailman.stanford.edu; helo=smtp.stanford.edu;
+X-Spam-Score: -0.6
+X-Spam-Level: 
+X-Spam-Checker-Version: SpamAssassin on smtp2.cs.Stanford.EDU
+X-Scan-Signature: 4ae4e24ad748fe2b9b5eb66069e96086

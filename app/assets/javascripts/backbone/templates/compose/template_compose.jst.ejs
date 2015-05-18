@@ -1,0 +1,44 @@
+<div class="modal fade compose-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog compose-modal-dialog compose-modal-dialog-large">
+
+    <form class="compose-form">
+      <div class="tm_compose-modal-header">
+        <button type="button" class="tm_modal-button tm_modal-button-dark tm_modal-button-compress compose-modal-size-toggle">
+          <svg class="icon icon-compress"><use xlink:href="/images/symbols.svg#modal-compress"></use></svg>
+          <svg class="icon icon-expand"><use xlink:href="/images/symbols.svg#modal-expand"></use></svg>
+        </button>
+        <button type="button" class="tm_modal-button tm_modal-button-dark" data-dismiss="modal">
+          <svg class="icon"><use xlink:href="/images/symbols.svg#modal-close"></use></svg>
+        </button>
+      </div>
+
+      <div class="tm_modal-content">
+        <div class="tm_modal-body tm_modal-body-template">
+          <div class="tm_compose-header">
+            <div class="tm_compose-field">
+              <svg class="icon"><use xlink:href="/images/symbols.svg#compose-subject"></use></svg>
+              <input type="text" class="tm_input name-input" placeholder="Template Name" value="{{emailTemplate.name}}" required>
+            </div>
+          </div>
+
+          <div class="tm_compose-body">
+            <textarea class="compose-template-body" value="{{emailTemplate.html}}"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm_compose-footer tm_compose-modal-footer">
+        <button type="button" class="tm_button tm_button-submit delete-template-button">
+          <svg class="icon big"><use xlink:href="/images/symbols.svg#compose-delete"></use></svg>
+          <span>Delete Template</span>
+        </button>
+        <div class="expander"></div>
+        <button type="submit" class="tm_button tm_button-submit save-button">
+          <svg class="icon big"><use xlink:href="/images/symbols.svg#compose-save"></use></svg>
+          <span>Save Template</span>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</div>

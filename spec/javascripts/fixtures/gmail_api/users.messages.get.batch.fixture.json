@@ -1,0 +1,1660 @@
+{"result": {
+  "1486b3695d192330": {
+    "result": {
+      "snippet": "No problem - I didn&#39;t get it. Thanks! On Fri, Sep 12, 2014 at 10:22 AM, Pamela Ott &lt;pamela@dfj",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "David Gobaud <david@turinginc.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Fri, 12 Sep 2014 11:53:11 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Welcome Turing Technology!"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"No problem - I didn&#39;t get it. Thanks! On Fri, Sep 12, 2014 at 10:22 AM, Pamela Ott &lt;pamela@dfj\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 12 Sep 2014 11:53:11 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Welcome Turing Technology!\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/ra5dtMIWpZG80wVdWafPhs_6wrc\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "444"
+    }
+  },
+  "148854e48fa3d972": {
+    "result": {
+      "snippet": "Eric",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 17 Sep 2014 13:29:32 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Still meeting?"
+          },
+          {
+            "name": "From",
+            "value": "Eric Siroker <eric@optimizely.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Eric\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 17 Sep 2014 13:29:32 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Still meeting?\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Eric Siroker \\u003ceric@optimizely.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/T74T-9S3GUBVn3yn4mIwOyqfZ-0\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "331"
+    }
+  },
+  "1492dcba88f212c5": {
+    "result": {
+      "snippet": "Hello David Gobaud, Here&#39;s your payroll statement for the 10/19/14 to 11/18/14 period. Turing",
+      "payload": {
+        "mimeType": "text/plain",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 06:42:25 -0700 (PDT)"
+          },
+          {
+            "name": "From",
+            "value": "QuickBooks Online Payroll Support Team <QBOPayrollNoReply@intuit.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "Billing Statement"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hello David Gobaud, Here&#39;s your payroll statement for the 10/19/14 to 11/18/14 period. Turing\",\n \"payload\": {\n  \"mimeType\": \"text/plain\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 06:42:25 -0700 (PDT)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"QuickBooks Online Payroll Support Team \\u003cQBOPayrollNoReply@intuit.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Billing Statement\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/6bJDfO2MLf32oBqh_a7LL4cQaRA\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "457"
+    }
+  },
+  "148846553292249f": {
+    "result": {
+      "snippet": "Hi Guys, I am so sorry to do this, but I had to change a flight today to earlier to head to my",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 17 Sep 2014 09:15:04 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Turing Email - demo version 2 ready!"
+          },
+          {
+            "name": "From",
+            "value": "Jodie Ellis <jodie@optimizely.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hi Guys, I am so sorry to do this, but I had to change a flight today to earlier to head to my\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 17 Sep 2014 09:15:04 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Turing Email - demo version 2 ready!\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Jodie Ellis \\u003cjodie@optimizely.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/NBd8LevsTw7_XhVuiMpUjfCviSo\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "447"
+    }
+  },
+  "1487c63ce76a4b7c": {
+    "result": {
+      "snippet": "awesome. Does this work for an any arbitrary label? On Mon, Sep 15, 2014 at 7:48 PM, David Gobaud",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 15 Sep 2014 19:56:28 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: rake sync_email update"
+          },
+          {
+            "name": "From",
+            "value": "Stewart MacGregor-Dennis <stewart@turinginc.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"awesome. Does this work for an any arbitrary label? On Mon, Sep 15, 2014 at 7:48 PM, David Gobaud\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 15 Sep 2014 19:56:28 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: rake sync_email update\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Stewart MacGregor-Dennis \\u003cstewart@turinginc.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/BZJOirwSpUG_V54FF8SuuZ0iggg\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "450"
+    }
+  },
+  "1492b43983e51630": {
+    "result": {
+      "snippet": "more details » Weekly Turing Co-Founders Dinner When Weekly from 7pm to 8pm on Sunday Pacific Time",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 01:54:50 +0000"
+          },
+          {
+            "name": "Subject",
+            "value": "Reminder: Weekly Turing Co-Founders Dinner @ Weekly from 7pm to 8pm on Sunday (David Gobaud)"
+          },
+          {
+            "name": "From",
+            "value": "Google Calendar <calendar-notification@google.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"more details » Weekly Turing Co-Founders Dinner When Weekly from 7pm to 8pm on Sunday Pacific Time\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 01:54:50 +0000\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Reminder: Weekly Turing Co-Founders Dinner @ Weekly from 7pm to 8pm on Sunday (David Gobaud)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Google Calendar \\u003ccalendar-notification@google.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/UlaKfMWybyHs2qwuO1BzHTMN2B4\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "520"
+    }
+  },
+  "148184e5a8dfba1e": {
+    "result": {
+      "snippet": "Great we will be there! David On Wed, Aug 27, 2014 at 8:42 AM, Jodie Ellis &lt;jodie@optimizely.com",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "David Gobaud <david@turinginc.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Wed, 27 Aug 2014 09:30:41 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Email genie ready to demo!"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Great we will be there! David On Wed, Aug 27, 2014 at 8:42 AM, Jodie Ellis &lt;jodie@optimizely.com\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 27 Aug 2014 09:30:41 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Email genie ready to demo!\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/JptIGXRjeWk-wm900qbYG7glZIE\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "442"
+    }
+  },
+  "1492bb17f01a68fe": {
+    "result": {
+      "snippet": "more details » Put out trash When Weekly from 9pm to 9pm on Sunday Pacific Time Calendar David Gobaud",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 03:54:52 +0000"
+          },
+          {
+            "name": "Subject",
+            "value": "Reminder: Put out trash @ Weekly from 9pm to 9pm on Sunday (David Gobaud)"
+          },
+          {
+            "name": "From",
+            "value": "Google Calendar <calendar-notification@google.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"more details » Put out trash When Weekly from 9pm to 9pm on Sunday Pacific Time Calendar David Gobaud\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 03:54:52 +0000\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Reminder: Put out trash @ Weekly from 9pm to 9pm on Sunday (David Gobaud)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Google Calendar \\u003ccalendar-notification@google.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/GBUQqRuMRNucj8fsxEo7nxZpSTE\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "504"
+    }
+  },
+  "1488163a8c44eb8a": {
+    "result": {
+      "snippet": "Hello! helloooo!!!!!!!! Hello world!",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "stewart@turinginc.com"
+          },
+          {
+            "name": "Date",
+            "value": "Tue, 16 Sep 2014 19:14:24 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Re: Hello"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hello! helloooo!!!!!!!! Hello world!\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"stewart@turinginc.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 16 Sep 2014 19:14:24 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Re: Hello\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/OJ6xQH9OEtN9fk60F9rIyjCBfMI\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "339"
+    }
+  },
+  "1483cb2ae92c8406": {
+    "result": {
+      "snippet": "Got it - thanks. David On Wed, Sep 3, 2014 at 8:27 AM, Front Office &lt;frontdesk@vrent.com&gt; wrote",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "David Gobaud <david@turinginc.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Wed, 3 Sep 2014 11:06:35 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: 1073 Middlefield Road move-in inspection and questions"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Got it - thanks. David On Wed, Sep 3, 2014 at 8:27 AM, Front Office &lt;frontdesk@vrent.com&gt; wrote\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 3 Sep 2014 11:06:35 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: 1073 Middlefield Road move-in inspection and questions\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/46Zhq8cyB1urYHHYhO6nnNpv3qQ\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "471"
+    }
+  },
+  "148248b04f8436b9": {
+    "result": {
+      "snippet": "Below is an email we just got from Jared with his reading and our reply. ---------- Forwarded message",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "David Gobaud <david@turinginc.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Fri, 29 Aug 2014 18:32:23 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Fwd: Thank you & confirmation of Turing investment."
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Below is an email we just got from Jared with his reading and our reply. ---------- Forwarded message\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 29 Aug 2014 18:32:23 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Fwd: Thank you & confirmation of Turing investment.\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/PsV7D-tLHgBq2JyepOifAMMvxdg\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "465"
+    }
+  },
+  "14938dece9a5a8da": {
+    "result": {
+      "snippet": "Heroku runs apps by executing the main command in your Procfile. This is often a command to start a",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 22 Oct 2014 13:19:20 -0400"
+          },
+          {
+            "name": "Subject",
+            "value": "Dynos: Your Apps Run in Containers"
+          },
+          {
+            "name": "From",
+            "value": "Heroku <communications@heroku.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Heroku runs apps by executing the main command in your Procfile. This is often a command to start a\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 22 Oct 2014 13:19:20 -0400\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Dynos: Your Apps Run in Containers\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Heroku \\u003ccommunications@heroku.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/-enl2DyKZ0ogq1-OaEGCmdxeHfY\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "446"
+    }
+  },
+  "14850da2b156e5b9": {
+    "result": {
+      "snippet": "We&#39;re all confirmed. You can find our address and contact info below. Thank you, Jasmine Suchoski",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "\"Suchoski, Jasmine\" <jsuchoski@generalcatalyst.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "RE: Intro: David & Stewart (Turing Security) <> Deepak (GC)"
+          },
+          {
+            "name": "Date",
+            "value": "Sun, 7 Sep 2014 16:02:23 +0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"We&#39;re all confirmed. You can find our address and contact info below. Thank you, Jasmine Suchoski\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"\\\"Suchoski, Jasmine\\\" \\u003cjsuchoski@generalcatalyst.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: Intro: David & Stewart (Turing Security) \\u003c\\u003e Deepak (GC)\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sun, 7 Sep 2014 16:02:23 +0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/z7LWDQKxNTVbhK7HDZrlqOxL9r0\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "501"
+    }
+  },
+  "148b0751ef57174f": {
+    "result": {
+      "snippet": "Awesome! Hope all is well Dan -- Dan Siroker Co-Founder &amp; CEO | Optimizely, Inc. dan@optimizely.",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Thu, 25 Sep 2014 22:35:38 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Working on email!"
+          },
+          {
+            "name": "From",
+            "value": "Dan Siroker <dan@optimizely.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Awesome! Hope all is well Dan -- Dan Siroker Co-Founder &amp; CEO | Optimizely, Inc. dan@optimizely.\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Thu, 25 Sep 2014 22:35:38 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Working on email!\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Dan Siroker \\u003cdan@optimizely.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/-3Gsg1TNHO-VrdiM7208dpfAIF4\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "432"
+    }
+  },
+  "1492cd2380df21cb": {
+    "result": {
+      "snippet": "Hello heroku-beta@turinginc.com, Your Heroku account has started accruing charges. Please visit:",
+      "payload": {
+        "mimeType": "multipart/mixed",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 09:09:27 +0000"
+          },
+          {
+            "name": "From",
+            "value": "bot@heroku.com"
+          },
+          {
+            "name": "Subject",
+            "value": "You have spent money"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hello heroku-beta@turinginc.com, Your Heroku account has started accruing charges. Please visit:\",\n \"payload\": {\n  \"mimeType\": \"multipart/mixed\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 09:09:27 +0000\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"bot@heroku.com\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"You have spent money\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/bbtSDn0WPpfBX_aTwwwh9BohhcQ\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "393"
+    }
+  },
+  "14881611d40d369b": {
+    "result": {
+      "snippet": "Hello world!",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "stewart@turinginc.com"
+          },
+          {
+            "name": "Date",
+            "value": "Tue, 16 Sep 2014 19:11:37 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Hello"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hello world!\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"stewart@turinginc.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 16 Sep 2014 19:11:37 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Hello\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/o88re7A9HSE4aqKOggSI6gXs0uI\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "307"
+    }
+  },
+  "14927ac5912d769b": {
+    "result": {
+      "snippet": "yep! On Sat, Oct 18, 2014 at 9:33 PM, &lt;stewart@turinginc.com&gt; wrote: Hey David, How does this",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "David Gobaud <david@turinginc.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Sun, 19 Oct 2014 02:10:26 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re:"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"yep! On Sat, Oct 18, 2014 at 9:33 PM, &lt;stewart@turinginc.com&gt; wrote: Hey David, How does this\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sun, 19 Oct 2014 02:10:26 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re:\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/0SSNfaxA35ufkOMGzZptJYryDsI\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "415"
+    }
+  },
+  "14935084f7f066ba": {
+    "result": {
+      "snippet": "Request &quot;importing github organization repos&quot; with key BBS-13908 has been resolved...",
+      "payload": {
+        "mimeType": "text/html",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Tue, 21 Oct 2014 23:26:14 +0000 (UTC)"
+          },
+          {
+            "name": "From",
+            "value": "David Gobaud <support@bitbucket.org>"
+          },
+          {
+            "name": "Subject",
+            "value": "[SUPPORT] [Bitbucket Support] importing github organization repos [BBS-13908]"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Request &quot;importing github organization repos&quot; with key BBS-13908 has been resolved...\",\n \"payload\": {\n  \"mimeType\": \"text/html\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 21 Oct 2014 23:26:14 +0000 (UTC)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003csupport@bitbucket.org\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[SUPPORT] [Bitbucket Support] importing github organization repos [BBS-13908]\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Q4scmDkz5LhWYfhrdKAh9usXvuE\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "481"
+    }
+  },
+  "148c2af8ba4bcf92": {
+    "result": {
+      "snippet": "great thanks! On Mon, Sep 29, 2014 at 8:16 AM, Support &lt;support@codeschool.com&gt; wrote: Joseph",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "David Gobaud <david@turinginc.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Mon, 29 Sep 2014 11:32:15 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Get ready for a new month at Code School"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"great thanks! On Mon, Sep 29, 2014 at 8:16 AM, Support &lt;support@codeschool.com&gt; wrote: Joseph\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 29 Sep 2014 11:32:15 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Get ready for a new month at Code School\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/9iUh7oB0oN368HW-WKBpftCAm6U\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "456"
+    }
+  },
+  "1485821e69062299": {
+    "result": {
+      "snippet": "##- Please type your reply above this line -## Kayla Kamin (Zenefits) Sep 08 06:58 PM Glad to hear it",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Tue, 09 Sep 2014 01:58:08 +0000"
+          },
+          {
+            "name": "From",
+            "value": "Zenefits <support@zenefits.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Re: Your Zenefits Account, Turing Technology"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"##- Please type your reply above this line -## Kayla Kamin (Zenefits) Sep 08 06:58 PM Glad to hear it\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 09 Sep 2014 01:58:08 +0000\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Zenefits \\u003csupport@zenefits.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Re: Your Zenefits Account, Turing Technology\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/J-LpvSVuIhQrlDnHJ-geHCbd_A8\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "459"
+    }
+  },
+  "1492fd1c38e4d4a5": {
+    "result": {
+      "snippet": "Hello all, Hope you are having a nice day. I wanted to follow up and make sure you all received a",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "Derrick Hsiou <derrick@startx.stanford.edu>"
+          },
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 16:08:05 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "StartX Application Update"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hello all, Hope you are having a nice day. I wanted to follow up and make sure you all received a\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Derrick Hsiou \\u003cderrick@startx.stanford.edu\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 16:08:05 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"StartX Application Update\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/FEnK8yf9Mt5qml5tWeMVOQdWB2c\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "444"
+    }
+  },
+  "14839e86605bf5bf": {
+    "result": {
+      "snippet": "Sure. Let me know if I can be of help. On Sep 2, 2014 9:47 PM, &quot;David Gobaud&quot; &lt;david@",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Tue, 2 Sep 2014 22:06:44 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Intro - Turing Technology x Dorm Room Fund"
+          },
+          {
+            "name": "From",
+            "value": "Adam Goldberg <adamwgoldberg@gmail.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Sure. Let me know if I can be of help. On Sep 2, 2014 9:47 PM, &quot;David Gobaud&quot; &lt;david@\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 2 Sep 2014 22:06:44 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Intro - Turing Technology x Dorm Room Fund\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Adam Goldberg \\u003cadamwgoldberg@gmail.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/0CCQHN6fcpJli9f27DvqDO6Rhfw\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "461"
+    }
+  },
+  "1492534449abafb4": {
+    "result": {
+      "snippet": "worker jobs_pending=608",
+      "payload": {
+        "mimeType": "text/plain",
+        "headers": [
+          {
+            "name": "Subject",
+            "value": "Turing Email (beta) - QUEUE size ALERT!!!"
+          },
+          {
+            "name": "From",
+            "value": "\"Turing Email Logs (beta)\" <logs@turinginc.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Sat, 18 Oct 2014 21:40:20 +0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"worker jobs_pending=608\",\n \"payload\": {\n  \"mimeType\": \"text/plain\",\n  \"headers\": [\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Turing Email (beta) - QUEUE size ALERT!!!\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"\\\"Turing Email Logs (beta)\\\" \\u003clogs@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sat, 18 Oct 2014 21:40:20 +0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/82avaedUJXNhyMKJLB9BGIO8aG8\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "381"
+    }
+  },
+  "1492f95c786c00e7": {
+    "result": {
+      "snippet": "David Gobaud created an issue Bitbucket Support / Problem Report BBS-13908 importing github",
+      "payload": {
+        "mimeType": "multipart/related",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 22:03:04 +0000 (UTC)"
+          },
+          {
+            "name": "From",
+            "value": "\"Giuliano Campos [Atlassian] (JIRA)\" <support@bitbucket.org>"
+          },
+          {
+            "name": "Subject",
+            "value": "[SUPPORT] (BBS-13908) importing github organization repos"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"David Gobaud created an issue Bitbucket Support / Problem Report BBS-13908 importing github\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 22:03:04 +0000 (UTC)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"\\\"Giuliano Campos [Atlassian] (JIRA)\\\" \\u003csupport@bitbucket.org\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[SUPPORT] (BBS-13908) importing github organization repos\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/I3pewe2FgFRwskOWu0AXfOhf-3A\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "491"
+    }
+  },
+  "14877ca7cab81654": {
+    "result": {
+      "snippet": "howdy",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Sun, 14 Sep 2014 22:30:31 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "RE: Meet Friday?"
+          },
+          {
+            "name": "From",
+            "value": "david@turinginc.com"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"howdy\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sun, 14 Sep 2014 22:30:31 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: Meet Friday?\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"david@turinginc.com\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/J47A0CbddjNJi_7JlIE1UcP-K3U\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "309"
+    }
+  },
+  "14933b3de2c17794": {
+    "result": {
+      "snippet": "Over the coming days, we&#39;ll send you information and resources to help you get started on Heroku.",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Tue, 21 Oct 2014 13:14:21 -0400"
+          },
+          {
+            "name": "Subject",
+            "value": "Heroku Resources to Get You Started"
+          },
+          {
+            "name": "From",
+            "value": "Heroku <communications@heroku.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Over the coming days, we&#39;ll send you information and resources to help you get started on Heroku.\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 21 Oct 2014 13:14:21 -0400\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Heroku Resources to Get You Started\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Heroku \\u003ccommunications@heroku.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/pLEVOwKsk79vWBB_qdetT89b75Y\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "449"
+    }
+  },
+  "147f4debb43d4018": {
+    "result": {
+      "snippet": "Great, thanks David. Feel free to stop by anytime between 10a-3p MF and our branch advisors can",
+      "payload": {
+        "mimeType": "multipart/related",
+        "headers": [
+          {
+            "name": "From",
+            "value": "Shane Ballew <SBallew@svb.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "RE: ach routing number?"
+          },
+          {
+            "name": "Date",
+            "value": "Wed, 20 Aug 2014 19:18:28 +0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Great, thanks David. Feel free to stop by anytime between 10a-3p MF and our branch advisors can\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Shane Ballew \\u003cSBallew@svb.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: ach routing number?\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 20 Aug 2014 19:18:28 +0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/j-dGneSWclbXFfTfhV5WdeRxQcY\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "423"
+    }
+  },
+  "148a42af2f231c19": {
+    "result": {
+      "snippet": "Sounds great. On Tue, Sep 23, 2014 at 1:11 PM, David Gobaud &lt;david@turinginc.com&gt; wrote: Hi",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Tue, 23 Sep 2014 13:19:10 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Turing Email - demo version 2 ready!"
+          },
+          {
+            "name": "From",
+            "value": "Jodie Ellis <jodie@optimizely.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Sounds great. On Tue, Sep 23, 2014 at 1:11 PM, David Gobaud &lt;david@turinginc.com&gt; wrote: Hi\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 23 Sep 2014 13:19:10 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Turing Email - demo version 2 ready!\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Jodie Ellis \\u003cjodie@optimizely.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/EvdvrPyeJW0MmH_nCbHa3vY980U\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "450"
+    }
+  },
+  "1492ee96c6a6eb31": {
+    "result": {
+      "snippet": "more details » Retrieve Trash Cans When Weekly from 12pm to 12pm on Monday Pacific Time Calendar",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 18:54:48 +0000"
+          },
+          {
+            "name": "Subject",
+            "value": "Reminder: Retrieve Trash Cans @ Weekly from 12pm to 12pm on Monday (David Gobaud)"
+          },
+          {
+            "name": "From",
+            "value": "Google Calendar <calendar-notification@google.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"more details » Retrieve Trash Cans When Weekly from 12pm to 12pm on Monday Pacific Time Calendar\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 18:54:48 +0000\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Reminder: Retrieve Trash Cans @ Weekly from 12pm to 12pm on Monday (David Gobaud)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Google Calendar \\u003ccalendar-notification@google.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/d7abcu-0JMBt77z8v4yTkhfUMNU\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "507"
+    }
+  },
+  "14896ad0acd4a6b2": {
+    "result": {
+      "snippet": "Code School - Learn by doing Hey turinginc, Someone has requested a link to change your password, and",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "Code School <support@codeschool.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "Password Recovery"
+          },
+          {
+            "name": "Date",
+            "value": "Sun, 21 Sep 2014 05:26:33 +0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Code School - Learn by doing Hey turinginc, Someone has requested a link to change your password, and\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Code School \\u003csupport@codeschool.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Password Recovery\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sun, 21 Sep 2014 05:26:33 +0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/H-dN6idQ6ThxIW4SbCuDpfBY7PQ\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "433"
+    }
+  },
+  "14881561ffd72f5b": {
+    "result": {
+      "snippet": "Hey, This is a test email. Hopefully you&#39;ll get it through sync and won&#39;t have to refresh the",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "stewart@turinginc.com"
+          },
+          {
+            "name": "Date",
+            "value": "Tue, 16 Sep 2014 18:59:36 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Hey"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hey, This is a test email. Hopefully you&#39;ll get it through sync and won&#39;t have to refresh the\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"stewart@turinginc.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 16 Sep 2014 18:59:36 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Hey\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/aY7i5YQxLoh7gd3-cZNwOsS6yFs\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "394"
+    }
+  },
+  "148c7a166085bc6a": {
+    "result": {
+      "snippet": "Good Morning David, Our bill pay team is aware of the issue and are working to fix it in the meantime",
+      "payload": {
+        "mimeType": "multipart/related",
+        "headers": [
+          {
+            "name": "From",
+            "value": "Jeannette Roy <JRoyChetty@svb.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "RE: Turing Technology, Inc. - scheduled payment not received yet"
+          },
+          {
+            "name": "Date",
+            "value": "Tue, 30 Sep 2014 17:33:53 +0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Good Morning David, Our bill pay team is aware of the issue and are working to fix it in the meantime\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Jeannette Roy \\u003cJRoyChetty@svb.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: Turing Technology, Inc. - scheduled payment not received yet\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 30 Sep 2014 17:33:53 +0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/TS4_eIKe_8UskHCW2RHMh2SvtGU\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "474"
+    }
+  },
+  "147fad91c573ee51": {
+    "result": {
+      "snippet": "Hi Chris, Sounds great - we&#39;ll be in touch when we&#39;re a little further along. Best, David",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "David Gobaud <david@turinginc.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Thu, 21 Aug 2014 16:13:38 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: Turing Security"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hi Chris, Sounds great - we&#39;ll be in touch when we&#39;re a little further along. Best, David\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Thu, 21 Aug 2014 16:13:38 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Turing Security\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/kk8mo1Gm11xVhAoYkEBHmsYTdYQ\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "429"
+    }
+  },
+  "14847fa8436ff2e8": {
+    "result": {
+      "snippet": "Time to add Stewart MacGregor-Dennis to your payroll. The link below contains the payroll details you",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Subject",
+            "value": "[Action Required] Add Stewart to Payroll"
+          },
+          {
+            "name": "From",
+            "value": "Zenefits <support@zenefits.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Fri, 05 Sep 2014 22:41:10 -0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Time to add Stewart MacGregor-Dennis to your payroll. The link below contains the payroll details you\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[Action Required] Add Stewart to Payroll\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Zenefits \\u003csupport@zenefits.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 05 Sep 2014 22:41:10 -0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/xVBbHilYnd8GX-W0sarAM4AYgvc\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "451"
+    }
+  },
+  "1488c6ef839709f3": {
+    "result": {
+      "snippet": "body",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "turingemailtest1@gmail.com"
+          },
+          {
+            "name": "Date",
+            "value": "Thu, 18 Sep 2014 22:42:32 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "test"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"body\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"turingemailtest1@gmail.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Thu, 18 Sep 2014 22:42:32 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"test\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/wwVqQzOu6YDhfgFoJQ8wlULV17I\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "303"
+    }
+  },
+  "1492fcd3c1edbcc4": {
+    "result": {
+      "snippet": "Email Security Zone Silicon Valley Bank *************3188 Exclusively for account ending in 3188",
+      "payload": {
+        "mimeType": "multipart/mixed",
+        "headers": [
+          {
+            "name": "From",
+            "value": "Business BillPay-e <billpaysupport@billpaysite.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "Transaction in recurring series to Vittoria Management has processed"
+          },
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 19:03:25 -0400"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Email Security Zone Silicon Valley Bank *************3188 Exclusively for account ending in 3188\",\n \"payload\": {\n  \"mimeType\": \"multipart/mixed\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Business BillPay-e \\u003cbillpaysupport@billpaysite.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Transaction in recurring series to Vittoria Management has processed\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 19:03:25 -0400\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/UBLaABngrHHpf49gtQSSTXVOcuc\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "488"
+    }
+  },
+  "1492cb64a05d9565": {
+    "result": {
+      "snippet": "Welcome to Atlassian! Hi David, We&#39;ve created a new Atlassian ID for you using this email address",
+      "payload": {
+        "mimeType": "text/html",
+        "headers": [
+          {
+            "name": "From",
+            "value": "Atlassian <noreply@mailer.atlassian.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "Atlassian email confirmation"
+          },
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 02:39:38 -0600"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Welcome to Atlassian! Hi David, We&#39;ve created a new Atlassian ID for you using this email address\",\n \"payload\": {\n  \"mimeType\": \"text/html\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Atlassian \\u003cnoreply@mailer.atlassian.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Atlassian email confirmation\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 02:39:38 -0600\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Yqc7hC2uEjGQCm1KZhyxbKXfZP4\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "436"
+    }
+  },
+  "1493973def09f899": {
+    "result": {
+      "snippet": "Request &quot;importing github organization repos&quot; with key BBS-13907 has been resolved...",
+      "payload": {
+        "mimeType": "text/html",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 22 Oct 2014 20:02:14 +0000 (UTC)"
+          },
+          {
+            "name": "From",
+            "value": "David Gobaud <support@bitbucket.org>"
+          },
+          {
+            "name": "Subject",
+            "value": "[SUPPORT] [Bitbucket Support] importing github organization repos [BBS-13907]"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Request &quot;importing github organization repos&quot; with key BBS-13907 has been resolved...\",\n \"payload\": {\n  \"mimeType\": \"text/html\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 22 Oct 2014 20:02:14 +0000 (UTC)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003csupport@bitbucket.org\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[SUPPORT] [Bitbucket Support] importing github organization repos [BBS-13907]\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/BL6fhGAL9a6L302WJMcjQc-6a-0\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "481"
+    }
+  },
+  "149397312e378709": {
+    "result": {
+      "snippet": "Atlassian Atlassian Customer Satisfaction Survey Case: BBS-13907 Summary: importing github",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "<supportsurveys@atlassian.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "[Atlassian Support] Customer Service Feedback"
+          },
+          {
+            "name": "Date",
+            "value": "Wed, 22 Oct 2014 20:01:22 +0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Atlassian Atlassian Customer Satisfaction Survey Case: BBS-13907 Summary: importing github\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"\\u003csupportsurveys@atlassian.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[Atlassian Support] Customer Service Feedback\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 22 Oct 2014 20:01:22 +0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/vZcVJTyFyYcHoQcJ5_vQc4_V8eY\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "444"
+    }
+  },
+  "1484c350e74ad57a": {
+    "result": {
+      "snippet": "I think this is a good question. One of the things a few people have told me is that beyond just",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Sat, 6 Sep 2014 11:23:37 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: what is gmail, yahoo mail etc worth?"
+          },
+          {
+            "name": "From",
+            "value": "Stewart MacGregor-Dennis <stewart@turinginc.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"I think this is a good question. One of the things a few people have told me is that beyond just\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sat, 6 Sep 2014 11:23:37 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: what is gmail, yahoo mail etc worth?\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Stewart MacGregor-Dennis \\u003cstewart@turinginc.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/7p8TyIlLXlRBzpvcxHlLpzx_xbE\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "462"
+    }
+  },
+  "1492d1dac17c3872": {
+    "result": {
+      "snippet": "Click here to sign in to your account. Payday Reminder Dear David Gobaud, This is your reminder that",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 03:32:06 -0700 (PDT)"
+          },
+          {
+            "name": "From",
+            "value": "QuickBooks Online Payroll Support Team <QBOPayrollNoReply@intuit.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "Payday Reminder"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Click here to sign in to your account. Payday Reminder Dear David Gobaud, This is your reminder that\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 03:32:06 -0700 (PDT)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"QuickBooks Online Payroll Support Team \\u003cQBOPayrollNoReply@intuit.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Payday Reminder\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/HMYEpl8ggV35NKQxr4VtcI59dP0\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "469"
+    }
+  },
+  "14891bceaf9fa30d": {
+    "result": {
+      "snippet": "body",
+      "payload": {
+        "mimeType": "text/plain",
+        "headers": [
+          {
+            "name": "From",
+            "value": "turingemailtest1@gmail.com"
+          },
+          {
+            "name": "Date",
+            "value": "Fri, 19 Sep 2014 23:25:47 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "test"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"body\",\n \"payload\": {\n  \"mimeType\": \"text/plain\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"turingemailtest1@gmail.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 19 Sep 2014 23:25:47 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"test\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Wuik8HlnZqk_KrKoIfZaGavwx-w\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "292"
+    }
+  },
+  "1492e867e1a26c5b": {
+    "result": {
+      "snippet": "Thanks for signing up for a Heroku account. Be sure to check out our brief tutorials. They will help",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 13:06:41 -0400"
+          },
+          {
+            "name": "Subject",
+            "value": "Heroku: Getting Started (and More Productive) Tutorials"
+          },
+          {
+            "name": "From",
+            "value": "Heroku <communications@heroku.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Thanks for signing up for a Heroku account. Be sure to check out our brief tutorials. They will help\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 13:06:41 -0400\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Heroku: Getting Started (and More Productive) Tutorials\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Heroku \\u003ccommunications@heroku.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Z4DdXTKoN8r-s3LOQHDOBr_cxNI\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "468"
+    }
+  },
+  "1483e7b009211a25": {
+    "result": {
+      "snippet": "test send",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 3 Sep 2014 19:25:20 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "email to david@turinginc.com"
+          },
+          {
+            "name": "From",
+            "value": "Turing Test <turingemailtest1@gmail.com>"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"test send\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 3 Sep 2014 19:25:20 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"email to david@turinginc.com\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Turing Test \\u003cturingemailtest1@gmail.com\\u003e\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/8-yEFBdKiZV9MIy1HEhVKBRNmNg\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "355"
+    }
+  },
+  "14822f8c88460f95": {
+    "result": {
+      "snippet": "Thanks for providing this David. Looks like those should not be sent in the future as the AA fee",
+      "payload": {
+        "mimeType": "multipart/related",
+        "headers": [
+          {
+            "name": "From",
+            "value": "Shane Ballew <SBallew@svb.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "RE: electronic statements?"
+          },
+          {
+            "name": "Date",
+            "value": "Fri, 29 Aug 2014 18:13:01 +0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Thanks for providing this David. Looks like those should not be sent in the future as the AA fee\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Shane Ballew \\u003cSBallew@svb.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: electronic statements?\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 29 Aug 2014 18:13:01 +0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/J2hywBZe0wihdbNXvjdKgOdv3Wo\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "427"
+    }
+  },
+  "1484e69d41b31265": {
+    "result": {
+      "snippet": "Hi Jared, The wire was received yesterday. We&#39;ve updated the email address in eShares from tim@",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "David Gobaud <david@turinginc.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Sat, 6 Sep 2014 21:40:11 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "Re: fully executed investment documents"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hi Jared, The wire was received yesterday. We&#39;ve updated the email address in eShares from tim@\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sat, 6 Sep 2014 21:40:11 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: fully executed investment documents\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Kk4_Gcje6WUuWTx_PPFC9hlx72Q\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "450"
+    }
+  },
+  "148880c148db21a4": {
+    "result": {
+      "snippet": "body",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "turingemailtest1@gmail.com"
+          },
+          {
+            "name": "Date",
+            "value": "Thu, 18 Sep 2014 02:16:03 -0700"
+          },
+          {
+            "name": "Subject",
+            "value": "test"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"body\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"turingemailtest1@gmail.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Thu, 18 Sep 2014 02:16:03 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"test\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/faHvjQmIdgmT3xam7m61WrH3m3I\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "303"
+    }
+  },
+  "149344a10d0a6dda": {
+    "result": {
+      "snippet": "Hey Launchrocker, It&#39;s Trevor from Launchrock.com. It&#39;s my job to identify exciting new",
+      "payload": {
+        "mimeType": "multipart/mixed",
+        "headers": [
+          {
+            "name": "Subject",
+            "value": "Search Engine Marketing on a startup budget"
+          },
+          {
+            "name": "From",
+            "value": "Trevor Nicholson <trevor.nicholson@fundable.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Tue, 21 Oct 2014 19:58:26 +0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hey Launchrocker, It&#39;s Trevor from Launchrock.com. It&#39;s my job to identify exciting new\",\n \"payload\": {\n  \"mimeType\": \"multipart/mixed\",\n  \"headers\": [\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Search Engine Marketing on a startup budget\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Trevor Nicholson \\u003ctrevor.nicholson@fundable.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 21 Oct 2014 19:58:26 +0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/uPO_O1NrvrUR72qz9qwMrjd979I\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "459"
+    }
+  },
+  "1492f95c52653ffb": {
+    "result": {
+      "snippet": "David Gobaud created an issue Bitbucket Support / Problem Report BBS-13907 importing github",
+      "payload": {
+        "mimeType": "multipart/related",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Mon, 20 Oct 2014 22:03:04 +0000 (UTC)"
+          },
+          {
+            "name": "From",
+            "value": "\"Giuliano Campos [Atlassian] (JIRA)\" <support@bitbucket.org>"
+          },
+          {
+            "name": "Subject",
+            "value": "[SUPPORT] (BBS-13907) importing github organization repos"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"David Gobaud created an issue Bitbucket Support / Problem Report BBS-13907 importing github\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 22:03:04 +0000 (UTC)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"\\\"Giuliano Campos [Atlassian] (JIRA)\\\" \\u003csupport@bitbucket.org\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[SUPPORT] (BBS-13907) importing github organization repos\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/snFvZW28IT0xkxI4BQRVM3ZHPrI\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "491"
+    }
+  },
+  "149229eca172fcd3": {
+    "result": {
+      "snippet": "Hello, Your Papertrail service for &quot;turing-email-beta&quot; has reached its log data transfer",
+      "payload": {
+        "mimeType": "multipart/alternative",
+        "headers": [
+          {
+            "name": "From",
+            "value": "Papertrail <support@papertrailapp.com>"
+          },
+          {
+            "name": "Subject",
+            "value": "Heroku app \"turing-email-beta\" logging stopped"
+          },
+          {
+            "name": "Date",
+            "value": "Sat, 18 Oct 2014 09:37:51 +0000"
+          }
+        ]
+      }
+    },
+    "body": "{\n \"snippet\": \"Hello, Your Papertrail service for &quot;turing-email-beta&quot; has reached its log data transfer\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Papertrail \\u003csupport@papertrailapp.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Heroku app \\\"turing-email-beta\\\" logging stopped\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sat, 18 Oct 2014 09:37:51 +0000\"\n   }\n  ]\n }\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/4dNk2399LwiwnEWTTcT9UyoriR4\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "463"
+    }
+  }
+}, "body": "--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1486b3695d192330>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/ra5dtMIWpZG80wVdWafPhs_6wrc\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 444\r\n\r\n{\n \"snippet\": \"No problem - I didn&#39;t get it. Thanks! On Fri, Sep 12, 2014 at 10:22 AM, Pamela Ott &lt;pamela@dfj\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 12 Sep 2014 11:53:11 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Welcome Turing Technology!\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-148854e48fa3d972>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/T74T-9S3GUBVn3yn4mIwOyqfZ-0\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 331\r\n\r\n{\n \"snippet\": \"Eric\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 17 Sep 2014 13:29:32 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Still meeting?\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Eric Siroker \\u003ceric@optimizely.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492dcba88f212c5>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/6bJDfO2MLf32oBqh_a7LL4cQaRA\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 457\r\n\r\n{\n \"snippet\": \"Hello David Gobaud, Here&#39;s your payroll statement for the 10/19/14 to 11/18/14 period. Turing\",\n \"payload\": {\n  \"mimeType\": \"text/plain\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 06:42:25 -0700 (PDT)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"QuickBooks Online Payroll Support Team \\u003cQBOPayrollNoReply@intuit.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Billing Statement\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-148846553292249f>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/NBd8LevsTw7_XhVuiMpUjfCviSo\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 447\r\n\r\n{\n \"snippet\": \"Hi Guys, I am so sorry to do this, but I had to change a flight today to earlier to head to my\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 17 Sep 2014 09:15:04 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Turing Email - demo version 2 ready!\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Jodie Ellis \\u003cjodie@optimizely.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1487c63ce76a4b7c>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/BZJOirwSpUG_V54FF8SuuZ0iggg\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 450\r\n\r\n{\n \"snippet\": \"awesome. Does this work for an any arbitrary label? On Mon, Sep 15, 2014 at 7:48 PM, David Gobaud\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 15 Sep 2014 19:56:28 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: rake sync_email update\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Stewart MacGregor-Dennis \\u003cstewart@turinginc.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492b43983e51630>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/UlaKfMWybyHs2qwuO1BzHTMN2B4\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 520\r\n\r\n{\n \"snippet\": \"more details » Weekly Turing Co-Founders Dinner When Weekly from 7pm to 8pm on Sunday Pacific Time\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 01:54:50 +0000\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Reminder: Weekly Turing Co-Founders Dinner @ Weekly from 7pm to 8pm on Sunday (David Gobaud)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Google Calendar \\u003ccalendar-notification@google.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-148184e5a8dfba1e>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/JptIGXRjeWk-wm900qbYG7glZIE\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 442\r\n\r\n{\n \"snippet\": \"Great we will be there! David On Wed, Aug 27, 2014 at 8:42 AM, Jodie Ellis &lt;jodie@optimizely.com\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 27 Aug 2014 09:30:41 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Email genie ready to demo!\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492bb17f01a68fe>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/GBUQqRuMRNucj8fsxEo7nxZpSTE\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 504\r\n\r\n{\n \"snippet\": \"more details » Put out trash When Weekly from 9pm to 9pm on Sunday Pacific Time Calendar David Gobaud\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 03:54:52 +0000\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Reminder: Put out trash @ Weekly from 9pm to 9pm on Sunday (David Gobaud)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Google Calendar \\u003ccalendar-notification@google.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1488163a8c44eb8a>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/OJ6xQH9OEtN9fk60F9rIyjCBfMI\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 339\r\n\r\n{\n \"snippet\": \"Hello! helloooo!!!!!!!! Hello world!\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"stewart@turinginc.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 16 Sep 2014 19:14:24 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Re: Hello\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1483cb2ae92c8406>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/46Zhq8cyB1urYHHYhO6nnNpv3qQ\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 471\r\n\r\n{\n \"snippet\": \"Got it - thanks. David On Wed, Sep 3, 2014 at 8:27 AM, Front Office &lt;frontdesk@vrent.com&gt; wrote\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 3 Sep 2014 11:06:35 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: 1073 Middlefield Road move-in inspection and questions\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-148248b04f8436b9>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/PsV7D-tLHgBq2JyepOifAMMvxdg\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 465\r\n\r\n{\n \"snippet\": \"Below is an email we just got from Jared with his reading and our reply. ---------- Forwarded message\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 29 Aug 2014 18:32:23 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Fwd: Thank you & confirmation of Turing investment.\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14938dece9a5a8da>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/-enl2DyKZ0ogq1-OaEGCmdxeHfY\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 446\r\n\r\n{\n \"snippet\": \"Heroku runs apps by executing the main command in your Procfile. This is often a command to start a\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 22 Oct 2014 13:19:20 -0400\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Dynos: Your Apps Run in Containers\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Heroku \\u003ccommunications@heroku.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14850da2b156e5b9>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/z7LWDQKxNTVbhK7HDZrlqOxL9r0\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 501\r\n\r\n{\n \"snippet\": \"We&#39;re all confirmed. You can find our address and contact info below. Thank you, Jasmine Suchoski\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"\\\"Suchoski, Jasmine\\\" \\u003cjsuchoski@generalcatalyst.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: Intro: David & Stewart (Turing Security) \\u003c\\u003e Deepak (GC)\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sun, 7 Sep 2014 16:02:23 +0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-148b0751ef57174f>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/-3Gsg1TNHO-VrdiM7208dpfAIF4\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 432\r\n\r\n{\n \"snippet\": \"Awesome! Hope all is well Dan -- Dan Siroker Co-Founder &amp; CEO | Optimizely, Inc. dan@optimizely.\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Thu, 25 Sep 2014 22:35:38 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Working on email!\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Dan Siroker \\u003cdan@optimizely.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492cd2380df21cb>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/bbtSDn0WPpfBX_aTwwwh9BohhcQ\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 393\r\n\r\n{\n \"snippet\": \"Hello heroku-beta@turinginc.com, Your Heroku account has started accruing charges. Please visit:\",\n \"payload\": {\n  \"mimeType\": \"multipart/mixed\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 09:09:27 +0000\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"bot@heroku.com\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"You have spent money\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14881611d40d369b>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/o88re7A9HSE4aqKOggSI6gXs0uI\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 307\r\n\r\n{\n \"snippet\": \"Hello world!\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"stewart@turinginc.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 16 Sep 2014 19:11:37 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Hello\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14927ac5912d769b>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/0SSNfaxA35ufkOMGzZptJYryDsI\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 415\r\n\r\n{\n \"snippet\": \"yep! On Sat, Oct 18, 2014 at 9:33 PM, &lt;stewart@turinginc.com&gt; wrote: Hey David, How does this\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sun, 19 Oct 2014 02:10:26 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re:\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14935084f7f066ba>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Q4scmDkz5LhWYfhrdKAh9usXvuE\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 481\r\n\r\n{\n \"snippet\": \"Request &quot;importing github organization repos&quot; with key BBS-13908 has been resolved...\",\n \"payload\": {\n  \"mimeType\": \"text/html\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 21 Oct 2014 23:26:14 +0000 (UTC)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003csupport@bitbucket.org\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[SUPPORT] [Bitbucket Support] importing github organization repos [BBS-13908]\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-148c2af8ba4bcf92>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/9iUh7oB0oN368HW-WKBpftCAm6U\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 456\r\n\r\n{\n \"snippet\": \"great thanks! On Mon, Sep 29, 2014 at 8:16 AM, Support &lt;support@codeschool.com&gt; wrote: Joseph\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 29 Sep 2014 11:32:15 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Get ready for a new month at Code School\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1485821e69062299>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/J-LpvSVuIhQrlDnHJ-geHCbd_A8\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 459\r\n\r\n{\n \"snippet\": \"##- Please type your reply above this line -## Kayla Kamin (Zenefits) Sep 08 06:58 PM Glad to hear it\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 09 Sep 2014 01:58:08 +0000\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Zenefits \\u003csupport@zenefits.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Re: Your Zenefits Account, Turing Technology\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492fd1c38e4d4a5>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/FEnK8yf9Mt5qml5tWeMVOQdWB2c\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 444\r\n\r\n{\n \"snippet\": \"Hello all, Hope you are having a nice day. I wanted to follow up and make sure you all received a\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Derrick Hsiou \\u003cderrick@startx.stanford.edu\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 16:08:05 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"StartX Application Update\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14839e86605bf5bf>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/0CCQHN6fcpJli9f27DvqDO6Rhfw\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 461\r\n\r\n{\n \"snippet\": \"Sure. Let me know if I can be of help. On Sep 2, 2014 9:47 PM, &quot;David Gobaud&quot; &lt;david@\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 2 Sep 2014 22:06:44 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Intro - Turing Technology x Dorm Room Fund\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Adam Goldberg \\u003cadamwgoldberg@gmail.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492534449abafb4>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/82avaedUJXNhyMKJLB9BGIO8aG8\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 381\r\n\r\n{\n \"snippet\": \"worker jobs_pending=608\",\n \"payload\": {\n  \"mimeType\": \"text/plain\",\n  \"headers\": [\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Turing Email (beta) - QUEUE size ALERT!!!\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"\\\"Turing Email Logs (beta)\\\" \\u003clogs@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sat, 18 Oct 2014 21:40:20 +0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492f95c786c00e7>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/I3pewe2FgFRwskOWu0AXfOhf-3A\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 491\r\n\r\n{\n \"snippet\": \"David Gobaud created an issue Bitbucket Support / Problem Report BBS-13908 importing github\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 22:03:04 +0000 (UTC)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"\\\"Giuliano Campos [Atlassian] (JIRA)\\\" \\u003csupport@bitbucket.org\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[SUPPORT] (BBS-13908) importing github organization repos\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14877ca7cab81654>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/J47A0CbddjNJi_7JlIE1UcP-K3U\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 309\r\n\r\n{\n \"snippet\": \"howdy\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sun, 14 Sep 2014 22:30:31 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: Meet Friday?\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"david@turinginc.com\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14933b3de2c17794>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/pLEVOwKsk79vWBB_qdetT89b75Y\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 449\r\n\r\n{\n \"snippet\": \"Over the coming days, we&#39;ll send you information and resources to help you get started on Heroku.\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 21 Oct 2014 13:14:21 -0400\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Heroku Resources to Get You Started\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Heroku \\u003ccommunications@heroku.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-147f4debb43d4018>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/j-dGneSWclbXFfTfhV5WdeRxQcY\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 423\r\n\r\n{\n \"snippet\": \"Great, thanks David. Feel free to stop by anytime between 10a-3p MF and our branch advisors can\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Shane Ballew \\u003cSBallew@svb.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: ach routing number?\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 20 Aug 2014 19:18:28 +0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-148a42af2f231c19>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/EvdvrPyeJW0MmH_nCbHa3vY980U\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 450\r\n\r\n{\n \"snippet\": \"Sounds great. On Tue, Sep 23, 2014 at 1:11 PM, David Gobaud &lt;david@turinginc.com&gt; wrote: Hi\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 23 Sep 2014 13:19:10 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Turing Email - demo version 2 ready!\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Jodie Ellis \\u003cjodie@optimizely.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492ee96c6a6eb31>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/d7abcu-0JMBt77z8v4yTkhfUMNU\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 507\r\n\r\n{\n \"snippet\": \"more details » Retrieve Trash Cans When Weekly from 12pm to 12pm on Monday Pacific Time Calendar\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 18:54:48 +0000\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Reminder: Retrieve Trash Cans @ Weekly from 12pm to 12pm on Monday (David Gobaud)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Google Calendar \\u003ccalendar-notification@google.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14896ad0acd4a6b2>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/H-dN6idQ6ThxIW4SbCuDpfBY7PQ\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 433\r\n\r\n{\n \"snippet\": \"Code School - Learn by doing Hey turinginc, Someone has requested a link to change your password, and\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Code School \\u003csupport@codeschool.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Password Recovery\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sun, 21 Sep 2014 05:26:33 +0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14881561ffd72f5b>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/aY7i5YQxLoh7gd3-cZNwOsS6yFs\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 394\r\n\r\n{\n \"snippet\": \"Hey, This is a test email. Hopefully you&#39;ll get it through sync and won&#39;t have to refresh the\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"stewart@turinginc.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 16 Sep 2014 18:59:36 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Hey\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-148c7a166085bc6a>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/TS4_eIKe_8UskHCW2RHMh2SvtGU\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 474\r\n\r\n{\n \"snippet\": \"Good Morning David, Our bill pay team is aware of the issue and are working to fix it in the meantime\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Jeannette Roy \\u003cJRoyChetty@svb.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: Turing Technology, Inc. - scheduled payment not received yet\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 30 Sep 2014 17:33:53 +0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-147fad91c573ee51>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/kk8mo1Gm11xVhAoYkEBHmsYTdYQ\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 429\r\n\r\n{\n \"snippet\": \"Hi Chris, Sounds great - we&#39;ll be in touch when we&#39;re a little further along. Best, David\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Thu, 21 Aug 2014 16:13:38 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: Turing Security\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14847fa8436ff2e8>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/xVBbHilYnd8GX-W0sarAM4AYgvc\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 451\r\n\r\n{\n \"snippet\": \"Time to add Stewart MacGregor-Dennis to your payroll. The link below contains the payroll details you\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[Action Required] Add Stewart to Payroll\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Zenefits \\u003csupport@zenefits.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 05 Sep 2014 22:41:10 -0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1488c6ef839709f3>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/wwVqQzOu6YDhfgFoJQ8wlULV17I\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 303\r\n\r\n{\n \"snippet\": \"body\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"turingemailtest1@gmail.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Thu, 18 Sep 2014 22:42:32 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"test\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492fcd3c1edbcc4>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/UBLaABngrHHpf49gtQSSTXVOcuc\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 488\r\n\r\n{\n \"snippet\": \"Email Security Zone Silicon Valley Bank *************3188 Exclusively for account ending in 3188\",\n \"payload\": {\n  \"mimeType\": \"multipart/mixed\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Business BillPay-e \\u003cbillpaysupport@billpaysite.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Transaction in recurring series to Vittoria Management has processed\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 19:03:25 -0400\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492cb64a05d9565>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Yqc7hC2uEjGQCm1KZhyxbKXfZP4\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 436\r\n\r\n{\n \"snippet\": \"Welcome to Atlassian! Hi David, We&#39;ve created a new Atlassian ID for you using this email address\",\n \"payload\": {\n  \"mimeType\": \"text/html\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Atlassian \\u003cnoreply@mailer.atlassian.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Atlassian email confirmation\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 02:39:38 -0600\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1493973def09f899>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/BL6fhGAL9a6L302WJMcjQc-6a-0\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 481\r\n\r\n{\n \"snippet\": \"Request &quot;importing github organization repos&quot; with key BBS-13907 has been resolved...\",\n \"payload\": {\n  \"mimeType\": \"text/html\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 22 Oct 2014 20:02:14 +0000 (UTC)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003csupport@bitbucket.org\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[SUPPORT] [Bitbucket Support] importing github organization repos [BBS-13907]\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-149397312e378709>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/vZcVJTyFyYcHoQcJ5_vQc4_V8eY\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 444\r\n\r\n{\n \"snippet\": \"Atlassian Atlassian Customer Satisfaction Survey Case: BBS-13907 Summary: importing github\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"\\u003csupportsurveys@atlassian.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[Atlassian Support] Customer Service Feedback\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 22 Oct 2014 20:01:22 +0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1484c350e74ad57a>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/7p8TyIlLXlRBzpvcxHlLpzx_xbE\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 462\r\n\r\n{\n \"snippet\": \"I think this is a good question. One of the things a few people have told me is that beyond just\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sat, 6 Sep 2014 11:23:37 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: what is gmail, yahoo mail etc worth?\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Stewart MacGregor-Dennis \\u003cstewart@turinginc.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492d1dac17c3872>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/HMYEpl8ggV35NKQxr4VtcI59dP0\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 469\r\n\r\n{\n \"snippet\": \"Click here to sign in to your account. Payday Reminder Dear David Gobaud, This is your reminder that\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 03:32:06 -0700 (PDT)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"QuickBooks Online Payroll Support Team \\u003cQBOPayrollNoReply@intuit.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Payday Reminder\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14891bceaf9fa30d>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Wuik8HlnZqk_KrKoIfZaGavwx-w\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 292\r\n\r\n{\n \"snippet\": \"body\",\n \"payload\": {\n  \"mimeType\": \"text/plain\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"turingemailtest1@gmail.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 19 Sep 2014 23:25:47 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"test\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492e867e1a26c5b>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Z4DdXTKoN8r-s3LOQHDOBr_cxNI\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 468\r\n\r\n{\n \"snippet\": \"Thanks for signing up for a Heroku account. Be sure to check out our brief tutorials. They will help\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 13:06:41 -0400\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Heroku: Getting Started (and More Productive) Tutorials\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Heroku \\u003ccommunications@heroku.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1483e7b009211a25>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/8-yEFBdKiZV9MIy1HEhVKBRNmNg\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 355\r\n\r\n{\n \"snippet\": \"test send\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Wed, 3 Sep 2014 19:25:20 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"email to david@turinginc.com\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Turing Test \\u003cturingemailtest1@gmail.com\\u003e\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-14822f8c88460f95>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/J2hywBZe0wihdbNXvjdKgOdv3Wo\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 427\r\n\r\n{\n \"snippet\": \"Thanks for providing this David. Looks like those should not be sent in the future as the AA fee\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Shane Ballew \\u003cSBallew@svb.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"RE: electronic statements?\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Fri, 29 Aug 2014 18:13:01 +0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1484e69d41b31265>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/Kk4_Gcje6WUuWTx_PPFC9hlx72Q\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 450\r\n\r\n{\n \"snippet\": \"Hi Jared, The wire was received yesterday. We&#39;ve updated the email address in eShares from tim@\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"David Gobaud \\u003cdavid@turinginc.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sat, 6 Sep 2014 21:40:11 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Re: fully executed investment documents\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-148880c148db21a4>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/faHvjQmIdgmT3xam7m61WrH3m3I\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 303\r\n\r\n{\n \"snippet\": \"body\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"turingemailtest1@gmail.com\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Thu, 18 Sep 2014 02:16:03 -0700\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"test\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-149344a10d0a6dda>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/uPO_O1NrvrUR72qz9qwMrjd979I\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 459\r\n\r\n{\n \"snippet\": \"Hey Launchrocker, It&#39;s Trevor from Launchrock.com. It&#39;s my job to identify exciting new\",\n \"payload\": {\n  \"mimeType\": \"multipart/mixed\",\n  \"headers\": [\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Search Engine Marketing on a startup budget\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"Trevor Nicholson \\u003ctrevor.nicholson@fundable.com\\u003e\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Tue, 21 Oct 2014 19:58:26 +0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-1492f95c52653ffb>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/snFvZW28IT0xkxI4BQRVM3ZHPrI\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 491\r\n\r\n{\n \"snippet\": \"David Gobaud created an issue Bitbucket Support / Problem Report BBS-13907 importing github\",\n \"payload\": {\n  \"mimeType\": \"multipart/related\",\n  \"headers\": [\n   {\n    \"name\": \"Date\",\n    \"value\": \"Mon, 20 Oct 2014 22:03:04 +0000 (UTC)\"\n   },\n   {\n    \"name\": \"From\",\n    \"value\": \"\\\"Giuliano Campos [Atlassian] (JIRA)\\\" \\u003csupport@bitbucket.org\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"[SUPPORT] (BBS-13907) importing github organization repos\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04\r\nContent-Type: application/http\r\nContent-ID: <response-149229eca172fcd3>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"yEJ6cH_j8v1sh2SNo0PjBwIT__w/4dNk2399LwiwnEWTTcT9UyoriR4\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Thu, 23 Oct 2014 00:51:24 GMT\r\nExpires: Thu, 23 Oct 2014 00:51:24 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 463\r\n\r\n{\n \"snippet\": \"Hello, Your Papertrail service for &quot;turing-email-beta&quot; has reached its log data transfer\",\n \"payload\": {\n  \"mimeType\": \"multipart/alternative\",\n  \"headers\": [\n   {\n    \"name\": \"From\",\n    \"value\": \"Papertrail \\u003csupport@papertrailapp.com\\u003e\"\n   },\n   {\n    \"name\": \"Subject\",\n    \"value\": \"Heroku app \\\"turing-email-beta\\\" logging stopped\"\n   },\n   {\n    \"name\": \"Date\",\n    \"value\": \"Sat, 18 Oct 2014 09:37:51 +0000\"\n   }\n  ]\n }\n}\n\r\n--batch_cp_xAQ0QJdE_AAfObEql-04--\r\n", "headers": {
+  "date": "Thu, 23 Oct 2014 00:51:24 GMT",
+  "content-encoding": "gzip",
+  "expires": "Thu, 23 Oct 2014 00:51:24 GMT",
+  "server": "GSE",
+  "content-type": "multipart/mixed; boundary=batch_cp_xAQ0QJdE_AAfObEql-04",
+  "cache-control": "private, max-age=0",
+  "content-length": "6823"
+}, "status": 200, "statusText": "OK"}

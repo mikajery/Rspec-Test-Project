@@ -1,0 +1,58 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.94.118 with SMTP id f109csp128487qge;
+        Fri, 5 Sep 2014 20:38:31 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.20.148])
+        by 10.180.20.148 with SMTP id n20mr4747446wie.22.1409974711498 (num_hops = 1);
+        Fri, 05 Sep 2014 20:38:31 -0700 (PDT)
+X-Received: by 10.180.20.148 with SMTP id n20mr7867418wie.22.1409974711228;
+        Fri, 05 Sep 2014 20:38:31 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp211946wem;
+        Fri, 5 Sep 2014 20:38:30 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.91.111])
+        by 10.180.91.111 with SMTP id cd15mr4489710wib.69.1409974709901 (num_hops = 1);
+        Fri, 05 Sep 2014 20:38:29 -0700 (PDT)
+X-Received: by 10.180.91.111 with SMTP id cd15mr7445947wib.69.1409974709843;
+        Fri, 05 Sep 2014 20:38:29 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.188.109 with SMTP id fz13csp166808wjc;
+        Fri, 5 Sep 2014 20:38:28 -0700 (PDT)
+Return-Path: <mmwoodbury@gmail.com>
+X-Originating-IP: [50.197.164.77]
+Received-SPF: pass (google.com: domain of mmwoodbury@gmail.com designates 10.112.11.170 as permitted sender) client-ip=10.112.11.170
+Authentication-Results: mr.google.com;
+       spf=pass (google.com: domain of mmwoodbury@gmail.com designates 10.112.11.170 as permitted sender) smtp.mail=mmwoodbury@gmail.com;
+       dkim=pass header.i=@gmail.com
+X-Received: from mr.google.com ([10.112.11.170])
+        by 10.112.11.170 with SMTP id r10mr14891842lbb.14.1409974708364 (num_hops = 1);
+        Fri, 05 Sep 2014 20:38:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=Tbm1c1WQ0IcpHIXWAYkZmp3zSVm2QU4ifL0e3kSQj1I=;
+        b=gcSwv8qI9IPiImhkzLAF55GzGJUsrRFX7whZxAxvO6Q0MVSjHfxkk32NhFapoaLrM4
+         ABM6g5WqyglJeNYkFxwDrjxfgx9wNhUzZoFrtubCrHnYwy4Z8ErHEIceip6Cb5za9c35
+         UHEkL+NTtrDw8AhIMXiLBKwFqp709eUpuUsGWxopVOKloF5+OHiNJX7EbqSicF3PGwsh
+         3juNr8hYOZ4RYYDshv70DgCCXJ6Mr5wCsf365/xNrvXxRS5B4IK+rDCWnnPi4sd9ul+Q
+         9Ze5OAe5NVI0iDqYOywKV81Il0k7bek2/9EM/IH2W/tWDaf41HP+YlV/RUiqjYKzh1s7
+         Czdw==
+MIME-Version: 1.0
+X-Received: by 10.112.11.170 with SMTP id r10mr14891842lbb.14.1409974708290;
+ Fri, 05 Sep 2014 20:38:28 -0700 (PDT)
+Received: by 10.114.182.148 with HTTP; Fri, 5 Sep 2014 20:38:28 -0700 (PDT)
+In-Reply-To: <CAMwYsms-Sw_oavtRGvsE5absVM01GDJcv_eGSnh6VbH63vrdmA@mail.gmail.com>
+References: <CAMwYsmt+VZ9wQShE8MSynw_7a=_a8cOY=t5M2qSURVRy9q=RFw@mail.gmail.com>
+	<CAED-0kyXXa7Gi_BehuUCEuRWyz0AMnkhadbBgq=nxA-m0xX4hQ@mail.gmail.com>
+	<CAMwYsmthBCQB1HSujp=ytkzSj2nUxU5Vem5d8LHoYoW11g++7g@mail.gmail.com>
+	<CAMwYsms-Sw_oavtRGvsE5absVM01GDJcv_eGSnh6VbH63vrdmA@mail.gmail.com>
+Date: Fri, 5 Sep 2014 23:38:28 -0400
+Message-ID: <CAED-0kwPedDR3Bu7DJ_=btLMOXVsidTmwSfuXAM5OBTJTE_epA@mail.gmail.com>
+Subject: Re: Boone's wedding!!
+From: Matthew Woodbury <mmwoodbury@gmail.com>
+To: David Gobaud <dgobaud@gmail.com>
+Content-Type: multipart/related; boundary=001a11c3be5ea24b5005025d5191

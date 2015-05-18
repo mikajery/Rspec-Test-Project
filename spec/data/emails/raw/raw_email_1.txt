@@ -1,0 +1,975 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.94.118 with SMTP id f109csp769254qge;
+        Tue, 2 Sep 2014 16:16:06 -0700 (PDT)
+X-Received: from mr.google.com ([10.194.174.4])
+        by 10.194.174.4 with SMTP id bo4mr11520677wjc.84.1409699766084 (num_hops = 1);
+        Tue, 02 Sep 2014 16:16:06 -0700 (PDT)
+X-Received: by 10.194.174.4 with SMTP id bo4mr18248722wjc.84.1409699765812;
+        Tue, 02 Sep 2014 16:16:05 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp852203wem;
+        Tue, 2 Sep 2014 16:16:05 -0700 (PDT)
+X-Received: from mr.google.com ([10.194.172.137])
+        by 10.194.172.137 with SMTP id bc9mr12467396wjc.72.1409699765206 (num_hops = 1);
+        Tue, 02 Sep 2014 16:16:05 -0700 (PDT)
+X-Received: by 10.194.172.137 with SMTP id bc9mr19897157wjc.72.1409699765190;
+        Tue, 02 Sep 2014 16:16:05 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.188.109 with SMTP id fz13csp745925wjc;
+        Tue, 2 Sep 2014 16:16:04 -0700 (PDT)
+X-Received: by 10.42.58.210 with SMTP id j18mr18884498ich.2.1409699763757;
+        Tue, 02 Sep 2014 16:16:03 -0700 (PDT)
+Return-Path: <bounces+808075-f46a-dgobaud=gmail.com@sendgrid.info>
+Received: from o17.shared.sendgrid.net (o17.shared.sendgrid.net. [74.63.231.250])
+        by mx.google.com with SMTP id lr1si205576igb.37.2014.09.02.16.16.02
+        for <dgobaud@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 02 Sep 2014 16:16:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+808075-f46a-dgobaud=gmail.com@sendgrid.info designates 74.63.231.250 as permitted sender) client-ip=74.63.231.250;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounces+808075-f46a-dgobaud=gmail.com@sendgrid.info designates 74.63.231.250 as permitted sender) smtp.mail=bounces+808075-f46a-dgobaud=gmail.com@sendgrid.info;
+       dkim=pass header.i=@sendgrid.info
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=from:to:subject:mime-version:content-type:content-transfer-encoding:x-feedback-id; 
+	s=smtpapi; bh=JFQQeACg+Zl6C24olBQ/x3ZOD0s=; b=IBUg1i1hdIA9kzIx6e
+	T1tIIjopPTZw/lnJ2LVhUPDBSDKR4ztxO8jbIEaraQ533Rx2pBHf07/eIzNrxua0
+	2uUv0e8JL9/6Z2Ka7EZTtD2f6OKptWD5gvNa/AcWYn/KeU1c16uRxmp+dQBaBR4p
+	61CsHRcxRMVwfC2Ftoz7wMYJM=
+Received: by mf176.sendgrid.net with SMTP id mf176.19420.54064FB04B
+        2014-09-02 23:16:00.887877723 +0000 UTC
+Received: from mail.qounsel.com (unknown [192.241.173.201])
+	by ismtpd-013.iad1.sendgrid.net (SG) with ESMTP id 14838a74a4a.738b.88d291
+	for <dgobaud@gmail.com>; Tue, 02 Sep 2014 23:16:00 +0000 (GMT)
+Date: Tue, 02 Sep 2014 19:16:00 -0400
+from: Qounsel Digest <digest@mail.qounsel.com
+To: dgobaud@gmail.com
+Message-ID: <54064fb08dcba_77b5f69de8810d1@wolraich.mail>
+Subject: New business referrals and co-counsel requests
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-SG-EID: +hWSAwrkUHaKtHw9kAGj6K2Yr3HHQpBZsIOA5YYC0jjjPGYpizv8SaJulSwXpwtPqtHsyi6tkkSTOiaM9HdyLxHY4LAxbDHaoRdsxA/AmgCuEPlpA8w3kIVeBFbxY0mjiX3V42ttrJ7v+qVNFqPU01Qr7h6iOwan3hJ7oIn7nOs=
+X-Feedback-ID: 808075:J3xvZVToFQHF1ZZw4U/2bFj1Si0eMDRIbrV/S84BYtw=:J3xvZVToFQHF1ZZw4U/2bFj1Si0eMDRIbrV/S84BYtw=:SG
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- QOUNSEL NOTIFICATION -->
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width"/>
+    <title>Qounsel Notification</title>
+    <!--adapted from mailchimp's modular template patterns, https://github.=
+com/mailchimp/email-blueprints/blob/master/-->
+  </head>
+  <body style=3D"margin: 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;background-color: #FFFFFF;height: 100% !important;widt=
+h: 100% !important;">
+    <center>
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100=
+%" width=3D"100%" id=3D"bodyTable" style=3D"border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;margin: 0;padding: 0;background-color: #FFFFFF;height=
+: 100% !important;width: 100% !important;">
+        <tr>
+          <td align=3D"center" valign=3D"top" id=3D"bodyCell" style=3D"mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;margin: 0;padding: 0;padding-top: 40px;padding-botto=
+m: 40px;height: 100% !important;width: 100% !important;">
+            <!-- EMAIL CONTAINER // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"600" id=3D"emailBody" style=3D"border-collapse: collapse;mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;background-color: #FFFFFF;">
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                        <!-- FLEXIBLE CONTAINER // -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+  <tr class=3D"header">
+    <td valign=3D"top" width=3D"600" class=3D"flexibleContainerCell" style=
+=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;padding-top: 20px;padding-right: 0;padding-l=
+eft: 0; border-bottom: 1px solid #ececec;">
+      <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-=
+lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;">
+          <tr>
+            <td align=3D"left" valign=3D"top" class=3D"imageContent" style=
+=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;padding-bottom: 20px;"><img alt=3D"Qounsel" =
+src=3D"http://qounsel.com/members/60/read_digest?image=3Dlogo-email-header-=
+burgundy.png" style=3D"max-width: 100px;border: 0;outline: none;text-decora=
+tion: none;-ms-interpolation-mode: bicubic;" /></td>
+             <td align=3D"right" valign=3D"middle" class=3D"textContentLast=
+ header-tagline" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #772322;font-fa=
+mily: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 100%;text-a=
+lign: right;padding-bottom: 20px;font-weight: 300;width: 100%;padding-right=
+: 0;padding-left: 20px;">Questions &amp; Answers from Elite Lawyers like Yo=
+u.</td>
+				</tr>
+			</table>
+			<!-- // CONTENT TABLE -->
+		</td>
+	</tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                         <!-- FLEXIBLE CONTAINER // -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+    <tr>
+        <td align=3D"center" valign=3D"top" width=3D"600" class=3D"flexible=
+ContainerCell end-member" style=3D"mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: =
+0;padding-right: 30px;padding-left: 30px;">
+            <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tabl=
+e-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td valign=3D"top" class=3D"textContent recommended-by-=
+content" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;color: #165A71;font-family: He=
+lvetica, Arial, sans-serif;font-size: 14px;line-height: 125%;text-align: Ce=
+nter;padding-top:20px; padding-bottom: 0;font-weight: 400;list-style: none;=
+">
+                        <h2 style=3D"margin: 0;padding: 0;color: #B8CDD3;fo=
+nt-family: Helvetica, Arial, sans-serif;font-size: 24px;line-height: 125%;t=
+ext-align: left;font-weight: 300; padding-bottom: 10px;">Top requests this =
+week</h2>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+        </td>
+    </tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                        <!-- FLEXIBLE CONTAINER // -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+    <tr>
+        <td align=3D"center" valign=3D"top" width=3D"600" class=3D"flexible=
+ContainerCell end-member" style=3D"mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: =
+0;padding-right: 30px;padding-left: 30px;padding-bottom: 15px;">
+          <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%; border-top: 5px solid #B8CDD3; width:100%;">
+              <tr>
+                  <td align=3D"center" valign=3D"top" class=3D"imageContent=
+" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%; padding:10px 0 0;">
+              </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"50" class=3D"flexibleContainer" style=3D"border-collapse: =
+collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: =
+100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                   <td align=3D"left" valign=3D"top" class=3D"imageContent"=
+ style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;width: 50px;">
+                     <img alt=3D"0 a8puxts1pdllvlanxkc1xr0krf xb onpbb1xrfh=
+fw67end9gq 8ekuaogt8qz0sr ltibl tmnp" class=3D"flexibleImage" src=3D"http:/=
+/m.c.lnkd.licdn.com/mpr/mprx/0_A8PuXtS1pDLlvlanxkC1Xr0Krf-xB-OnPbb1XrfhfW67=
+end9gQ_8EKUaOGt8qz0sr_ltIBl-TMNp" style=3D"max-width: 50px;border: 0;outlin=
+e: none;text-decoration: none;-ms-interpolation-mode: bicubic;height: auto;=
+border-radius: 3px;" width=3D"50" />
+                   </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"490" class=3D"flexibleContainer" style=3D"border-collapse=
+: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%; min-height:50px;">
+                <tr>
+                    <td valign=3D"top" class=3D"textContent member-primary"=
+ style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;color: #404040;font-size: 16px;line-he=
+ight: 150%;text-align: left;padding-bottom: 0;padding-left: 10px;vertical-a=
+lign: middle;">
+                        <h3 style=3D"margin: 0;padding: 0;color: #165A71;fo=
+nt-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 125%;t=
+ext-align: left;font-weight: 700;"><a href=3D"http://qounsel.com/messages/n=
+ew?request_id=3D35&utm_campaign=3DSendgrid&utm_source=3DSendGrid&utm_medium=
+=3DEmail" style=3D"color: #165A71; text-decoration:none;">Nicole Longton ha=
+s a quick question</a></h3>
+                        <table class=3D"gen-info" style=3D"color: #165A71;f=
+ont-family: Helvetica, Arial, sans-serif;font-size: 12px;line-height: 125%;=
+font-weight: 300;list-style: none;padding: 0;margin: 0;">
+                          <tr>
+                            <td style=3D"-ms-text-size-adjust: 100%;-webkit=
+-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px;">Trial Att=
+orney/Owner - Longton Law Office</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tabl=
+e-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td valign=3D"top" class=3D"textContent recommended-by-=
+content" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;color: #999999;font-family: He=
+lvetica, Arial, sans-serif;font-size: 14px;line-height: 125%;text-align: le=
+ft; padding-bottom: 0;font-weight: 300;list-style: none; ">
+                       Can anyone tell me the best/fastest way to get a cer=
+tified copy of a criminal docket from California courts? I have been on hol=
+d and transferred around with no luck. I am in Massachusetts, so going... <=
+a href=3D"http://qounsel.com/messages/new?request_id=3D35&utm_campaign=3DSe=
+ndgrid&utm_source=3DSendGrid&utm_medium=3DEmail" style=3D"-ms-text-size-adj=
+ust: 100%;-webkit-text-size-adjust: 100%;text-decoration: underline;font-fa=
+mily: Helvetica, Arial, sans-serif; color: #165A71; font-weight:400;">Read =
+more</a>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+        </td>
+    </tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                        <!-- FLEXIBLE CONTAINER // -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+    <tr>
+        <td align=3D"center" valign=3D"top" width=3D"600" class=3D"flexible=
+ContainerCell end-member" style=3D"mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: =
+0;padding-right: 30px;padding-left: 30px;padding-bottom: 15px;">
+          <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%; border-top: 5px solid #B8CDD3; width:100%;">
+              <tr>
+                  <td align=3D"center" valign=3D"top" class=3D"imageContent=
+" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%; padding:10px 0 0;">
+              </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"50" class=3D"flexibleContainer" style=3D"border-collapse: =
+collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: =
+100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                   <td align=3D"left" valign=3D"top" class=3D"imageContent"=
+ style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;width: 50px;">
+                     <img alt=3D"0 n2b0mboq0bagotm7na3uml2bg6wpec474ep8mlfz=
+clg2vpffvob1c5unpmdidrj bf53ncj5e vg" class=3D"flexibleImage" src=3D"http:/=
+/m.c.lnkd.licdn.com/mpr/mprx/0_n2b0MbOQ0bagotM7Na3uML2bg6WpEc474eP8MLfZCLg2=
+vPffVoB1c5UnPmdidrJ_Bf53nCj5E-vG" style=3D"max-width: 50px;border: 0;outlin=
+e: none;text-decoration: none;-ms-interpolation-mode: bicubic;height: auto;=
+border-radius: 3px;" width=3D"50" />
+                   </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"490" class=3D"flexibleContainer" style=3D"border-collapse=
+: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%; min-height:50px;">
+                <tr>
+                    <td valign=3D"top" class=3D"textContent member-primary"=
+ style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;color: #404040;font-size: 16px;line-he=
+ight: 150%;text-align: left;padding-bottom: 0;padding-left: 10px;vertical-a=
+lign: middle;">
+                        <h3 style=3D"margin: 0;padding: 0;color: #165A71;fo=
+nt-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 125%;t=
+ext-align: left;font-weight: 700;"><a href=3D"http://qounsel.com/messages/n=
+ew?request_id=3D36&utm_campaign=3DSendgrid&utm_source=3DSendGrid&utm_medium=
+=3DEmail" style=3D"color: #165A71; text-decoration:none;">Christopher Edwar=
+ds seeks co-counsel</a></h3>
+                        <table class=3D"gen-info" style=3D"color: #165A71;f=
+ont-family: Helvetica, Arial, sans-serif;font-size: 12px;line-height: 125%;=
+font-weight: 300;list-style: none;padding: 0;margin: 0;">
+                          <tr>
+                            <td style=3D"-ms-text-size-adjust: 100%;-webkit=
+-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px;">Attorney =
+at Reitler Kailas &amp; Rosenblatt LLC</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tabl=
+e-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td valign=3D"top" class=3D"textContent recommended-by-=
+content" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;color: #999999;font-family: He=
+lvetica, Arial, sans-serif;font-size: 14px;line-height: 125%;text-align: le=
+ft; padding-bottom: 0;font-weight: 300;list-style: none; ">
+                       I&#39;m looking for a Canadian immigration lawyer lo=
+cated in Toronto; any recommendations are appreciated.  Thanks. <a href=3D"=
+http://qounsel.com/messages/new?request_id=3D36&utm_campaign=3DSendgrid&utm=
+_source=3DSendGrid&utm_medium=3DEmail" style=3D"-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;text-decoration: underline;font-family: Helv=
+etica, Arial, sans-serif; color: #165A71; font-weight:400;">Read more</a>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+        </td>
+    </tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                        <!-- FLEXIBLE CONTAINER // -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+    <tr>
+        <td align=3D"center" valign=3D"top" width=3D"600" class=3D"flexible=
+ContainerCell end-member" style=3D"mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: =
+0;padding-right: 30px;padding-left: 30px;padding-bottom: 15px;">
+          <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%; border-top: 5px solid #B8CDD3; width:100%;">
+              <tr>
+                  <td align=3D"center" valign=3D"top" class=3D"imageContent=
+" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%; padding:10px 0 0;">
+              </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"50" class=3D"flexibleContainer" style=3D"border-collapse: =
+collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: =
+100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                   <td align=3D"left" valign=3D"top" class=3D"imageContent"=
+ style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;width: 50px;">
+                     <img alt=3D"0 lpihroitctyupsdswq rre1ockesrjysbacbrec7=
+gbyefgwdwv1xvh9tu2o5pogtxk39qfyqaeeo" class=3D"flexibleImage" src=3D"http:/=
+/m.c.lnkd.licdn.com/mpr/mprx/0_LPiHRoitCTYUpsDSwq-RRe1OCkEsrJySbAcBReC7gbYE=
+fgwDWv1XvH9Tu2o5POgTXK39qfyqaeEo" style=3D"max-width: 50px;border: 0;outlin=
+e: none;text-decoration: none;-ms-interpolation-mode: bicubic;height: auto;=
+border-radius: 3px;" width=3D"50" />
+                   </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"490" class=3D"flexibleContainer" style=3D"border-collapse=
+: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%; min-height:50px;">
+                <tr>
+                    <td valign=3D"top" class=3D"textContent member-primary"=
+ style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;color: #404040;font-size: 16px;line-he=
+ight: 150%;text-align: left;padding-bottom: 0;padding-left: 10px;vertical-a=
+lign: middle;">
+                        <h3 style=3D"margin: 0;padding: 0;color: #165A71;fo=
+nt-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 125%;t=
+ext-align: left;font-weight: 700;"><a href=3D"http://qounsel.com/messages/n=
+ew?request_id=3D37&utm_campaign=3DSendgrid&utm_source=3DSendGrid&utm_medium=
+=3DEmail" style=3D"color: #165A71; text-decoration:none;">John Branson wish=
+es to refer a client</a></h3>
+                        <table class=3D"gen-info" style=3D"color: #165A71;f=
+ont-family: Helvetica, Arial, sans-serif;font-size: 12px;line-height: 125%;=
+font-weight: 300;list-style: none;padding: 0;margin: 0;">
+                          <tr>
+                            <td style=3D"-ms-text-size-adjust: 100%;-webkit=
+-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px;">Owner, Br=
+anson Law Office, P.A.</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tabl=
+e-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td valign=3D"top" class=3D"textContent recommended-by-=
+content" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;color: #999999;font-family: He=
+lvetica, Arial, sans-serif;font-size: 14px;line-height: 125%;text-align: le=
+ft; padding-bottom: 0;font-weight: 300;list-style: none; ">
+                       I am looking to refer a friend to a divorce attorney=
+ in the Virginia Beach/Norfolk VA area.  Any assistance is appreciated.  Th=
+anks, John <a href=3D"http://qounsel.com/messages/new?request_id=3D37&utm_c=
+ampaign=3DSendgrid&utm_source=3DSendGrid&utm_medium=3DEmail" style=3D"-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: under=
+line;font-family: Helvetica, Arial, sans-serif; color: #165A71; font-weight=
+:400;">Read more</a>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+        </td>
+    </tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                        <!-- FLEXIBLE CONTAINER // -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;">
+    <tr>
+        <td align=3D"center" valign=3D"top" width=3D"600" class=3D"flexible=
+ContainerCell bottomShim" style=3D"mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: =
+18px;padding-right: 30px;padding-left: 30px;padding-bottom: 40px; ">
+            <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; ">
+                <tr>
+                    <td align=3D"center" valign=3D"middle" style=3D"mso-tab=
+le-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;color: #165A71;font-family: Helvetica, Arial, sans-seri=
+f;font-size: 16px;line-height: 150%;text-align: center;padding-bottom: 0px;=
+padding-left:20px; padding-right:20px;">
+                        <!-- CONTENT TABLE // -->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"240" class=3D"emailButton" style=3D"border-collapse: separa=
+te;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;background-color: #165A71;border-radius: 8px;=
+letter-spacing: 3px;">
+                            <tr>
+                                <td align=3D"center" valign=3D"middle" clas=
+s=3D"buttonContent" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-m=
+s-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #FFFFFF;font=
+-family: Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 400;line=
+-height: 100%;padding: 15px;text-align: center;">
+                                  <a href=3D"http://qounsel.com/requests?ut=
+m_campaign=3DSendgrid&utm_source=3DSendGrid&utm_medium=3DEmail" style=3D"-m=
+s-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #FFFFFF;disp=
+lay: block;text-decoration: none;line-height: 100%; text-transform:uppercas=
+e;">Make a Request</a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // CONTENT TABLE -->
+                      </td>
+                      <td style=3D"adding-left:20px; padding-right:20px;">
+                      <!-- CONTENT TABLE // -->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"240" class=3D"emailButton" style=3D"border-collapse: separa=
+te;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;background-color: #165A71;border-radius: 8px;=
+letter-spacing: 3px;">
+                            <tr>
+                                <td align=3D"center" valign=3D"middle" clas=
+s=3D"buttonContent" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-m=
+s-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #FFFFFF;font=
+-family: Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 400;line=
+-height: 100%;padding: 15px;text-align: center;">
+                                 <a href=3D"http://qounsel.com/requests?utm=
+_campaign=3DSendgrid&utm_source=3DSendGrid&utm_medium=3DEmail" style=3D"-ms=
+-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #FFFFFF;displ=
+ay: block;text-decoration: none;line-height: 100%; text-transform:uppercase=
+;">See more requests</a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // CONTENT TABLE -->
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                        <!-- FLEXIBLE CONTAINER // -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%; background:#f3f3f3;">
+    <tr>
+        <td align=3D"center" valign=3D"top" width=3D"600" class=3D"flexible=
+ContainerCell end-member" style=3D"mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: =
+20px;padding-right: 30px;padding-left: 30px;">
+            <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-tabl=
+e-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                    <td valign=3D"top" class=3D"textContent recommended-by-=
+content" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;color: #165A71;font-family: He=
+lvetica, Arial, sans-serif;font-size: 14px;line-height: 125%;text-align: Ce=
+nter;padding-top:0px; padding-bottom: 0;font-weight: 400;list-style: none;">
+                        <h2 style=3D"margin: 0;padding: 0;color: #cccccc;fo=
+nt-family: Helvetica, Arial, sans-serif;font-size: 21px;line-height: 125%;t=
+ext-align: left;font-weight: 300; padding-bottom: 10px;">Featured Attorney<=
+/h2>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+        </td>
+    </tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                        <!-- FLEXIBLE CONTAINER // -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%; background:#f3f3f3;">
+    <tr>
+        <td align=3D"center" valign=3D"top" width=3D"600" class=3D"flexible=
+ContainerCell end-member" style=3D"mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: =
+0;padding-right: 30px;padding-left: 30px;padding-bottom: 15px;">
+          <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%; border-top: 5px solid #C3AEB3; width:100%;">
+              <tr>
+                  <td align=3D"center" valign=3D"top" class=3D"imageContent=
+" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%; padding:10px 0 0;">
+              </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"50" class=3D"flexibleContainer" style=3D"border-collapse: =
+collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: =
+100%;-webkit-text-size-adjust: 100%;">
+                <tr>
+                  <td align=3D"left" valign=3D"top" class=3D"imageContent" =
+style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: =
+100%;-webkit-text-size-adjust: 100%;width: 100px;">
+                    <a href=3D"http://qounsel.com/members/43?utm_campaign=
+=3DSendgrid&utm_source=3DSendGrid&utm_medium=3DEmail"><img alt=3D"0 rnyrikl=
+ouwyht eimzsfifbjmewgt dim9e7i6qtqsx1sfowbtup5q87b6ipakhfvbyaxte 8j7 " clas=
+s=3D"flexibleImage" src=3D"http://m.c.lnkd.licdn.com/mpr/mprx/0_RNyrIkLOUwY=
+ht_eIMzSfIFbjMewGt_dIM9e7I6qTQSx1SFOwBtup5Q87B6IpAkHFVBYaXTE-8J7-" style=3D=
+"max-width: 100px;border: 0;outline: none;text-decoration: none;-ms-interpo=
+lation-mode: bicubic;height: auto;border-radius: 3px;" width=3D"100" /></a>
+                  </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+            <!-- CONTENT TABLE // -->
+            <table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"440" class=3D"flexibleContainer" style=3D"border-collapse=
+: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%; min-height:100px;">
+                <tr>
+                    <td valign=3D"top" class=3D"textContent member-primary"=
+ style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;color: #404040;font-size: 16px;line-he=
+ight: 150%;text-align: left;padding-bottom: 0;padding-left: 10px;vertical-a=
+lign: middle;">
+                        <h3 style=3D"margin: 0;padding: 0;color: #A41034;fo=
+nt-family: Helvetica, Arial, sans-serif;font-size: 21px;line-height: 125%;t=
+ext-align: left;font-weight: 700;"><a href=3D"http://qounsel.com/members/43=
+?utm_campaign=3DSendgrid&utm_source=3DSendGrid&utm_medium=3DEmail" style=3D=
+"color: #A41034; text-decoration:none;">Justin Dillon</a></h3>
+                        <table class=3D"gen-info" style=3D"color: #A41034;f=
+ont-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 125%;=
+font-weight: 300;list-style: none;padding: 0;margin: 0;">
+                            <tr>
+                                <td style=3D"-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px;">Washi=
+ngton, D.C.</td>
+                                <td style=3D"-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px; font-s=
+ize:5px;">=E2=97=8F</td>
+                                <td style=3D"-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px;">Litig=
+ation</td>
+                                 <td style=3D"-ms-text-size-adjust: 100%;-w=
+ebkit-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px; font-=
+size:5px;">=E2=97=8F</td>
+                                <td style=3D"-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%; margin:0; padding:0;">Boutique (2-20 attorneys=
+)</td>
+                            </tr>
+                        </table>
+                        <table class=3D"gen-info" style=3D"color: #999;font=
+-family: Helvetica, Arial, sans-serif;font-size: 12px;line-height: 125%;fon=
+t-weight: 300;list-style: none;padding: 0;margin: 0;">
+                            <tr>
+                                <td style=3D"-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px;">Partn=
+er at The Kaiser Law Firm PLLC</td>
+                            </tr>
+                        </table>
+                        <table class=3D"gen-info" style=3D"color: #999;font=
+-family: Helvetica, Arial, sans-serif;font-size: 12px;line-height: 125%;fon=
+t-weight: 300;list-style: none;padding: 0;margin: 0; ">
+                            <tr>
+                                <td style=3D"-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px;">Recom=
+mended by 2</td>
+                                <td style=3D"-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%; margin:0; padding:0; padding-right:3px; font-s=
+ize:5px;">=E2=97=8F</td>
+                                <td style=3D"-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%; margin:0; padding:0;"><a href=3D"http://qounse=
+l.com/members/43?recommend=3Dtrue&utm_campaign=3DSendgrid&utm_source=3DSend=
+Grid&utm_medium=3DEmail" style=3D"-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;color: #A41034;text-decoration: none;font-family: Helvetic=
+a, Arial, sans-serif; font-weight:700; font-size:14px;"> <img alt=3D"Recomm=
+end" class=3D"flexibleImage" src=3D"http://qounsel.com/images/recommend.png=
+" style=3D"border: 0;outline: none;text-decoration: none;-ms-interpolation-=
+mode: bicubic;height: auto; width:15px;" /> Recommend</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+        </td>
+    </tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                        <!-- FLEXIBLE CONTAINER // -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=
+=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%; background:#f3f3f3;">
+    <tr>
+        <td align=3D"center" valign=3D"top" width=3D"600" class=3D"flexible=
+ContainerCell bottomShim" style=3D"mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: =
+0px;padding-right: 30px;padding-left: 30px;padding-bottom: 0px;">
+            <!-- CONTENT TABLE // -->
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"240" class=3D"emailButton" style=3D"border-collapse: separate;mso-table=
+-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;background-color: #A41034;border-radius: 8px;letter-spaci=
+ng: 3px;margin-bottom:30px;">
+                <tr>
+                    <td align=3D"center" valign=3D"middle" class=3D"buttonC=
+ontent" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;color: #FFFFFF;font-family: Hel=
+vetica, Arial, sans-serif;font-size: 14px;font-weight: 400;line-height: 100=
+%;padding: 15px;text-align: center;text-transform: uppercase;">
+                    <a href=3D"http://qounsel.com/members?utm_campaign=3DSe=
+ndgrid&utm_source=3DSendGrid&utm_medium=3DEmail" style=3D"-ms-text-size-adj=
+ust: 100%;-webkit-text-size-adjust: 100%;color: #FFFFFF;display: block;text=
+-decoration: none;line-height: 100%;">Find attorneys</a>
+                    </td>
+                </tr>
+            </table>
+            <!-- // CONTENT TABLE -->
+        </td>
+    </tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+              <!-- MODULE ROW // -->
+              <tr>
+                <td align=3D"center" valign=3D"top" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;">
+                  <!-- CENTERING TABLE // -->
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;">
+                    <tr>
+                      <td align=3D"center" valign=3D"top" style=3D"mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;">
+                        <!-- FLEXIBLE CONTAINER // -->
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" clas=
+s=3D"flexibleContainer" style=3D"border-collapse: collapse;mso-table-lspace=
+: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;">
+<tr>
+    <td align=3D"center" valign=3D"top" width=3D"600" class=3D"flexibleCont=
+ainerCell" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-si=
+ze-adjust: 100%;-webkit-text-size-adjust: 100%;padding-top: 18px;padding-ri=
+ght: 30px;padding-left: 30px;">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10=
+0%" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspa=
+ce: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            <tr>
+                <td valign=3D"top" class=3D"textContent footerContent" styl=
+e=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;color: #404040;font-family: Georgia;font-si=
+ze: 12px;line-height: 150%;text-align: center;padding-bottom: 20px;">
+                    <a href=3D"mailto:contact@qounsel.com" style=3D"-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #A41034;text-deco=
+ration: underline;font-family: Helvetica, Arial, sans-serif;">contact@qouns=
+el.com</a> |
+                    <a href=3D"http://qounsel.com/unsubscribe/new?email=3Dd=
+gobaud%40gmail.com&utm_campaign=3DSendgrid&utm_source=3DSendGrid&utm_medium=
+=3DEmail" style=3D"-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;color: #A41034;text-decoration: underline;font-family: Helvetica, Arial, =
+sans-serif;">unsubscribe</a><br/>
+                      800 High St., Ste. 104, Palo Alto, CA 94301
+                  </td>
+              </tr>
+          </table>
+          <!-- // CONTENT TABLE -->
+      </td>
+  </tr>
+</table>
+<!-- // FLEXIBLE CONTAINER -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- // CENTERING TABLE -->
+                </td>
+              </tr>
+              <!-- // MODULE ROW -->
+
+            </table>
+            <!-- // EMAIL CONTAINER -->
+          </td>
+        </tr>
+      </table>
+    </center>
+=20=20
+<img src=3D"https://u808075.ct.sendgrid.net/wf/open?upn=3Dv5VKRGtyxItA0ip-2=
+B8AI4q92G0Uel5jSz7c9udbniaTPqwb48bsaQ-2Fp-2FMrz1m-2Bj4O2Um6eadhEWXZ1gQn0uMW=
+LY-2FcOWwvUYS-2Bah6KqXnAVOoYBpmHU8H6vtdJgKp4du0NjKC8oH830Xrpw3MDAyUxOUMlcJ0=
+mKrOU-2BHrZK9rR2P9XWtuHAAvnagVSoPkKBoyV9lQPXAE8QaCdXVHKOk-2BMkw-3D-3D" alt=
+=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;=
+width:1px !important;border-width:0 !important;margin-top:0 !important;marg=
+in-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;p=
+adding-top:0 !important;padding-bottom:0 !important;padding-right:0 !import=
+ant;padding-left:0 !important;"/>
+</body>
+</html>

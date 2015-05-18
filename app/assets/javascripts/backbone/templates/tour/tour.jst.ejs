@@ -1,0 +1,98 @@
+<% function slideHTML(icon, heading, caption, width) { %>
+  <section class="tm_tour-slide">
+    <svg class="figure"><use xlink:href="/images/tour.svg#<%= icon %>"></use></svg>
+    <div>
+      <h3 class="caption heading"><%= heading %></h3>
+      <p class="caption"<% if (width) { %> style="max-width:<%= width %>px"<% } %>><%= caption %></p>
+    </div>
+  </section>
+<% } %>
+
+<div class="modal fade tour-modal" tabindex="-1" role="dialog">
+  <div class="tm_tour modal-dialog tour-modal-dialog">
+    <svg class="tm_tour-background"><use xlink:href="/images/tour.svg#helix"></use></svg>
+
+    <div class="tm_tour-layout">
+      <nav class="tm_tour-chapters">
+        <a class="tm_tour-chapter active">Attachment Management</a>
+        <a class="tm_tour-chapter">Scheduling Email</a>
+        <a class="tm_tour-chapter">Email Templates</a>
+        <a class="tm_tour-chapter">Signature Management</a>
+        <a class="tm_tour-chapter">Tracking</a>
+        <a class="tm_tour-chapter">Inbox Cleaner</a>
+        <a class="tm_tour-chapter">Reminders</a>
+        <a class="tm_tour-chapter">Contact-inbox</a>
+        <a class="tm_tour-chapter">Salesforce Integration</a>
+        <a class="tm_tour-chapter">List Subscription</a>
+        <a class="tm_tour-chapter">Analytics</a>
+        <a class="tm_tour-chapter">Email Context</a>
+      </nav>
+      <div class="tm_tour-slides">
+        <section class="tm_tour-slide active">
+          <svg class="figure"><use xlink:href="/images/tour.svg#helix"></use></svg>
+          <div>
+            <p class="caption big" style="max-width:480px">The Turing Email client brings a fresh and different take on an email client, rich with new and innovative features.</p>
+          </div>
+        </section>
+
+        <section class="tm_tour-slide">
+          <svg class="figure"><use xlink:href="/images/tour.svg#lightbulb"></use></svg>
+          <div>
+            <p class="caption big" style="max-width:600px">We’ve designed the Turing Email client with the aim of making it the most useful email product you’ve ever used.</p>
+            <p class="caption" style="max-width:480px">We hope it allows you to accomplish basic and advanced email tasks with ease in a more productive and efficient manner.</p>
+          </div>
+        </section>
+
+        <%
+        slideHTML("attachment", "No More Attachment Clutter",
+                  "With Turing Attachment Manager, you can directly sort, view, and share all archived attachments across your inbox. Turing Attachment Manager also detects links on your conversation for easy backtracking!")
+
+        slideHTML("scheduling", "Set Your Mail on Queue",
+                  "Never miss a single mail again. With Turing Email Scheduling, you can set future emails on queue and send it at your preferred time. You can also modify or delete all existing outgoing emails with an integrated managment tool.")
+
+        slideHTML("template", "Template in Style",
+                  "Create rich templates to further enhance your emails. Turing Email comes with an in-depth tool to help you out with managing the multiple templates you’re using.")
+
+        slideHTML("signature", "Signature Management",
+                  "Setup multiple stylized signatures to impress your contacts. Create personalized identities for your multi-level account. You can also switch from different signatures with ease with our in-depth Signature Management at your disposal.", 530)
+
+        slideHTML("tracking", "Backtrack with Ease",
+                  "Find yourself wasting precious time just by finding a particular email? Our Tracking Feature is the answer, it will help you track and monitor all your activities on Turing Email. With our intuitive UI, you will find what you want in a matter of seconds.", 530)
+
+        slideHTML("cleaner", "We’ll Do the Sorting For You",
+                  "The Turing Inbox Cleaner goes through your inbox emails and identifies emails of particular types. It then presents an analysis of your inbox to you in a report. You can then simply click a button to archive away the emails of a particular type.", 550)
+
+        slideHTML("reminder", "Email Reminders",
+                  "With Email Reminders, you can set your emails on for notifications for all outgoing emails. Easily modify current reminders with a dropdown panel to change date, time, or how you will be notified.")
+
+        slideHTML("contact", "Contact-Oriented Messaging",
+                  "Our Contact-Inbox let's you email in a new way. It’s a convinient way to instantly send emails directly to your contacts. 1-1, or to groups, all conversations are stored and archived like any other emails.")
+
+        slideHTML("salesforce", "Salesforce &amp; Turing",
+                  "Turing Email integrates Salesforce on the UI main components, to help you monitor your Customer Relationship Management (CRM) software.")
+
+        slideHTML("subscription", "List Subscription",
+                  "Displays all your active &amp; inactive email subscriptions. It enables you to do builk actions across your subscription with a simple dropdown UI.")
+
+        slideHTML("analytics", "Real-Time Monitoring",
+                  "View our in-depth Analytics of all your activities in Turing Email. Monitor your daily, monthly and annual email usage &mdash; attachments, contacts, folders, geography, conversation threads, and much more.")
+
+        slideHTML("context", "Instant Profile View",
+                  "Instantly see a quick look of your contact’s information, recent email activities, and social media activities. It also lets you choose to instatly send the contact a message.", 460)
+        %>
+
+        <div class="tm_tour-footer">
+          <a class="tm_tour-prev"></a>
+          <a class="tm_tour-next"></a>
+        </div>
+        <a class="tm_tour-skip">
+          <span class="skip-tour-text">Skip Tour</span>
+          <span class="tm_tour-skip-button">
+            <svg class="icon"><use xlink:href="/images/symbols.svg#modal-close"></use></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,283 @@
+// ---------------------------
+// COMPOSE EMAIL
+// ---------------------------
+
+
+// Compose
+
+.tm_compose-header {
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+.tm_compose-field {
+  margin-bottom: 6px;
+  padding-left: 28px;
+  position: relative;
+  &.cc-input-wrapper, &.bcc-input-wrapper {
+    display: none;
+  }
+
+  .icon {
+    left: 0;
+    top: 50%;
+    opacity: 0.3;
+    font-size: 24px;
+    margin-top: -0.5em;
+    position: absolute;
+  }
+
+  .tm_compose-copyto {
+    top: 3px;
+    right: 3px;
+    position: absolute;
+  }
+
+  span {
+    float: left;
+    color: #888;
+    height: 26px;
+    padding: 0 5px;
+    cursor: pointer;
+    min-width: 28px;
+    font-size: 11px;
+    background: #EEE;
+    line-height: 27px;
+    margin: 0 0 0 2px;
+    border-radius: 2px;
+    text-align: center;
+    transition: color 0.2s, background-color 0.2s;
+    &:hover {
+      color: #333;
+      background: #DDD;
+    }
+  }
+}
+
+.tm_compose-footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  margin-top: 15px;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+  &:last-child {
+    padding-top: 15px;
+    border-top: 1px solid #EEE;
+  }
+
+  > * {
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  > .expander {
+    flex-grow: 1;
+  }
+
+  .send-later-datetimepicker {
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .email-send-button {
+    min-width: 130px;
+    text-align: left;
+  }
+
+  .dropdown-menu {
+    padding: 0;
+
+    > li > a {
+      line-height: 24px;
+      padding: 8px 30px 8px 10px;
+      border-top: 1px solid rgba(#999, 0.2);
+    }
+
+    > li:first-child a { border: 0; }
+
+    .icon {
+      opacity: 0.7;
+      vertical-align: top;
+    }
+  }
+
+  .dropdown-reminder {
+    overflow: visible;
+
+    > li > label {
+      display: block;
+      padding: 6px 8px;
+      line-height: 20px;
+      border-bottom: 1px solid rgba(#999, 0.2);
+
+      span {
+        vertical-align: middle;
+      }
+    }
+
+    .datetimepicker {
+      border: 0;
+      width: 160px;
+      height: 34px;
+      font-size: 13px;
+      line-height: 24px;
+    }
+
+    .xdsoft_datetimepicker {
+      width: 308px;
+      top: -1px !important;
+      left: 100% !important;
+    }
+  }
+}
+
+
+// Attachments
+
+.tm_upload-attachments {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+}
+
+.tm_upload-attachment {
+  font-size: 12px;
+  min-width: 80px;
+  max-width: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 15px 0 0;
+  padding: 5px 0 5px 20px;
+  text-overflow: ellipsis;
+  background-repeat: no-repeat;
+  background-position: left center;
+  @include background-svg(16, 16, '<path fill="#000" opacity="0.6" d="#{$svg-attachment}"/>');
+  &.tm_upload-nofile {
+    padding: 0;
+    width: 34px;
+    height: 34px;
+    min-width: 0;
+    border-radius: 4px;
+    background-color: #FFF;
+    background-position: center;
+    border: 1px solid rgba(#000, 0.1);
+    &:hover {
+      color: #FFF;
+      background-color: #09F;
+      @include background-svg(16, 16, '<path fill="none" stroke="#FFF" stroke-width="2" d="#{$svg-plus}"/>');
+    }
+
+    .tm_upload-filename, .tm_progress {
+      display: none;
+    }
+  }
+
+  &.tm_upload-complete {
+    cursor: pointer;
+    &:hover {
+      @include background-svg(16, 16, '<path fill="#C00" opacity="0.6" d="#{$svg-reset}"/>');
+    }
+
+    .tm_progress, input[type="file"] {
+      display: none;
+    }
+  }
+
+  input[type="file"] {
+    top: -30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  small, span {
+    display: block;
+    font-size: inherit;
+  }
+
+  .tm_upload-filename {
+    color: #555;
+  }
+
+  .tm_upload-filesize {
+    color: #999;
+    font-size: 11px;
+  }
+
+  .tm_progress {
+    max-width: 100px;
+  }
+}
+
+
+// Upload progress
+
+.tm_progress {
+  width: 100%;
+  height: 4px;
+  font-size: 0;
+  margin: 4px 0;
+  background: #DDD;
+  overflow: hidden;
+  border-radius: 4px;
+  display: inline-block;
+
+  .tm_progress-bar {
+    width: 0%;
+    height: 100%;
+    background: #09F;
+    vertical-align: top;
+    display: inline-block;
+  }
+}
+
+
+// Dropzone file upload
+
+.tm_compose-body {
+  position: relative;
+
+  .compose-email-dropzone {
+    left: 0;
+    right: 0;
+    top: 33px;
+    z-index: 1;
+    bottom: 1px;
+    display: none;
+    padding: 10px;
+    position: absolute;
+    background: rgba(#FFF, 0.8);
+
+    span {
+      color: #09F;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      font-size: 30px;
+      font-weight: 300;
+      border-radius: 5px;
+      align-items: center;
+      box-sizing: border-box;
+      justify-content: center;
+      border: 3px dotted #09F;
+    }
+
+    &.in {
+      display: block;
+    }
+  }
+}

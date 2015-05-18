@@ -1,0 +1,11 @@
+{
+  "url" : "https://s3.amazonaws.com/dev.turingemail.com",
+  "fields" : {
+    "AWSAccessKeyId" : "AKIAI3XHDPLQ4E5ECCZQ",
+    "key" : "uploads/1/0Ppr2XGHXIymdc6PvmwiufUMQL3WC6INoB24j3hDavdOAYVMegPsdQwR4H1YYdKwQGPAgBD7Bp2aLszAQC4ZaepihXPptXMmCNLD35E0Sy58ZYreLakvnYllb63giKQYVRcYmWsv8VJczGFVHtLVYroYTFS5DrbBayMvvbUUFdjCTGkuxjeQm98OMziqrXeeJzY2Gq2XxeOUNq0qZN6edt0UyJ5wbqHeV9X6nOlI3GAsQaQlS6r68V42nooMuCc6/",
+    "policy" : "eyJleHBpcmF0aW9uIjoiMjAxNS0wMy0xOFQwNjowODowM1oiLCJjb25kaXRpb25zIjpbeyJidWNrZXQiOiJkZXYudHVyaW5nZW1haWwuY29tIn0seyJrZXkiOiJ1cGxvYWRzLzEvMFBwcjJYR0hYSXltZGM2UHZtd2l1ZlVNUUwzV0M2SU5vQjI0ajNoRGF2ZE9BWVZNZWdQc2RRd1I0SDFZWWRLd1FHUEFnQkQ3QnAyYUxzekFRQzRaYWVwaWhYUHB0WE1tQ05MRDM1RTBTeTU4WllyZUxha3ZuWWxsYjYzZ2lLUVlWUmNZbVdzdjhWSmN6R0ZWSHRMVllyb1lURlM1RHJiQmF5TXZ2YlVVRmRqQ1RHa3V4amVRbTk4T016aXFyWGVlSnpZMkdxMlh4ZU9VTnEwcVpONmVkdDBVeUo1d2JxSGVWOVg2bk9sSTNHQXNRYVFsUzZyNjhWNDJub29NdUNjNi8ifSx7InN1Y2Nlc3NfYWN0aW9uX3N0YXR1cyI6IjIwMSJ9XX0=",
+    "signature" : "SRRgT9QDj42KOF7WzVqAGz3ChBI=",
+    "success_action_status" : "201"
+  },
+  "url" : "https://s3.amazonaws.com/dev.turingemail.com"
+}

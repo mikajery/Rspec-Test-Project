@@ -1,0 +1,65 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.94.118 with SMTP id f109csp130644qge;
+        Fri, 5 Sep 2014 21:15:28 -0700 (PDT)
+X-Received: from mr.google.com ([10.194.76.133])
+        by 10.194.76.133 with SMTP id k5mr10966405wjw.28.1409976928074 (num_hops = 1);
+        Fri, 05 Sep 2014 21:15:28 -0700 (PDT)
+X-Received: by 10.194.76.133 with SMTP id k5mr19365993wjw.28.1409976927802;
+        Fri, 05 Sep 2014 21:15:27 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp214740wem;
+        Fri, 5 Sep 2014 21:15:27 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.95.68])
+        by 10.180.95.68 with SMTP id di4mr4759864wib.60.1409976927124 (num_hops = 1);
+        Fri, 05 Sep 2014 21:15:27 -0700 (PDT)
+X-Received: by 10.180.95.68 with SMTP id di4mr7899153wib.60.1409976926847;
+        Fri, 05 Sep 2014 21:15:26 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.188.109 with SMTP id fz13csp169055wjc;
+        Fri, 5 Sep 2014 21:15:25 -0700 (PDT)
+X-Received: by 10.66.186.167 with SMTP id fl7mr27120057pac.14.1409976924779;
+        Fri, 05 Sep 2014 21:15:24 -0700 (PDT)
+Return-Path: <notification+5_1wiu3m@facebookmail.com>
+Received: from mx-out.facebook.com (outmail009.prn2.facebook.com. [66.220.144.136])
+        by mx.google.com with ESMTPS id hy10si3833382pad.84.2014.09.05.21.15.24
+        for <dgobaud@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 05 Sep 2014 21:15:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of notification+5_1wiu3m@facebookmail.com designates 66.220.144.136 as permitted sender) client-ip=66.220.144.136;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of notification+5_1wiu3m@facebookmail.com designates 66.220.144.136 as permitted sender) smtp.mail=notification+5_1wiu3m@facebookmail.com;
+       dkim=pass header.i=@facebookmail.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=facebookmail.com
+Received: from facebook.com (AjRFTMfMsr+gkmRxzy+S/mIxnTiTxtA2n0nGDuIDeM100wHHeDNxk6IEPol3zAWy 10.102.107.69)
+ by facebook.com with Thrift id 6c8c02b8357c11e48caf0002c9af17f6-d11ee3f0;
+ Fri, 05 Sep 2014 21:15:24 -0700
+X-Facebook: from 10.79.5.21 ([MTI3LjAuMC4x]) 
+	by async.facebook.com with HTTP (ZuckMail);
+Date: Fri, 5 Sep 2014 21:15:24 -0700
+Return-Path: notification+5_1wiu3m@facebookmail.com
+To: David Gobaud <dgobaud@gmail.com>
+From: "Facebook" <notification+5_1wiu3m@facebookmail.com>
+Reply-to: noreply <noreply@facebookmail.com>
+Subject: Lindsey invited you to Georgetown Law "Ditch the District" Atlantic City Trip on Facebook
+Message-ID: <eed60ddf9d10339ee8ffdeb18d3d22ce@async.facebook.com>
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Errors-To: notification+5_1wiu3m@facebookmail.com
+X-Facebook-Notify: plan_user_invited; mailid=a748789G36c4bG99315d8G6bGe8c7
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_eed60ddf9d10339ee8ffdeb18d3d22ce"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=facebookmail.com;
+	s=s1024-2013-q3; t=1409976924;
+	bh=a09YcT6GGvgfc4SyntWoBIYuZY2zHqVCKZhjVLY1e6w=;
+	h=Date:To:From:Subject:MIME-Version:Content-Type;
+	b=RAfc9ySnlDtR9PCzGJmt7/jiTj9eL9KWD4TYRHAanlRJdFaXxDxjE/Y+LynAHn2Ry
+	 o//s7vfwDWZ33VOQ6YlzYkC4fHT2ixyVtG7+07e4Nz7t0nPjZoPtmMT0AVl4PPOHC1
+	 ayPnAPIuel8ljakVlXCQbRdyF2yMDgUs+Fw2V5IQ=
+	 

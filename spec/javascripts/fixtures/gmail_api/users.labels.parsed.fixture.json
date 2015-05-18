@@ -1,0 +1,259 @@
+[
+  {
+    "label_id": "CATEGORY_PERSONAL",
+    "name": "CATEGORY_PERSONAL",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelHide",
+    "label_type": "system",
+    "num_threads": 18,
+    "num_unread_threads": 12
+  },
+  {
+    "label_id": "Label_53",
+    "name": "Unimportant/Group Conversations",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 1
+  },
+  {
+    "label_id": "Label_51",
+    "name": "Unimportant/Completed Conversations",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 11,
+    "num_unread_threads": 7
+  },
+  {
+    "label_id": "Label_61",
+    "name": "aaaaaaaaaaaaaaaaa",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "STARRED",
+    "name": "STARRED",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelShow",
+    "label_type": "system",
+    "num_threads": 0,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "Label_62",
+    "name": "bbbbbbbbbbbbb",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "Label_2",
+    "name": "Test/child",
+    "label_type": "user",
+    "num_threads": 0,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "CATEGORY_PROMOTIONS",
+    "name": "CATEGORY_PROMOTIONS",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelHide",
+    "label_type": "system",
+    "num_threads": 0,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "Label_52",
+    "name": "Unimportant/Notes to Self",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "Label_63",
+    "name": "ddddddddddddddd",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "DRAFT",
+    "name": "DRAFT",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelShow",
+    "label_type": "system",
+    "num_threads": 8,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "UNREAD",
+    "name": "UNREAD",
+    "label_type": "system",
+    "num_threads": 530,
+    "num_unread_threads": 530
+  },
+  {
+    "label_id": "Label_54",
+    "name": "List Emails",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "Label_59",
+    "name": "testtest",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "Label_1",
+    "name": "Test",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 0,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "TRASH",
+    "name": "TRASH",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelShow",
+    "label_type": "system",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "IMPORTANT",
+    "name": "IMPORTANT",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelHide",
+    "label_type": "system",
+    "num_threads": 5,
+    "num_unread_threads": 3
+  },
+  {
+    "label_id": "Label_55",
+    "name": "Unimportant/Automatic Replies",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "SENT",
+    "name": "SENT",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelShow",
+    "label_type": "system",
+    "num_threads": 159,
+    "num_unread_threads": 44
+  },
+  {
+    "label_id": "Label_64",
+    "name": "333333333333333333333",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "Label_56",
+    "name": "Purchases",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "SPAM",
+    "name": "SPAM",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelHide",
+    "label_type": "system",
+    "num_threads": 0,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "Label_60",
+    "name": "testtest3",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 1,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "Label_49",
+    "name": "Unimportant",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 484,
+    "num_unread_threads": 346
+  },
+  {
+    "label_id": "Label_50",
+    "name": "Unimportant/Calendar",
+    "message_list_visibility": "show",
+    "label_list_visibility": "labelShow",
+    "label_type": "user",
+    "num_threads": 162,
+    "num_unread_threads": 148
+  },
+  {
+    "label_id": "INBOX",
+    "name": "INBOX",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelShow",
+    "label_type": "system",
+    "num_threads": 52,
+    "num_unread_threads": 49
+  },
+  {
+    "label_id": "CATEGORY_SOCIAL",
+    "name": "CATEGORY_SOCIAL",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelHide",
+    "label_type": "system",
+    "num_threads": 0,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "CATEGORY_FORUMS",
+    "name": "CATEGORY_FORUMS",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelHide",
+    "label_type": "system",
+    "num_threads": 0,
+    "num_unread_threads": 0
+  },
+  {
+    "label_id": "CATEGORY_UPDATES",
+    "name": "CATEGORY_UPDATES",
+    "message_list_visibility": "hide",
+    "label_list_visibility": "labelHide",
+    "label_type": "system",
+    "num_threads": 23,
+    "num_unread_threads": 20
+  }
+]

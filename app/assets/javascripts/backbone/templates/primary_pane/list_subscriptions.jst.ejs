@@ -1,0 +1,68 @@
+<% function outputListsTable(listSubscriptions, subscribed, currentPageNumber, pageSize) { %>
+  <div class="tm_box-heading">
+    <svg class="icon"><use xlink:href="/images/symbols.svg#section-rules"></use></svg>
+    <div class="expander">
+      <% if (subscribed) { %>
+        <h2>Subscribed Lists</h2>
+        <p>Below are email lists that you are currently subscribed to.</p>
+      <% } else { %>
+        <h2>Unsubscribed Lists</h2>
+        <p>Below are email lists that you have unsubscribed from.</p>
+      <% } %>
+    </div>
+  </div>
+  <% if (listSubscriptions.length > 0) { %>
+    <table class="tm_datagrid tm_datagrid-striped">
+      <thead>
+        <tr>
+          <th></th>
+          <th style="width:50%">Name</th>
+          <th style="width:50%">Domain</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+      <% for(var i = (currentPageNumber * pageSize); i < Math.min(listSubscriptions.length, ((currentPageNumber + 1) * pageSize)); i++) { %>
+        <tr>
+          <td><img src="<%= "https://plus.google.com/_/favicon?domain=" + listSubscriptions[i].list_domain %>"></td>
+          <td><%= listSubscriptions[i].list_name %></td>
+          <td><%= listSubscriptions[i].list_domain %></td>
+          <td>
+            <button data-prevent-default type="button" class="tm_button <%= subscribed ? "unsubscribe" : "resubscribe" %>-list-button">
+              <%= subscribed ? "Unsubscribe" : "Resubscribe" %>
+            </button>
+          </td>
+        </tr>
+      <% } %>
+      </tbody>
+    </table>
+  <% } else { %>
+    <div class="tm_settings-empty">You have no <%= subscribed ? "subscribed" : "unsubscribed" %> lists</div>
+  <% } %>
+  <% var paginationClass = subscribed ? "subscription" : "unsubscription" %>
+  <div class="tm_settings-pagination">
+    <ul class="pagination list-<%= paginationClass %>-pagination">
+      <li><a href="#" class="previous-list-<%= paginationClass %>-page">&laquo;</a></li>
+      <li><a href="#" class="next-list-<%= paginationClass %>-page">&raquo;</a></li>
+    </ul>
+  </div>
+<% } %>
+
+<div class="tm_page-header">
+  <h1>List Subscriptions</h1>
+</div>
+
+<div class="tm_content-box">
+  <ul class="tm_content-tabs">
+    <li class="active"><a data-toggle="tab" href="#tab-1">Subscribed Lists</a></li>
+    <li><a data-toggle="tab" href="#tab-2">Unsubscribed Lists</a></li>
+  </ul>
+
+  <div id="tab-1" class="tm_content-tab-pane active">
+    <% outputListsTable(listsSubscribed, true, currentListsSubscribedPageNumber, pageSize); %>
+  </div>
+
+  <div id="tab-2" class="tm_content-tab-pane">
+    <% outputListsTable(listsUnsubscribed, false, currentListsUnsubscribedPageNumber, pageSize); %>
+  </div>
+</div>

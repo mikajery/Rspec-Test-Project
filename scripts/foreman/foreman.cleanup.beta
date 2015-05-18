@@ -1,0 +1,3 @@
+sudo rm /var/log/upstart/turing-beta*
+sudo rm -r /var/log/turing-beta
+sudo rm /etc/init/turing-beta*

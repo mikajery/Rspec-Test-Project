@@ -1,0 +1,47 @@
+<div class="email-templates">
+  <div class="dropdown email-templates-dropdown-div">
+    <button class="tm_button tm_button-caret" data-toggle="dropdown" id="emailTemplatesDropdownMenu">Templates</button>
+    <ul class="dropdown-menu email-templates-dropdown" role="menu" aria-labelledby="emailTemplatesDropdownMenu">
+      <li role="presentation"><a role="menuitem" tabindex="-1" class="create-email-template">Create</a></li>
+      {{#if emailTemplates.length > 0}}
+        <li role="presentation"><a role="menuitem" tabindex="-1" class="update-email-template">Update</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" class="delete-email-template">Delete</a></li>
+        <li role="presentation" class="divider"></li>
+      {{/if}}
+      {{#emailTemplates}}
+        <li role="presentation">
+          <a role="menuitem" tabindex="-1" class="load-email-template">{{name}}</a>
+        </li>
+      {{/emailTemplates}}
+    </ul>
+  </div>
+</div>
+
+<div class="create-email-templates-dialog-form" title="Create Email Template">
+  <form>
+    <p>Please enter a name for the new email template below and click &quot;Create&quot; button to continue.</p>
+    <input type="text" class="tm_input email-template-name" value="{{newEmailTemplate.name}}">
+  </form>
+</div>
+
+<div class="delete-email-templates-dialog-form" title="Delete Email Template">
+  <form>
+    <p>Please select a template you want delete from the list below and click &quot;Delete&quot; button to confirm.</p>
+    <select class="tm_select">
+    {{#emailTemplates}}
+      <option value="{{name}}">{{name}}</option>
+    {{/emailTemplates}}
+    </select>
+  </form>
+</div>
+
+<div class="update-email-templates-dialog-form" title="Update Email Template">
+  <form>
+    <p>Please select a template you want update from the list below and click &quot;Update&quot; button to continue.</p>
+    <select class="tm_select">
+    {{#emailTemplates}}
+      <option value="{{name}}">{{name}}</option>
+    {{/emailTemplates}}
+    </select>
+  </form>
+</div>

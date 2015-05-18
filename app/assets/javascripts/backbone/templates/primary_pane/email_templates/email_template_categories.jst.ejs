@@ -1,0 +1,61 @@
+<div class="create_email_template_category_view" style="display:none"></div>
+
+<div class="tm_content-toolbar">
+  <h1>Email Templates</h1>
+
+  <button type="button" class="tm_button tm_button-submit create-email-template-category-button">
+    <span>New Category</span>
+    <svg class="icon"><use xlink:href="/images/symbols.svg#plus"></use></svg>
+  </button>
+</div>
+
+{{#if emailTemplateCategories[0]}}
+  <ul class="tm_template-categories">
+    {{#emailTemplateCategories:i}}
+      <li data-uid="{{uid}}">
+        <div class="tm_template-category">
+          <a class="tm_template-category-header" href="#email_templates/{{uid}}">
+            <span class="tm_template-category-title">{{name}}</span>
+            <span class="tm_template-category-count">{{email_templates_count}}</span>
+          </a>
+          <div class="tm_template-category-footer">
+            <small>Created: {{formatCreatedAt(i)}}</small>
+            <button class="tm_button tm_button-ghost update-email-template-category-button" title="Edit Category">
+              <svg class="icon"><use xlink:href="/images/symbols.svg#edit"></use></svg>
+            </button>
+            <button class="tm_button tm_button-ghost delete-email-template-category-button" title="Delete Category">
+              <svg class="icon"><use xlink:href="/images/symbols.svg#delete"></use></svg>
+            </button>
+          </div>
+        </div>
+      </li>
+    {{/emailTemplateCategories}}
+    <li>
+      <div class="tm_template-category">
+        <a class="tm_template-category-header" href="#email_templates/-1">
+          <span class="tm_template-category-title">All Email Templates</span>
+          <span class="tm_template-category-count">{{emailTemplates.length}}</span>
+        </a>
+        <div class="tm_template-category-footer">
+          <small>View templates in all categories</small>
+        </div>
+      </div>
+    </li>
+  </ul>
+{{else}}
+  <div class="tm_empty-pane">You have no categories for email templates</div>
+{{/if}}
+
+<div class="create-email-template-category-dialog-form" title="Create Category">
+  <form onkeypress="return event.keyCode != 13;">
+    <p>Please enter a name for the new email template category below and click &quot;Create&quot; button to continue.</p>
+    <input type="text" class="tm_input" value="{{newName}}">
+  </form>
+</div>
+
+<div class="update-email-template-category-dialog-form" title="Update Category">
+  <form onkeypress="return event.keyCode != 13;">
+    <p>Please enter a new name for the email template category below and click &quot;Update&quot; button to continue.</p>
+    <input class="tm_input" type="text" value="{{newName}}">
+  </form>
+</div>

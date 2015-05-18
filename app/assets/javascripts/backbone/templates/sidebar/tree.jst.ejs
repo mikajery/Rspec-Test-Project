@@ -1,0 +1,42 @@
+<ul class="tm_tree tm_folders">
+  <li>
+    <a id="INBOX" class="tm_folder-inbox default-functionality-sidebar-link" href="#email_folder/INBOX">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#sidebar-inbox"></use></svg>
+      <span class="tm_tree-text">Inbox</span>
+      <span class="tm_tree-badge"><%= systemBadges.inbox %></span>
+    </a>
+  </li>
+  <li>
+    <a class="tm_folder-scheduled default-functionality-sidebar-link" href="#schedule_emails">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#sidebar-scheduled"></use></svg>
+      <span class="tm_tree-text">Scheduled</span>
+    </a>
+  </li>
+  <li>
+    <a data-prevent-default id="SENT" class="tm_folder-sent" href="SENT">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#sidebar-sent"></use></svg>
+      <span class="tm_tree-text">Sent</span>
+    </a>
+  </li>
+  <li>
+    <a class="tm_folder-tracked default-functionality-sidebar-link" href="#email_trackers">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#sidebar-tracked"></use></svg>
+      <span class="tm_tree-text">Tracked</span>
+    </a>
+  </li>
+  <li>
+    <a data-prevent-default id="DRAFT" class="tm_folder-draft" href="DRAFT">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#sidebar-drafts"></use></svg>
+      <span class="tm_tree-text">Drafts</span>
+      <span class="tm_tree-badge"><%= systemBadges.draft %></span>
+    </a>
+  </li>
+  <li>
+    <a data-prevent-default id="TRASH" class="tm_folder-trashed" href="TRASH">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#sidebar-trash"></use></svg>
+      <span class="tm_tree-text">Trash</span>
+    </a>
+  </li>
+</ul>
+
+<%= this.insertPartial("sidebar/tree_nodes", {nodeName: nodeName, node: node}) %>

@@ -1,0 +1,109 @@
+<div class="topcontent" id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="logocontainer">
+          <a class="logo fde" href="#">Turing</a>
+        </div>
+        <ul class="rightmenu tr">
+          <li>
+            <a href="#features-list">Features</a>
+          </li>
+          <li>
+            <% if !current_user.nil? %>
+            <%= link_to(' Sign Out ', signout_path, :method => :delete, class: 'btn signuptn') %>
+            <% else %>
+            <%= link_to(' Sign In ', gmail_o_auth2_url(), class: 'btn signuptn') %>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 top_content_para">
+        <div class="mail_icon"></div>
+        <h1>Turing Email</h1>
+        <h1>A Modern Enterprise Email Client</h1>
+        <p class="a-center">The ultimate solution for your business email needs. This is a user friendly, efficient, innovative email client.<br> Without the ads and complicated navigation, Turing focuses on helping your business grow.</p>
+        <%= link_to("Let's Get Started ", gmail_o_auth2_url(true), class: 'btn btn-primary get_start a-center tr') %>
+        <%= image_tag('home/topimg2.jpg', :alt => '', :class => "tottombanner") %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="second_content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="wow fadeInUp">Let’s Get Started</h1>
+        <p class="wow fadeInDown">Great communication is essential for the best results.<br>Take a step towards accomplishing more by registering now for Turing email.</p>
+        <a class="btn btn-primary email_batton tr" href="#">Email Address </a>
+       <div class="signin_fix">
+        <b><%= link_to("Sign-in here ", gmail_o_auth2_url(), class: 'sign_in') %></b><span style="color:white;">for existing members</span>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="third_content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="wow fadeInUp">What is</h1>
+        <h1 class="wow fadeInDown">Turing Email?</h1>
+        <h3>Turing is an ultra-modern enterprise email client developed for the most ambitious professionals.<br>Competition is tough, and your business gains an advantage by using Turing.</h3>
+        <p class="wow fadeInUp">Offering enterprise-grade features underpinned by cutting-edge technology,<br> Turing meets and exceeds what you need for 21st century virtual communication.</p>
+        <%= image_tag('home/computer.png', :alt => 'pc', :class => "pc wow fadeInDown") %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="fourth_content" id="features-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="wow fadeInUp">Features</h1>
+        <p class="top_p">Turing is provides a versatile and comprehensive feature set packaged into an easy-to-use interface.<br>Turing integration means increasing productivity and saving precision time.</p>
+      </div>
+    </div>
+    <div class="row">
+       <div class="col-xs-12">
+         <ul class="featured">
+           <li>
+            <%= image_tag('home/icon1.png', :alt => '', :class => "wow fadeInLeft") %>
+            <h3>Intuitive</h3>
+            <p>Turing email is designed to assist you. From analytics, dynamic views, up to interactive elements and constant upgrades - you'll find everything you need in email right here.</p>
+           </li>
+           <li>
+            <%= image_tag('home/icon2.png', :alt => '', :class => "wow fadeInUp") %>
+            <h3>Reliability</h3>
+            <p>No more missed emails from important clients. No more unresponsive interfaces. The Turing platform guarantees consistent and responsive service because your success matters to us.</p>
+           </li>
+           <li>
+            <%= image_tag('home/icon3.png', :alt => '', :class => "wow fadeInRight") %>
+            <h3>Safe &amp; Secure</h3>
+            <p>All information is passed through SSl encrypted connections, and you have several innovation authentication safeguard options available. Your data is rigorously protected.</p>
+           </li>
+         </ul>
+       </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="divider">
+          <%= link_to( image_tag("home/arrowup.png"), "#home", :class => 'ScrollTo' ) %>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <ul class="socialicon">
+          <li><a href="mailto:team@turinginc.com"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+        <footer class="footer_fix">
+          <p>&copy; 2015 All Rights Reserved. Turing Technology, Inc. <br> Privacy Policy</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>

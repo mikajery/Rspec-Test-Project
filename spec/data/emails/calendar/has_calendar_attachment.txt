@@ -1,0 +1,251 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.104.114 with SMTP id z105csp1086175qge;
+        Mon, 15 Sep 2014 20:00:13 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.86.33])
+        by 10.180.86.33 with SMTP id m1mr19013434wiz.11.1410836412859 (num_hops = 1);
+        Mon, 15 Sep 2014 20:00:12 -0700 (PDT)
+X-Received: by 10.180.86.33 with SMTP id m1mr28405541wiz.11.1410836412585;
+        Mon, 15 Sep 2014 20:00:12 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp1197813wem;
+        Mon, 15 Sep 2014 20:00:11 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.95.68])
+        by 10.180.95.68 with SMTP id di4mr19671656wib.60.1410836411686 (num_hops = 1);
+        Mon, 15 Sep 2014 20:00:11 -0700 (PDT)
+X-Received: by 10.180.95.68 with SMTP id di4mr29374150wib.60.1410836411669;
+        Mon, 15 Sep 2014 20:00:11 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.188.109 with SMTP id fz13csp1170504wjc;
+        Mon, 15 Sep 2014 20:00:10 -0700 (PDT)
+Return-Path: <3uacXVAYJBw4520ss1u0owz.q20ru2po8ru0owz.q20@calendar-server.bounces.google.com>
+Received-SPF: pass (google.com: domain of 3uacXVAYJBw4520ss1u0owz.q20ru2po8ru0owz.q20@calendar-server.bounces.google.com designates 10.50.66.234 as permitted sender) client-ip=10.50.66.234
+Authentication-Results: mr.google.com;
+       spf=pass (google.com: domain of 3uacXVAYJBw4520ss1u0owz.q20ru2po8ru0owz.q20@calendar-server.bounces.google.com designates 10.50.66.234 as permitted sender) smtp.mail=3uacXVAYJBw4520ss1u0owz.q20ru2po8ru0owz.q20@calendar-server.bounces.google.com;
+       dkim=pass header.i=@gmail.com
+X-Received: from mr.google.com ([10.50.66.234])
+        by 10.50.66.234 with SMTP id i10mr12865715igt.5.1410836409892 (num_hops = 1);
+        Mon, 15 Sep 2014 20:00:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to:content-type;
+        bh=Q6s4qUlubGO/EcddANBSWTGYKIBzIUJW1JVo0MnqJJA=;
+        b=pPUJLH/SGzWwrWT+2fqismlS8Kq9bpjMbBTKFAfFpPsYvhBsvspPZjvbKbu8NWTmS3
+         wrwlcuYWtc6WX8OdJhwzh6rIJcad+HVFNxAmLgSIaONAyUuoZlyv/63mjfbIwhIKIMgL
+         dwvolTA1sYhJ3e2pqtSjTD+SJIaM3qNSlyhCkLeW0IUQBkiLXl8z9xel8N1SRv8VUsMT
+         5Q6N3qYo2i5Ns71QuVBzAzIMvoDcmQg5p2ZoeqOejmdtvGLCMxGRtPqjc31YBMwWy0Fj
+         A5U35599IdjKE+EZnHMkJlc5NpxMZzfZgK7Gy0Cym3V0STMyyv4aj5RdFIGpU445ycF7
+         HHxQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to:content-type;
+        bh=Q6s4qUlubGO/EcddANBSWTGYKIBzIUJW1JVo0MnqJJA=;
+        b=mkJRqnEiIQ1H4AFg8pNDBfG/LaVkEd0IDecnnXbFsw1sBjE6egi+qAay8bOP/vePs/
+         3TOWQ1H5nvFJUyAxgZ+8n0dTPMDI7Tw855ml3KDLjNqH/H/IljgvqrWkXsohU6vO4iSh
+         S7yxnbychZZrkO+O6rimJ3Z6MTwEuiJ/8dePwhNYSzbCPygxo0/XepWKNOyZPMN8o6rY
+         +UC8YATHyEnF5NRfEUdS6sbp3YioMzeJZ7zQBqtXUsh0qIwPmJsANnL8IuTc5l6Vg85l
+         y9886cnkY4bo9Ht1Dan8qB7YayzcAGhIz1vor8qmyPRCZwmeuqGCEZ8JzjtwfdE0no0N
+         a3TQ==
+MIME-Version: 1.0
+X-Received: by 10.50.66.234 with SMTP id i10mr9053690igt.5.1410836409353; Mon,
+ 15 Sep 2014 20:00:09 -0700 (PDT)
+Reply-To: Romeen Sheth <romeen@gmail.com>
+Sender: Google Calendar <calendar-notification@google.com>
+Auto-Submitted: auto-generated
+Message-ID: <047d7bdc1a6c040d69050325f348@google.com>
+Date: Tue, 16 Sep 2014 03:00:09 +0000
+Subject: Invitation: Romeen-David chat @ Sat Sep 20, 2014 2pm - 3pm (David
+ Gobaud (dgobaud@gmail.com))
+From: Romeen Sheth <romeen@gmail.com>
+To: "dgobaud@gmail.com" <dgobaud@gmail.com>
+Content-Type: multipart/mixed; boundary=047d7bdc1a6c040d3b050325f347
+
+--047d7bdc1a6c040d3b050325f347
+Content-Type: multipart/alternative; boundary=047d7bdc1a6c040d38050325f345
+
+--047d7bdc1a6c040d38050325f345
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+You have been invited to the following event.
+
+Title: Romeen-David chat
+David to call Romeen: 678-523-1798
+When: Sat Sep 20, 2014 2pm - 3pm Pacific Time
+Calendar: David Gobaud (dgobaud@gmail.com)
+Who:
+     * Romeen Sheth - organizer
+     * dgobaud
+
+Event details:  
+https://www.google.com/calendar/event?action=VIEW&eid=dGUwdmwxZmVraWlmaGM2YnV0b2ZzdTVvM2MgZGdvYmF1ZEBt&tok=MTYjcm9tZWVuQGdtYWlsLmNvbTRkNTE1MmI2ZjBjMzZmNjZhMTlmMGFkYjM1MGQ1ZGZjZGYzYThlMjY&ctz=America/Los_Angeles&hl=en
+
+Invitation from Google Calendar: https://www.google.com/calendar/
+
+You are receiving this email at the account dgobaud@gmail.com because you  
+are subscribed for invitations on calendar David Gobaud (dgobaud@gmail.com).
+
+To stop receiving these notifications, please log in to  
+https://www.google.com/calendar/ and change your notification settings for  
+this calendar.
+
+--047d7bdc1a6c040d38050325f345
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D""><table cellspacing=3D"0" cellpadding=3D"8" border=3D"0" sum=
+mary=3D"" style=3D"width:100%;font-family:Arial,Sans-serif;border:1px Solid=
+ #ccc;border-width:1px 2px 2px 1px;background-color:#fff;" itemscope itemty=
+pe=3D"http://schema.org/Event"><tr><td><meta itemprop=3D"eventStatus" conte=
+nt=3D"http://schema.org/EventScheduled"/><div style=3D"padding:2px"><span i=
+temprop=3D"publisher" itemscope itemtype=3D"http://schema.org/Organization"=
+><meta itemprop=3D"name" content=3D"Google Calendar"/></span><meta itemprop=
+=3D"eventId/googleCalendar" content=3D"te0vl1fekiifhc6butofsu5o3c"/><div st=
+yle=3D"float:right;font-weight:bold;font-size:13px"> <a href=3D"https://www=
+.google.com/calendar/event?action=3DVIEW&amp;eid=3DdGUwdmwxZmVraWlmaGM2YnV0=
+b2ZzdTVvM2MgZGdvYmF1ZEBt&amp;tok=3DMTYjcm9tZWVuQGdtYWlsLmNvbTRkNTE1MmI2ZjBj=
+MzZmNjZhMTlmMGFkYjM1MGQ1ZGZjZGYzYThlMjY&amp;ctz=3DAmerica/Los_Angeles&amp;h=
+l=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">more detai=
+ls &raquo;</a><br></div><h3 style=3D"padding:0 0 6px 0;margin:0;font-family=
+:Arial,Sans-serif;font-size:16px;font-weight:bold;color:#222"><span itempro=
+p=3D"name">Romeen-David chat</span></h3><div style=3D"padding-bottom:15px;f=
+ont-size:13px;color:#222;white-space:pre-wrap!important;white-space:-moz-pr=
+e-wrap!important;white-space:-pre-wrap!important;white-space:-o-pre-wrap!im=
+portant;white-space:pre;word-wrap:break-word">David to call Romeen: 678-523=
+-1798</div><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" summary=
+=3D"Event details"><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,=
+Sans-serif;font-size:13px;color:#888;white-space:nowrap" valign=3D"top"><di=
+v><i style=3D"font-style:normal">When</i></div></td><td style=3D"padding-bo=
+ttom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D=
+"top"><time itemprop=3D"startDate" datetime=3D"20140920T210000Z"></time><ti=
+me itemprop=3D"endDate" datetime=3D"20140920T220000Z"></time>Sat Sep 20, 20=
+14 2pm &ndash; 3pm <span style=3D"color:#888">Pacific Time</span></td></tr>=
+<tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-siz=
+e:13px;color:#888;white-space:nowrap" valign=3D"top"><div><i style=3D"font-=
+style:normal">Calendar</i></div></td><td style=3D"padding-bottom:10px;font-=
+family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top">David Gob=
+aud (dgobaud@gmail.com)</td></tr><tr><td style=3D"padding:0 1em 10px 0;font=
+-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap" vali=
+gn=3D"top"><div><i style=3D"font-style:normal">Who</i></div></td><td style=
+=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#=
+222" valign=3D"top"><table cellspacing=3D"0" cellpadding=3D"0"><tr><td styl=
+e=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#=
+222"><span style=3D"font-family:Courier New,monospace">&#x2022;</span></td>=
+<td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px=
+;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"atten=
+dee" itemscope itemtype=3D"http://schema.org/Person"><span itemprop=3D"name=
+">Romeen Sheth</span><meta itemprop=3D"email" content=3D"romeen@gmail.com"/=
+></span><span style=3D"font-size:11px;color:#888"> - organizer</span></div>=
+</div></td></tr><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-=
+serif;font-size:13px;color:#222"><span style=3D"font-family:Courier New,mon=
+ospace">&#x2022;</span></td><td style=3D"padding-right:10px;font-family:Ari=
+al,Sans-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3e=
+m 0"><span itemprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Pe=
+rson"><span itemprop=3D"name">dgobaud</span><meta itemprop=3D"email" conten=
+t=3D"dgobaud@gmail.com"/></span></div></div></td></tr></table></td></tr></t=
+able></div><p style=3D"color:#222;font-size:13px;margin:0"><span style=3D"c=
+olor:#888">Going?&nbsp;&nbsp;&nbsp;</span><wbr><strong><span itemprop=3D"ac=
+tion" itemscope itemtype=3D"http://schema.org/RsvpAction"><meta itemprop=3D=
+"attendance" content=3D"http://schema.org/RsvpAttendance/Yes"/><span itempr=
+op=3D"handler" itemscope itemtype=3D"http://schema.org/HttpActionHandler"><=
+link itemprop=3D"method" href=3D"http://schema.org/HttpRequestMethod/GET"/>=
+<a href=3D"https://www.google.com/calendar/event?action=3DRESPOND&amp;eid=
+=3DdGUwdmwxZmVraWlmaGM2YnV0b2ZzdTVvM2MgZGdvYmF1ZEBt&amp;rst=3D1&amp;tok=3DM=
+TYjcm9tZWVuQGdtYWlsLmNvbTRkNTE1MmI2ZjBjMzZmNjZhMTlmMGFkYjM1MGQ1ZGZjZGYzYThl=
+MjY&amp;ctz=3DAmerica/Los_Angeles&amp;hl=3Den" style=3D"color:#20c;white-sp=
+ace:nowrap" itemprop=3D"url">Yes</a></span></span><span style=3D"margin:0 0=
+.4em;font-weight:normal"> - </span><span itemprop=3D"action" itemscope item=
+type=3D"http://schema.org/RsvpAction"><meta itemprop=3D"attendance" content=
+=3D"http://schema.org/RsvpAttendance/Maybe"/><span itemprop=3D"handler" ite=
+mscope itemtype=3D"http://schema.org/HttpActionHandler"><link itemprop=3D"m=
+ethod" href=3D"http://schema.org/HttpRequestMethod/GET"/><a href=3D"https:/=
+/www.google.com/calendar/event?action=3DRESPOND&amp;eid=3DdGUwdmwxZmVraWlma=
+GM2YnV0b2ZzdTVvM2MgZGdvYmF1ZEBt&amp;rst=3D3&amp;tok=3DMTYjcm9tZWVuQGdtYWlsL=
+mNvbTRkNTE1MmI2ZjBjMzZmNjZhMTlmMGFkYjM1MGQ1ZGZjZGYzYThlMjY&amp;ctz=3DAmeric=
+a/Los_Angeles&amp;hl=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=
+=3D"url">Maybe</a></span></span><span style=3D"margin:0 0.4em;font-weight:n=
+ormal"> - </span><span itemprop=3D"action" itemscope itemtype=3D"http://sch=
+ema.org/RsvpAction"><meta itemprop=3D"attendance" content=3D"http://schema.=
+org/RsvpAttendance/No"/><span itemprop=3D"handler" itemscope itemtype=3D"ht=
+tp://schema.org/HttpActionHandler"><link itemprop=3D"method" href=3D"http:/=
+/schema.org/HttpRequestMethod/GET"/><a href=3D"https://www.google.com/calen=
+dar/event?action=3DRESPOND&amp;eid=3DdGUwdmwxZmVraWlmaGM2YnV0b2ZzdTVvM2MgZG=
+dvYmF1ZEBt&amp;rst=3D2&amp;tok=3DMTYjcm9tZWVuQGdtYWlsLmNvbTRkNTE1MmI2ZjBjMz=
+ZmNjZhMTlmMGFkYjM1MGQ1ZGZjZGYzYThlMjY&amp;ctz=3DAmerica/Los_Angeles&amp;hl=
+=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">No</a></spa=
+n></span></strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href=3D"https://www.googl=
+e.com/calendar/event?action=3DVIEW&amp;eid=3DdGUwdmwxZmVraWlmaGM2YnV0b2ZzdT=
+VvM2MgZGdvYmF1ZEBt&amp;tok=3DMTYjcm9tZWVuQGdtYWlsLmNvbTRkNTE1MmI2ZjBjMzZmNj=
+ZhMTlmMGFkYjM1MGQ1ZGZjZGYzYThlMjY&amp;ctz=3DAmerica/Los_Angeles&amp;hl=3Den=
+" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">more options &ra=
+quo;</a></p></td></tr><tr><td style=3D"background-color:#f6f6f6;color:#888;=
+border-top:1px Solid #ccc;font-family:Arial,Sans-serif;font-size:11px"><p>I=
+nvitation from <a href=3D"https://www.google.com/calendar/" target=3D"_blan=
+k" style=3D"">Google Calendar</a></p><p>You are receiving this email at the=
+ account dgobaud@gmail.com because you are subscribed for invitations on ca=
+lendar David Gobaud (dgobaud@gmail.com).</p><p>To stop receiving these noti=
+fications, please log in to https://www.google.com/calendar/ and change you=
+r notification settings for this calendar.</p></td></tr></table></div>
+--047d7bdc1a6c040d38050325f345
+Content-Type: text/calendar; charset=UTF-8; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20140920T210000Z
+DTEND:20140920T220000Z
+DTSTAMP:20140916T030009Z
+ORGANIZER;CN=Romeen Sheth:mailto:romeen@gmail.com
+UID:te0vl1fekiifhc6butofsu5o3c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=dgobaud;X-NUM-GUESTS=0:mailto:dgobaud@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Romeen Sheth;X-NUM-GUESTS=0:mailto:romeen@gmail.com
+CREATED:20140916T030008Z
+DESCRIPTION:David to call Romeen: 678-523-1798\nView your event at https://
+ www.google.com/calendar/event?action=VIEW&eid=dGUwdmwxZmVraWlmaGM2YnV0b2Zzd
+ TVvM2MgZGdvYmF1ZEBt&tok=MTYjcm9tZWVuQGdtYWlsLmNvbTRkNTE1MmI2ZjBjMzZmNjZhMTl
+ mMGFkYjM1MGQ1ZGZjZGYzYThlMjY&ctz=America/Los_Angeles&hl=en.
+LAST-MODIFIED:20140916T030009Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Romeen-David chat
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--047d7bdc1a6c040d38050325f345--
+--047d7bdc1a6c040d3b050325f347
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMTQwOTIwVDIxMDAwMFoNCkRURU5EOjIwMTQwOTIw
+VDIyMDAwMFoNCkRUU1RBTVA6MjAxNDA5MTZUMDMwMDA5Wg0KT1JHQU5JWkVSO0NOPVJvbWVlbiBT
+aGV0aDptYWlsdG86cm9tZWVuQGdtYWlsLmNvbQ0KVUlEOnRlMHZsMWZla2lpZmhjNmJ1dG9mc3U1
+bzNjQGdvb2dsZS5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJ
+Q0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049ZGdvYmF1ZDtYLU5V
+TS1HVUVTVFM9MDptYWlsdG86ZGdvYmF1ZEBnbWFpbC5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJ
+VklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPUFDQ0VQVEVEO1JTVlA9VFJVRQ0K
+IDtDTj1Sb21lZW4gU2hldGg7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOnJvbWVlbkBnbWFpbC5jb20N
+CkNSRUFURUQ6MjAxNDA5MTZUMDMwMDA4Wg0KREVTQ1JJUFRJT046RGF2aWQgdG8gY2FsbCBSb21l
+ZW46IDY3OC01MjMtMTc5OFxuVmlldyB5b3VyIGV2ZW50IGF0IGh0dHBzOi8vDQogd3d3Lmdvb2ds
+ZS5jb20vY2FsZW5kYXIvZXZlbnQ/YWN0aW9uPVZJRVcmZWlkPWRHVXdkbXd4Wm1WcmFXbG1hR00y
+WW5WMGIyWnpkDQogVFZ2TTJNZ1pHZHZZbUYxWkVCdCZ0b2s9TVRZamNtOXRaV1Z1UUdkdFlXbHNM
+bU52YlRSa05URTFNbUkyWmpCak16Wm1OalpoTVRsDQogbU1HRmtZak0xTUdRMVpHWmpaR1l6WVRo
+bE1qWSZjdHo9QW1lcmljYS9Mb3NfQW5nZWxlcyZobD1lbi4NCkxBU1QtTU9ESUZJRUQ6MjAxNDA5
+MTZUMDMwMDA5Wg0KTE9DQVRJT046DQpTRVFVRU5DRTowDQpTVEFUVVM6Q09ORklSTUVEDQpTVU1N
+QVJZOlJvbWVlbi1EYXZpZCBjaGF0DQpUUkFOU1A6T1BBUVVFDQpFTkQ6VkVWRU5UDQpFTkQ6VkNB
+TEVOREFSDQo=
+--047d7bdc1a6c040d3b050325f347--

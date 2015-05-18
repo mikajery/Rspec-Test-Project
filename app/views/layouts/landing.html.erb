@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title><%= page_title(yield(:title)) %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400">
+
+    <%= javascript_tag do %>
+      window.applicationJsUrl = '<%= [Rails.configuration.action_controller.asset_host, "/assets/", Rails.application.assets.find_asset('application.js').digest_path].join("") %>';
+      window.applicationCssUrl = '<%= [Rails.configuration.action_controller.asset_host, "/assets/", Rails.application.assets.find_asset('application.css').digest_path].join("") %>';
+    <% end %>
+
+    <%= stylesheet_link_tag    'app-landing', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'app-landing', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '<%= $config.google_analytics_key %>', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+  <body>
+    <% flash.each do |key, value| %>
+      <div class="alert alert-<%= key %>"><%= value %></div>
+    <% end %>
+    <%= yield %>
+  </body>
+</html>

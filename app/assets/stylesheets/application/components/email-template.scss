@@ -1,0 +1,97 @@
+// ---------------------------
+// EMAIL TEMPLATES
+// ---------------------------
+
+
+// Toolbar
+
+.tm_template-toolbar-title {
+  margin-left: 15px;
+}
+
+.create-email-template-category-button,
+.create-email-template-button {
+  span {
+    padding-right: 15px;
+    display: inline-block;
+  }
+}
+
+
+// Template categories
+
+.tm_template-categories {
+  padding: 0;
+  font-size: 0;
+  margin: 0 -8px;
+  overflow: hidden;
+  list-style: none;
+
+  > li {
+    margin: 0;
+    width: 33.33%;
+    font-size: 13px;
+    min-width: 250px;
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 8px 16px 8px;
+  }
+}
+
+.tm_template-category {
+  background: #FFF;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tm_template-category-header {
+  display: block;
+  font-size: 16px;
+  position: relative;
+  padding: 20px 50px 20px 20px;
+  border-bottom: 1px solid #EEE;
+}
+
+.tm_template-category-title {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tm_template-category-count {
+  top: 50%;
+  right: 20px;
+  color: #999;
+  line-height: 1em;
+  text-align: right;
+  margin-top: -0.5em;
+  position: absolute;
+}
+
+.tm_template-category-footer {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 20px;
+  justify-content: flex-end;
+
+  > :first-child {
+    flex-grow: 1;
+  }
+
+  small {
+    color: #BBB;
+  }
+}
+
+
+// List of templates
+
+.tm_templates-list {
+  .tm_email-title {
+    color: #888;
+  }
+}

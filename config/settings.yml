@@ -1,0 +1,10 @@
+action_controller:
+  asset_host: ""
+redis:
+  sidekiq:
+    url: 'redis://127.0.0.1:6379/2'
+sidekiq:
+  concurrency: 3
+  queues:
+    - :default
+    - :mailers

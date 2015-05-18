@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd /home/prod/turing-prod
+source /home/prod/.rvm/environments/ruby-2.1.5
+foreman run -e ../env/prod.env rake queue_sync_account >> log/production.cron.log 2>&1

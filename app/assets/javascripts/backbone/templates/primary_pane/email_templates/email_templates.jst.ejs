@@ -1,0 +1,54 @@
+<div class="tm_content-toolbar">
+  <a class="tm_button tm_button-rounded" href="#email_template_categories">
+    <svg class="icon"><use xlink:href="/images/symbols.svg#angle-left"></use></svg>
+  </a>
+
+  <h1 class="tm_template-toolbar-title">{{categoryTitle}}</h1>
+
+  <div class="tm_counter">
+    <span class="tm_counter-label">Templates</span>
+    <span class="tm_counter-value fgred">{{emailTemplates.length}}</span>
+  </div>
+
+  <button type="button" class="tm_button tm_button-submit create-email-template-button">
+    <span>New Template</span>
+    <svg class="icon"><use xlink:href="/images/symbols.svg#plus"></use></svg>
+  </button>
+</div>
+
+{{#if emailTemplates[0]}}
+  <div class="tm_templates-list">
+    {{#emailTemplates:i}}
+      <div class="tm_email" data-uid="{{uid}}">
+
+        <div class="tm_email-info">
+          <div class="tm_email-title email-collapse-expand">{{name}}</div>
+          <div class="tm_email-date">Created: {{formatCreatedAt(i)}}</div>
+          <div class="tm_button-stack">
+            <button type="button" class="tm_button delete-email-template-button">Delete</button>
+            <button type="button" class="tm_button edit-email-template-button">Edit</button>
+            <button type="button" class="tm_button move-email-template-button">Move</button>
+          </div>
+          <div class="tm_email-collapser email-collapse-expand"></div>
+        </div>
+
+        <div class="tm_email-body">{{& html}}</div>
+
+      </div>
+    {{/emailTemplates}}
+  </div>
+{{else}}
+  <div class="tm_empty-pane">You have no templates in the category</div>
+{{/if}}
+
+<div class="move-email-template-dialog-form" title="Move Email Template">
+  <form>
+    <p>Please select a template you want update from the list below and click &quot;Update&quot; button to continue.</p>
+    <select class="tm_select" value="{{selectedCategoryUID}}">
+      {{#categories}}
+        <option value="{{uid}}">{{name}}</option>
+      {{/categories}}
+      <option value="">Uncategorized</option>
+    </select>
+  </form>
+</div>

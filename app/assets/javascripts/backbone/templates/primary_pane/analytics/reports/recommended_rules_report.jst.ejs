@@ -1,0 +1,15 @@
+<div class="tm_page-header">
+  <h1>Recommended Rules</h1>
+</div>
+
+<h4 class="h4">Recommended Rules</h4>
+<p>The genie has been working extra hard to keep your inbox clean, and recommends that you make the following rules so that these emails skip your inbox during the day:</p>
+<br />
+<ul>
+  <% for(var i = 0; i < rules_recommended.length; i++) { %>
+    <li>
+      Rule: filter emails from <%= rules_recommended[i].list_id %> into <%= rules_recommended[i].destination_folder %>.
+      <a data-prevent-default class="rule_recommendation_link" href="<%= rules_recommended[i].list_id %>">Create rule.</a>
+    </li>
+  <% } %>
+</ul>

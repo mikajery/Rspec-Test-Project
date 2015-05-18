@@ -1,0 +1,106 @@
+// ---------------------------
+// EMAIL TRACKER
+// ---------------------------
+
+
+// Chart
+
+.tm_tracker-chart {
+  margin: 20px 0;
+}
+
+
+// Search
+
+.tm_tracker-search {
+  width: 250px;
+  margin-right: 5px;
+}
+
+
+// Grid
+
+.tm_tracker-table {
+  width: 100%;
+  border-collapse: separate;
+
+  th {
+    color: #999;
+    padding: 12px 0 12px 15px;
+    border: 1px solid rgba(#000, 0.1);
+    border-width: 1px 0;
+  }
+
+  td {
+    color: #777;
+    padding: 18px 0 18px 15px;
+    border-bottom: 1px solid rgba(#000, 0.05);
+  }
+
+  th, td {
+    vertical-align: top;
+  }
+}
+
+.tm_tracker-date {
+  color: #333;
+  white-space: nowrap;
+}
+
+.tm_tracker-subject, .tm_tracker-notopen {
+  font-size: 15px;
+  min-width: 150px;
+  display: inline-block;
+}
+
+.tm_tracker-open {
+  padding: 0;
+  margin: 15px 0 0 0;
+  &:first-child {
+    margin-top: 0;
+  }
+
+  dt {
+    color: #333;
+    font-size: 15px;
+  }
+
+  dd {
+    margin-top: 12px;
+    background: #FFF;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    &:before {
+      top: -6px;
+      left: 20px;
+      content: '';
+      position: absolute;
+      border: 6px solid transparent;
+      border-top-width: 0;
+      border-bottom-color: #FFF;
+    }
+  }
+
+  table {
+    width: 100%;
+    font-size: 11px;
+    border-collapse: separate;
+
+    th {
+      border: 0;
+      color: #AAA;
+      padding: 10px 0 10px 15px;
+      min-width: 55px;
+    }
+
+    td {
+      padding: 12px 0 12px 15px;
+      border: 1px solid rgba(#000, 0.05);
+      border-width: 1px 0 0 0;
+      &:last-child {
+        padding-right: 15px;
+      }
+    }
+  }
+}

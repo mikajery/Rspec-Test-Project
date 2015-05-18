@@ -1,0 +1,29 @@
+<div class="tm_mail-box">
+  <div class="tm_mail-box-scroll email-threads-list-view">
+  <% if(inbox_tabs_enabled && (emailFolderID == "INBOX" || emailFolderID == "CATEGORY_SOCIAL" || emailFolderID == "CATEGORY_PROMOTIONS" || emailFolderID == "CATEGORY_UPDATES")) { %>
+    <ul class="tm_inbox-tabs nav nav-tabs">
+      <li role="presentation" <%= emailFolderID == "INBOX" ? 'class="active"' : "" %>>
+        <a href="#email_folder/INBOX">Primary</a>
+      </li>
+      <li role="presentation" <%= emailFolderID == "CATEGORY_SOCIAL" ? 'class="active"' : "" %>>
+        <a href="#email_folder/CATEGORY_SOCIAL">Social</a>
+      </li>
+      <li role="presentation" <%= emailFolderID == "CATEGORY_PROMOTIONS" ? 'class="active"' : "" %>>
+        <a href="#email_folder/CATEGORY_PROMOTIONS">Promotions</a>
+      </li>
+      <li role="presentation" <%= emailFolderID == "CATEGORY_UPDATES" ? 'class="active"' : "" %>>
+        <a href="#email_folder/CATEGORY_UPDATES">Updates</a>
+      </li>
+    </ul>
+  <% } %>
+
+    <table class="tm_table-mail">
+      <tbody class="tm_table-mail-body"></tbody>
+    </table>
+  </div>
+
+  <div class="tm_mail-box-loading">
+    <svg class="icon busy-indicator"><use xlink:href="/images/symbols.svg#busy-indicator"></use></svg>
+    <span>Loading...</span>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.104.114 with SMTP id z105csp2794qge;
+        Fri, 19 Sep 2014 15:06:40 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.207.228])
+        by 10.180.207.228 with SMTP id lz4mr625051wic.11.1411164400723 (num_hops = 1);
+        Fri, 19 Sep 2014 15:06:40 -0700 (PDT)
+X-Received: by 10.180.207.228 with SMTP id lz4mr903994wic.11.1411164400403;
+        Fri, 19 Sep 2014 15:06:40 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp440672wem;
+        Fri, 19 Sep 2014 15:06:39 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.198.10])
+        by 10.180.198.10 with SMTP id iy10mr743893wic.10.1411164399370 (num_hops = 1);
+        Fri, 19 Sep 2014 15:06:39 -0700 (PDT)
+X-Received: by 10.180.198.10 with SMTP id iy10mr1058511wic.10.1411164399351;
+        Fri, 19 Sep 2014 15:06:39 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.64.133 with SMTP id o5csp520374wjs;
+        Fri, 19 Sep 2014 15:06:37 -0700 (PDT)
+X-Received: by 10.60.46.167 with SMTP id w7mr4224867oem.50.1411164396945;
+        Fri, 19 Sep 2014 15:06:36 -0700 (PDT)
+Return-Path: <feross@feross.org>
+Received: from mail-oi0-f47.google.com (mail-oi0-f47.google.com [209.85.218.47])
+        by mx.google.com with ESMTPS id rv10si4198512obb.103.2014.09.19.15.06.36
+        for <dgobaud@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 19 Sep 2014 15:06:36 -0700 (PDT)
+Received-SPF: none (google.com: feross@feross.org does not designate permitted sender hosts) client-ip=209.85.218.47;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: feross@feross.org does not designate permitted sender hosts) smtp.mail=feross@feross.org
+Received: by mail-oi0-f47.google.com with SMTP id e131so1933046oig.6
+        for <dgobaud@gmail.com>; Fri, 19 Sep 2014 15:06:36 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=td5QdPylD2aVmUkILMQF3n/HVOLkRVO3PdFqE/JmpAE=;
+        b=BaodTbCG9RuC5rjfCnXhW6V3/6sZfj5g6qWPYAtJ0/aL8oe1/j8QTIhRCij0Yrx1HB
+         vqaKCnwwj7VJumjynRSHI0pFy6m2eJwnyn6JQIRQq2X4Wny2migWlNVTN76dzx1THv8e
+         skHK67sExny6pcvvqqCFWS5SMH/jXtaaXM4eDfJKBBD+qYAUwGJpD1OME7Kz5nJjjIRx
+         E0b6jrmHJOz/qspWHPhhYWzmBhRQeKSfki09ChFXPErM2z1+49dc69BVzogrUB/UBEpJ
+         mpNYzpX1d3M8x9XlJqs8RdF3B4Q70fdoUOr+dqfZUBrqB3kHSojbWMP194zKgeTHEdI/
+         rwHQ==
+X-Gm-Message-State: ALoCoQmE2XcVLmbWgRq9DAfziBbduVWPGMaqG3IJvwA8CuOT1RWlLY/GcYXXNrGSwFuSRsXHqRf8
+X-Received: by 10.182.126.162 with SMTP id mz2mr11976911obb.19.1411164396363;
+        Fri, 19 Sep 2014 15:06:36 -0700 (PDT)
+Return-Path: <feross@feross.org>
+Received: from mail-ob0-f181.google.com (mail-ob0-f181.google.com [209.85.214.181])
+        by mx.google.com with ESMTPSA id gv9sm1882256obc.17.2014.09.19.15.06.34
+        for <dgobaud@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 19 Sep 2014 15:06:34 -0700 (PDT)
+Received: by mail-ob0-f181.google.com with SMTP id wo20so2130692obc.26
+        for <dgobaud@gmail.com>; Fri, 19 Sep 2014 15:06:33 -0700 (PDT)
+X-Received: by 10.60.45.7 with SMTP id i7mr4383542oem.2.1411164393544; Fri, 19
+ Sep 2014 15:06:33 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.202.130.17 with HTTP; Fri, 19 Sep 2014 15:05:53 -0700 (PDT)
+In-Reply-To: <CAMwYsmseaXEqWnxuNrjd0rmSrEkcCF5n9usAOhmt-xsqwBWLPA@mail.gmail.com>
+References: <CAMwYsmtfTu-kF3c8WS6ioxatGAg+S9wYPmZVK9M3KvNLO_HRiw@mail.gmail.com>
+ <CA+nRABmhcoTqWQvDcF--OkDGj6DkA8Ttc4eYOgKZW=EAp-5Ejw@mail.gmail.com> <CAMwYsmseaXEqWnxuNrjd0rmSrEkcCF5n9usAOhmt-xsqwBWLPA@mail.gmail.com>
+From: Feross Aboukhadijeh <feross@feross.org>
+Date: Fri, 19 Sep 2014 15:05:53 -0700
+Message-ID: <CA+nRABk88dkYc7eo0s3mpD8p5SuH4G1_fJZe6FiyqjeihtnF2A@mail.gmail.com>
+Subject: Re: awesome!
+To: David Gobaud <dgobaud@gmail.com>

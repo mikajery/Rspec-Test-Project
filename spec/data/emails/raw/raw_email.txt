@@ -1,0 +1,153 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.104.114 with SMTP id z105csp90684qge;
+        Thu, 18 Sep 2014 22:42:40 -0700 (PDT)
+X-Received: from mr.google.com ([10.194.201.233])
+        by 10.194.201.233 with SMTP id kd9mr1862756wjc.62.1411105359872 (num_hops = 1);
+        Thu, 18 Sep 2014 22:42:39 -0700 (PDT)
+X-Received: by 10.194.201.233 with SMTP id kd9mr2462179wjc.62.1411105359554;
+        Thu, 18 Sep 2014 22:42:39 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp326637wem;
+        Thu, 18 Sep 2014 22:42:38 -0700 (PDT)
+X-Received: from mr.google.com ([10.194.59.109])
+        by 10.194.59.109 with SMTP id y13mr138884wjq.124.1411105358561 (num_hops = 1);
+        Thu, 18 Sep 2014 22:42:38 -0700 (PDT)
+X-Received: by 10.194.59.109 with SMTP id y13mr183634wjq.124.1411105358542;
+        Thu, 18 Sep 2014 22:42:38 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.64.133 with SMTP id o5csp406810wjs;
+        Thu, 18 Sep 2014 22:42:37 -0700 (PDT)
+X-Received: by 10.236.61.100 with SMTP id v64mr8022130yhc.77.1411105357251;
+        Thu, 18 Sep 2014 22:42:37 -0700 (PDT)
+Return-Path: <david+caf_=dgobaud=gmail.com@turinginc.com>
+Received: from mail-yh0-x229.google.com (mail-yh0-x229.google.com [2607:f8b0:4002:c01::229])
+        by mx.google.com with ESMTPS id x24si660067yha.47.2014.09.18.22.42.36
+        for <dgobaud@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 18 Sep 2014 22:42:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of david+caf_=dgobaud=gmail.com@turinginc.com designates 2607:f8b0:4002:c01::229 as permitted sender) client-ip=2607:f8b0:4002:c01::229;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of david+caf_=dgobaud=gmail.com@turinginc.com designates 2607:f8b0:4002:c01::229 as permitted sender) smtp.mail=david+caf_=dgobaud=gmail.com@turinginc.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yh0-x229.google.com with SMTP id b6so334521yha.0
+        for <dgobaud@gmail.com>; Thu, 18 Sep 2014 22:42:36 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:delivered-to:dkim-signature
+         :mime-version:from:date:message-id:subject:to:content-type;
+        bh=Vlh9EHqi+Rlx54Gbu6mUDknd68wbJVR1oEgXMJSqdQk=;
+        b=QOV+Efxf2kBPdvg+cxOBgLYPLa1mnVjYd6VDYrOf+ReHqDaDDNxNSp5F1e0LlJ1aoq
+         iFCu4Rql6yxsOAE7N7PBk1zIBfx9KzKhW/rV3NjWzJyrovZsTjA5cI7E6cINKCFDmiab
+         xlE8X+8u3HPxHWEbnDb2Vag+8bVOD9hJwn90b7Til31rol0DsGMHMBw6wgyYCvkoLQOd
+         RJ1te5mGy1l/D/Lp7f6o1w5VKP8jMdAPZjOJ6874k4ZtBXBcoomp9upFDMWUBrHwlcT+
+         WC4ceFvo7XwtZMrS111PGnYkUItub8606RiNIxME6WImp2gGCylyios7Zi2/afkBBlM5
+         9h9Q==
+X-Gm-Message-State: ALoCoQmYjfkN2iJB5M17YXiQcMUMd8QonR0RRsF3fanTZFcL5kni2F36ODc9BSZCTC6xorRH2+vN
+X-Received: by 10.236.44.147 with SMTP id n19mr10931229yhb.82.1411105356741;
+        Thu, 18 Sep 2014 22:42:36 -0700 (PDT)
+X-Forwarded-To: dgobaud@gmail.com
+X-X-Forwarded-For: david@turinginc.com dgobaud@gmail.com
+Delivered-To: david@turinginc.com
+Received: by 10.170.95.70 with SMTP id m67csp961420yka;
+        Thu, 18 Sep 2014 22:42:36 -0700 (PDT)
+X-Received: by 10.182.80.33 with SMTP id o1mr5497081obx.78.1411105355968;
+        Thu, 18 Sep 2014 22:42:35 -0700 (PDT)
+Return-Path: <catchall+caf_=david=turinginc.com@turinginc.com>
+Received: from mail-ob0-x229.google.com (mail-ob0-x229.google.com [2607:f8b0:4003:c01::229])
+        by mx.google.com with ESMTPS id kp5si1061161oeb.12.2014.09.18.22.42.35
+        for <david@turinginc.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 18 Sep 2014 22:42:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of catchall+caf_=david=turinginc.com@turinginc.com designates 2607:f8b0:4003:c01::229 as permitted sender) client-ip=2607:f8b0:4003:c01::229;
+Received: by mail-ob0-f169.google.com with SMTP id wm4so1367013obc.0
+        for <david@turinginc.com>; Thu, 18 Sep 2014 22:42:35 -0700 (PDT)
+X-Received: by 10.182.210.195 with SMTP id mw3mr732804obc.82.1411105355739;
+        Thu, 18 Sep 2014 22:42:35 -0700 (PDT)
+X-Forwarded-To: stewart@turinginc.com, david@turinginc.com
+X-X-Forwarded-For: catchall@turinginc.com stewart@turinginc.com, david@turinginc.com
+Delivered-To: test@turinginc.com
+Received: by 10.182.39.227 with SMTP id s3csp352208obk;
+        Thu, 18 Sep 2014 22:42:34 -0700 (PDT)
+X-Received: by 10.112.143.105 with SMTP id sd9mr4043851lbb.43.1411105354331;
+        Thu, 18 Sep 2014 22:42:34 -0700 (PDT)
+Return-Path: <turingemailtest1@gmail.com>
+Received: from mail-la0-x241.google.com (mail-la0-x241.google.com [2a00:1450:4010:c03::241])
+        by mx.google.com with ESMTPS id k1si985775lam.96.2014.09.18.22.42.33
+        for <test@turinginc.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 18 Sep 2014 22:42:34 -0700 (PDT)
+Received-SPF: pass (google.com: domain of turingemailtest1@gmail.com designates 2a00:1450:4010:c03::241 as permitted sender) client-ip=2a00:1450:4010:c03::241;
+Received: by mail-la0-f65.google.com with SMTP id gi9so725146lab.0
+        for <test@turinginc.com>; Thu, 18 Sep 2014 22:42:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=Vlh9EHqi+Rlx54Gbu6mUDknd68wbJVR1oEgXMJSqdQk=;
+        b=rBb1bgzoaAe47c3xh3JaWGR7fDks7NhJIFu+ViELWAb4y+MJmoCnYi6itas87WPu/l
+         mHjCVNawOgUG/3db/wUt2Td0NBBWHv4EINENQPY4vThktTzTpcGohjy8GOezUzDFGbyo
+         pW6eET6lcliAVC0353a0QAuECuOP12s2Y6i3J96FjlUuKJ/ckwUBLLzqRZ1EmowlUs2R
+         GCnox3N/yafvr/Xnsa8PopdOu/2Y0rs6D3N6Mi3F6HUOyFZEgIM60CimqVr7gwyf0xMP
+         e1wHboxcVBIVSPYa1H4DN09fnPViEbDqR3QmiSP5rJCeH3pPhadb1ETSrz1KAICfb4ng
+         7GZw==
+X-Received: by 10.112.146.103 with SMTP id tb7mr4249643lbb.26.1411105352849;
+ Thu, 18 Sep 2014 22:42:32 -0700 (PDT)
+Received: from 900985518357-chpj6f40dertjuam39gn8i0bienk8v24.apps.googleusercontent.com
+ named unknown by gmailapi.google.com with HTTPREST; Thu, 18 Sep 2014 22:42:32 -0700
+Received: from 900985518357-chpj6f40dertjuam39gn8i0bienk8v24.apps.googleusercontent.com
+ named unknown by gmailapi.google.com with HTTPREST; Thu, 18 Sep 2014 22:42:28 -0700
+Mime-Version: 1.0
+List-Id: The virtual soul of the Black Community at Stanford
+ <the_diaspora.lists.stanford.edu>
+from: Qounsel Digest <digest@mail.qounsel.com
+Reply-to: Reply to Comment <g+40wvnfci000000004t3f0067f3d796km0000009ooypx2pu46@groups.facebook.com>
+Date: Thu, 18 Sep 2014 22:42:32 -0700
+Message-ID: <CAGxZP2OiRss-xbvSM4T48FdK=EmbdSyiOGDjXnk+mS6o5x50qA@mail.gmail.com>
+Subject: test
+To: test@turinginc.com
+Cc: cc@cc.com
+Bcc: bcc@bcc.com
+Sender: "activists" <activists-bounces@lists.stanford.edu>
+X-Originating-IP: [50.197.164.77]
+Content-Type: multipart/alternative; boundary=047d7b3a8ec84c1db8050364919d
+
+--047d7b3a8ec84c1db8050364919d
+Content-Type: text/plain; charset=UTF-8
+
+body
+
+--047d7b3a8ec84c1db8050364919d
+Content-Type: text/html; charset=UTF-8
+
+body
+
+--047d7b3a8ec84c1db8050364919d
+--047d7b3a8ec84c1db8050364919d
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMTQwOTIwVDIxMDAwMFoNCkRURU5EOjIwMTQwOTIw
+VDIyMDAwMFoNCkRUU1RBTVA6MjAxNDA5MTZUMDMwMDA5Wg0KT1JHQU5JWkVSO0NOPVJvbWVlbiBT
+aGV0aDptYWlsdG86cm9tZWVuQGdtYWlsLmNvbQ0KVUlEOnRlMHZsMWZla2lpZmhjNmJ1dG9mc3U1
+bzNjQGdvb2dsZS5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJ
+Q0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049ZGdvYmF1ZDtYLU5V
+TS1HVUVTVFM9MDptYWlsdG86ZGdvYmF1ZEBnbWFpbC5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJ
+VklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPUFDQ0VQVEVEO1JTVlA9VFJVRQ0K
+IDtDTj1Sb21lZW4gU2hldGg7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOnJvbWVlbkBnbWFpbC5jb20N
+CkNSRUFURUQ6MjAxNDA5MTZUMDMwMDA4Wg0KREVTQ1JJUFRJT046RGF2aWQgdG8gY2FsbCBSb21l
+ZW46IDY3OC01MjMtMTc5OFxuVmlldyB5b3VyIGV2ZW50IGF0IGh0dHBzOi8vDQogd3d3Lmdvb2ds
+ZS5jb20vY2FsZW5kYXIvZXZlbnQ/YWN0aW9uPVZJRVcmZWlkPWRHVXdkbXd4Wm1WcmFXbG1hR00y
+WW5WMGIyWnpkDQogVFZ2TTJNZ1pHZHZZbUYxWkVCdCZ0b2s9TVRZamNtOXRaV1Z1UUdkdFlXbHNM
+bU52YlRSa05URTFNbUkyWmpCak16Wm1OalpoTVRsDQogbU1HRmtZak0xTUdRMVpHWmpaR1l6WVRo
+bE1qWSZjdHo9QW1lcmljYS9Mb3NfQW5nZWxlcyZobD1lbi4NCkxBU1QtTU9ESUZJRUQ6MjAxNDA5
+MTZUMDMwMDA5Wg0KTE9DQVRJT046DQpTRVFVRU5DRTowDQpTVEFUVVM6Q09ORklSTUVEDQpTVU1N
+QVJZOlJvbWVlbi1EYXZpZCBjaGF0DQpUUkFOU1A6T1BBUVVFDQpFTkQ6VkVWRU5UDQpFTkQ6VkNB
+TEVOREFSDQo=
+--047d7b3a8ec84c1db8050364919d--

@@ -1,0 +1,114 @@
+<div class="modal fade compose-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog compose-modal-dialog compose-modal-dialog-large">
+
+    <form class="compose-form">
+      <div class="tm_compose-modal-header">
+        <button type="button" class="tm_modal-button tm_modal-button-dark tm_modal-button-compress compose-modal-size-toggle">
+          <svg class="icon icon-compress"><use xlink:href="/images/symbols.svg#modal-compress"></use></svg>
+          <svg class="icon icon-expand"><use xlink:href="/images/symbols.svg#modal-expand"></use></svg>
+        </button>
+        <button type="button" class="tm_modal-button tm_modal-button-dark" data-dismiss="modal">
+          <svg class="icon"><use xlink:href="/images/symbols.svg#modal-close"></use></svg>
+        </button>
+      </div>
+
+      <div class="tm_modal-content">
+        <div class="tm_modal-body tm_modal-body-compose">
+          <div class="tm_compose-header">
+            <div class="tm_compose-field">
+              <svg class="icon"><use xlink:href="/images/symbols.svg#compose-address"></use></svg>
+              <input type="text" class="tm_input to-input" placeholder="To" value="{{email._tos}}">
+              <div class="tm_compose-copyto">
+                <span class="display-cc">CC</span>
+                <span class="display-bcc">BCC</span>
+              </div>
+            </div>
+            <div class="tm_compose-field cc-input-wrapper">
+              <svg class="icon"><use xlink:href="/images/symbols.svg#compose-address"></use></svg>
+              <input type="text" class="tm_input cc-input" placeholder="CC" value="{{email._ccs}}">
+            </div>
+            <div class="tm_compose-field bcc-input-wrapper">
+              <svg class="icon"><use xlink:href="/images/symbols.svg#compose-address"></use></svg>
+              <input type="text" class="tm_input bcc-input" placeholder="BCC" value="{{email._bccs}}">
+            </div>
+            <div class="tm_compose-field">
+              <svg class="icon"><use xlink:href="/images/symbols.svg#compose-subject"></use></svg>
+              <input type="text" class="tm_input subject-input" placeholder="Subject" value="{{email.subject}}">
+            </div>
+          </div>
+
+          <div class="tm_compose-body">
+            <textarea class="compose-email-body" value="{{email.html_part}}"></textarea>
+          </div>
+
+          <div class="tm_compose-footer">
+            <ul class="tm_upload-attachments"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm_compose-footer tm_compose-modal-footer">
+        <div>
+          <label>Tracking</label>
+          <input type="checkbox" class="tracking-switch switch" checked="{{email.tracking_enabled}}">
+        </div>
+        <div class="dropdown">
+          <button type="button" class="tm_button tm_button-submit tm_button-caret" data-toggle="dropdown">
+            <span>Reminder</span>
+          </button>
+          <ul class="dropdown-menu dropdown-reminder" role="menu">
+            <li>
+              <label>
+                <input type="radio" name="{{email.bounce_back_type}}" class="i-checks" value="never">
+                <span>Never remind</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="{{email.bounce_back_type}}" class="i-checks" value="always">
+                <span>Always remind</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="{{email.bounce_back_type}}" class="i-checks" value="no_reply">
+                <span>Remind if no reply</span>
+              </label>
+            </li>
+            <li>
+              <input type="text" class="tm_input datetimepicker bounce-back-datetimepicker" placeholder="Date &amp; Time" value="{{email._bounce_back_time}}">
+            </li>
+          </ul>
+        </div>
+        <div class="expander"></div>
+        <div>
+          <input type="text" class="tm_input tm_input-big datetimepicker send-later-datetimepicker" placeholder="Send Later Date &amp; Time">
+        </div>
+        <div class="tm_button-stack">
+          <button type="submit" class="tm_button tm_button-submit email-send-button send-button">
+            <svg class="icon big"><use xlink:href="/images/symbols.svg#compose-send"></use></svg>
+            <span class="send-button-text">Send</span>
+          </button>
+          <div class="dropdown">
+            <button type="button" class="tm_button tm_button-submit tm_button-caret" data-toggle="dropdown"></button>
+            <ul class="dropdown-menu pull-right send-button-dropdown-menu" role="menu">
+              <li>
+                <a class="send-and-archive">
+                  <svg class="icon big"><use xlink:href="/images/symbols.svg#compose-archive"></use></svg>
+                  <span>Send &amp; Archive</span>
+                </a>
+              </li>
+              <li>
+                <a class="save-button">
+                  <svg class="icon big"><use xlink:href="/images/symbols.svg#sidebar-drafts"></use></svg>
+                  <span>Save Draft</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</div>

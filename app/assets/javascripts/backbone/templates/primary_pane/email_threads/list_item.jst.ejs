@@ -1,0 +1,49 @@
+<% if(viewMode == "vertical") { %>
+  <td class="tm_table-mail-check">
+    <input type="checkbox" class="i-checks">
+  </td>
+  <td class="tm_table-mail-contact">
+    <div class="mail-contact"><%= fromPreview %></div>
+    <small class="mail-preview">
+      <span class="mail-subject"><%= subjectPreview %></span>
+      <span class="mail-snippet"><%= snippet %></span>
+    </small>
+  </td>
+  <td class="tm_table-mail-date">
+    <% if(hasAttachment) { %>
+      <svg class="icon mail-attachment"><use xlink:href="/images/symbols.svg#attachment"></use></svg>
+    <% } %>
+    <% if(numEmails > 1) { %>
+      <span class="mail-count"><%= numEmails %></span>
+      <small class="mail-date"><%= datePreview %></small>
+    <% } else { %>
+      <small class="mail-date single-email-date-preview"><%= datePreview %></small>
+    <% } %>
+  </td>
+<% } else { %>
+  <td class="tm_table-mail-check">
+    <input type="checkbox" class="i-checks">
+  </td>
+  <td class="tm_table-mail-contact">
+    <span class="mail-contact"><%= fromPreview %></span>
+  </td>
+  <td class="tm_table-mail-extra">
+    <% if(numEmails > 1) { %>
+      <span class="mail-count"><%= numEmails %></span>
+    <% } %>
+  </td>
+  <td class="tm_table-mail-extra">
+    <% if(hasAttachment) { %>
+      <svg class="icon mail-attachment"><use xlink:href="/images/symbols.svg#attachment"></use></svg>
+    <% } %>
+  </td>
+  <td class="tm_table-mail-subject">
+    <span class="mail-preview">
+      <span class="mail-subject"><%= subjectPreview %></span>
+      <span class="mail-snippet"><%= snippet %></span>
+    </span>
+  </td>
+  <td class="tm_table-mail-date">
+    <span class="mail-date"><%= datePreview %></span>
+  </td>
+<% } %>

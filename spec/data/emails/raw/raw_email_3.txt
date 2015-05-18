@@ -1,0 +1,216 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.94.118 with SMTP id f109csp31542qge;
+        Sun, 7 Sep 2014 14:45:28 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.86.33])
+        by 10.180.86.33 with SMTP id m1mr11114547wiz.11.1410126328371 (num_hops = 1);
+        Sun, 07 Sep 2014 14:45:28 -0700 (PDT)
+X-Received: by 10.180.86.33 with SMTP id m1mr17656796wiz.11.1410126328098;
+        Sun, 07 Sep 2014 14:45:28 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp84575wem;
+        Sun, 7 Sep 2014 14:45:27 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.95.66])
+        by 10.180.95.66 with SMTP id di2mr11521829wib.60.1410126327653 (num_hops = 1);
+        Sun, 07 Sep 2014 14:45:27 -0700 (PDT)
+X-Received: by 10.180.95.66 with SMTP id di2mr18294242wib.60.1410126327637;
+        Sun, 07 Sep 2014 14:45:27 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.188.109 with SMTP id fz13csp68681wjc;
+        Sun, 7 Sep 2014 14:45:27 -0700 (PDT)
+X-Received: by 10.140.109.161 with SMTP id l30mr15664894qgf.82.1410126326792;
+        Sun, 07 Sep 2014 14:45:26 -0700 (PDT)
+Return-Path: <dgobaud+caf_=dgobaud=gmail.com@jd15.law.harvard.edu>
+Received: from mail-qg0-x230.google.com (mail-qg0-x230.google.com [2607:f8b0:400d:c04::230])
+        by mx.google.com with ESMTPS id b10si1360269qgf.68.2014.09.07.14.45.26
+        for <dgobaud@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 07 Sep 2014 14:45:26 -0700 (PDT)
+Received-SPF: none (google.com: dgobaud+caf_=dgobaud=gmail.com@jd15.law.harvard.edu does not designate permitted sender hosts) client-ip=2607:f8b0:400d:c04::230;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: dgobaud+caf_=dgobaud=gmail.com@jd15.law.harvard.edu does not designate permitted sender hosts) smtp.mail=dgobaud+caf_=dgobaud=gmail.com@jd15.law.harvard.edu;
+       dkim=pass header.i=@facebookmail.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=facebookmail.com
+Received: by mail-qg0-x230.google.com with SMTP id z107so14071375qgd.7
+        for <dgobaud@gmail.com>; Sun, 07 Sep 2014 14:45:26 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:date:to:from:reply-to:subject
+         :message-id:errors-to:list-id:in-reply-to:references:mime-version
+         :content-type:dkim-signature;
+        bh=dInjv4+w8K608TccqB4GIDc20XW5cCvz/WkhHpdFx6g=;
+        b=DEG2jmCQ6UYtF3kSEwhIb9wspRgvz8HTWFWLmWn2G5HfsLg3MteZJQ5uy40f8RrKC4
+         1MlurZag5YiYLK1lKPPUz7Tps3/X+WgvQBUctLwvXz8T6pKfJYlh9CCR5B6x9RyeXt/2
+         TNSOBPv8JbGwpbF/Qx4sK/jlyCBcD2jiif2lqbS+rSfs++nscA0hl2FJ9z8JhJi4YKOa
+         ciekXqIP+lorvgYnVQ55mnWNVU86hmlybax6sY56iVL7378aBFvNi+ddRJF3R3jg7sJU
+         PxGdgB4axUc51dkgr7dinZNXfIVejQugWRN84eHO4SdjX1CKRYiKOsG96S9PmRWyEXC0
+         23Og==
+X-Gm-Message-State: ALoCoQm5+m2gTSb9wcQpHThBGo/mCd7H/O0kXWSTurg135Bk+nMrhGgA4ZggxGuOVPoU8PbL2RQ7
+X-Received: by 10.224.28.133 with SMTP id m5mr36304691qac.16.1410126326412;
+        Sun, 07 Sep 2014 14:45:26 -0700 (PDT)
+X-Forwarded-To: dgobaud@gmail.com
+X-X-Forwarded-For: dgobaud@jd15.law.harvard.edu dgobaud@gmail.com
+Delivered-To: dgobaud@jd15.law.harvard.edu
+Received: by 10.140.91.137 with SMTP id z9csp31086qgd;
+        Sun, 7 Sep 2014 14:45:26 -0700 (PDT)
+X-Received: by 10.236.8.69 with SMTP id 45mr36432560yhq.19.1410126325559;
+        Sun, 07 Sep 2014 14:45:25 -0700 (PDT)
+Return-Path: <notification+5_1wiu3m@facebookmail.com>
+Received: from mx-out.facebook.com (outmail020.ash2.facebook.com. [66.220.155.154])
+        by mx.google.com with ESMTPS id i23si6439623yhg.119.2014.09.07.14.45.25
+        for <dgobaud@jd15.law.harvard.edu>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 07 Sep 2014 14:45:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of notification+5_1wiu3m@facebookmail.com designates 66.220.155.154 as permitted sender) client-ip=66.220.155.154;
+Received: from facebook.com (ujFHO/YPSpiiII0o/iXdJb0o6mvs+rgy5VeiGHFGRr9vZRGZB4+WjMpfikm7I+c4 10.212.198.59)
+ by facebook.com with Thrift id 4698c80e36d811e4bc350002c9df0180-b48f23f0;
+ Sun, 07 Sep 2014 14:45:25 -0700
+X-Facebook: from 10.179.30.31 ([MTI3LjAuMC4x]) 
+	by async.facebook.com with HTTP (ZuckMail);
+Date: Sun, 7 Sep 2014 14:45:25 -0700
+Return-Path: notification+5_1wiu3m@facebookmail.com
+To: Harvard Entrepreneurs <HarvardEntrepreneurs@groups.facebook.com>
+From: "Michael Gants" <notification+5_1wiu3m@facebookmail.com>
+Reply-to: Reply to Comment <g+40wvnfci000000004t3f0067f3d796km0000009ooypx2pu46@groups.facebook.com>
+Subject: [Harvard Entrepreneurs] Hey all,
+Message-ID: <1b543da46bd2b75e3656ef9625481a5a@async.facebook.com>
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Errors-To: notification+5_1wiu3m@facebookmail.com
+X-Facebook-Notify: group_activity; mailid=a76cf23G36c4bG99363d6G96Gc1cd
+List-Id: <HarvardEntrepreneurs.groups.facebook.com>
+In-Reply-To: <630290300417158-385304288249095@groups.facebook.com>
+References: <630290300417158-385304288249095@groups.facebook.com>
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_1b543da46bd2b75e3656ef9625481a5a"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=facebookmail.com;
+	s=s1024-2013-q3; t=1410126325;
+	bh=dInjv4+w8K608TccqB4GIDc20XW5cCvz/WkhHpdFx6g=;
+	h=Date:To:From:Subject:MIME-Version:Content-Type;
+	b=hUkGND59GfHWMiDhmMO0VnTLEQtoWBO0UXFcH6BKXPx3nDZj2RuygD18f2WBToGZ3
+	 FpZPmikaZK+5OHVFRO3+vK42AR87bOQcQbgYP0apNKJ8i1iLeN3bsphvzs9/X6pEDf
+	 /xpEX1ErKV2ODHshfJ7i9618OmR9kMh7mxPDLLdo=
+
+
+--b1_1b543da46bd2b75e3656ef9625481a5a
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Michael Gants posted in Harvard Entrepreneurs
+
+Hey all,
+JustiServ.com is live! It makes law transparent by letting you compare =
+lawyers by price, reviews, and experience so you can make an informed =
+choice. we're looking for people to come check out the site and give us =
+feedback. We also want to be able to observe people using the site so we =
+can have a better idea about what's working. We're having a user testing =
+session this Saturday at 3pm in Mather dining hall. Message me to RSVP. =
+Great chance to get input on a cool new product and to see how the =
+refining process works for a launched startup.
+
+Reply to this email to comment on this post.
+
+
+https://www.facebook.com/n/?groups%2FHarvardEntrepreneurs%2Fpermalink%2F63=
+0290300417158%2F&aref=3D160654294&medium=3Demail&mid=3Da76cf23G36c4bG99363=
+d6G96Gc1cd&bcode=3D1.1410126325.Ablxaq1ifWSYaPhg&n_m=3Ddgobaud%40gmail.com
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Reply to this email to add a comment. Change your notification =
+settings:=20
+https://www.facebook.com/n/?settings&tab=3Dnotifications&section=3Dgroup_n=
+otification&aref=3D160654294&medium=3Demail&mid=3Da76cf23G36c4bG99363d6G96=
+Gc1cd&bcode=3D1.1410126325.Ablxaq1ifWSYaPhg&n_m=3Ddgobaud%40gmail.com
+
+
+--b1_1b543da46bd2b75e3656ef9625481a5a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional //EN">
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"><style type=3D"text/css">a.thumb:link, a.thumb:visited =
+{border:1px #CCCCCC solid !important;}a.thumb:active, a.thumb:hover =
+{border:1px #3B5998 solid !important;}.uiScaledImageContainer {position: =
+relative;overflow: hidden;}</style><title>Facebook</title></head><body =
+style=3D"margin:0;padding:0;" dir=3D"ltr"><table width=3D"98%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"8"><tr><td =
+bgcolor=3D"#FFFFFF" width=3D"100%" style=3D"font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;"><table cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" width=3D"500"><tr><td colspan=3D"2" =
+style=3D"padding:10px 0 0 =
+10px;color:#000000;font-size:13px;font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;" valign=3D"top"><table =
+width=3D"100%" style=3D"color:#000000;font-size:13px;"><tr><td =
+width=3D"100%" valign=3D"top" align=3D"left" style=3D"font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;color:#000000;font-size:13px;"><di=
+v style=3D"width:100%;color:#666666;padding:0 0 7px =
+0;border-bottom:#E9E9E9 1px solid;"><a href=3D"https://www.facebook.com/n/=
+?groups%2FHarvardEntrepreneurs%2Fpermalink%2F630290300417158%2F&amp;aref=
+=3D160654294&amp;medium=3Demail&amp;mid=3Da76cf23G36c4bG99363d6G96Gc1cd&am=
+p;bcode=3D1.1410126325.Ablxaq1ifWSYaPhg&amp;n_m=3Ddgobaud%40gmail.com" =
+style=3D"color:#3b5998;text-decoration:underline;">Michael Gants posted in =
+Harvard Entrepreneurs</a></div><div style=3D"margin-bottom:15px;"><table =
+cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"width:100%;padding-top:7px;"><tr><td valign=3D"top" =
+style=3D"padding:3px 5px 5px 0px;width:57px;"><a href=3D"https://www.faceb=
+ook.com/n/?profile.php&amp;id=3D585671109&amp;aref=3D160654294&amp;medium=
+=3Demail&amp;mid=3Da76cf23G36c4bG99363d6G96Gc1cd&amp;bcode=3D1.1410126325.=
+Ablxaq1ifWSYaPhg&amp;n_m=3Ddgobaud%40gmail.com" =
+style=3D"color:#3b5998;text-decoration:none;"><img src=3D"https://fbcdn-pr=
+ofile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c21.21.262.262/s50x50/28536=
+2_10151729799476110_1165545748_n.jpg?oh=3Dc446f7c05f839e09b0b9f4620a77fd2e=
+&amp;oe=3D54A6ABA8&amp;__gda__=3D1417858920_3db59415abe5527aea06fc88ab475d=
+6d" alt=3D"Michael Gants" style=3D"border: 0; height:50px; width:50px; " =
+/></a></td><td valign=3D"top" align=3D"left" style=3D"padding:5px 5px 5px =
+0;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;"><table cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"width:100%;padding-bottom:5px;"><tr><td =
+style=3D"font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-s=
+erif;color:#000000;font-size:13px;"><a =
+style=3D"color:#3b5998;text-decoration:none;font-weight:bold;" =
+href=3D"https://www.facebook.com/n/?profile.php&amp;id=3D585671109&amp;are=
+f=3D160654294&amp;medium=3Demail&amp;mid=3Da76cf23G36c4bG99363d6G96Gc1cd&a=
+mp;bcode=3D1.1410126325.Ablxaq1ifWSYaPhg&amp;n_m=3Ddgobaud%40gmail.com">Mi=
+chael Gants</a></td><td style=3D"text-align:right;color:#999999;padding-ri=
+ght:5px;font-family:&#039;lucida =
+grande&#039;,tahoma,verdana,arial,sans-serif;font-size:11px;"> 2:45pm Sep =
+7 </td></tr></table><div style=3D"width:458px;word-wrap:break-word;padding=
+-bottom:7px;color:#000000;font-size:13px;">Hey all,<br /> JustiServ.com is =
+live! It makes law transparent by letting you compare lawyers by price, =
+reviews, and experience so you can make an informed choice. we&#039;re =
+looking for people to come check out the site and give us feedback. We =
+also want to be able to observe people using the site so we can have a =
+better idea about what&#039;s working. We&#039;re having a user testing =
+session this Saturday at 3pm in Mather dining hall. Message me to RSVP. =
+Great chance to get input on a cool new product and to see how the =
+refining process works for a launched =
+startup.</div></td></tr></table></div></td></tr></table><span =
+style=3D""><img src=3D"https://www.facebook.com/email_open_log_pic.php?mid=
+=3Da76cf23G36c4bG99363d6G96Gc1cd" style=3D"border:0;width:1px;height:1px;" =
+/></span><br /></td></tr><tr><td colspan=3D"2" =
+style=3D"color:#666666;padding:10px 5px 15px 10px;border-top:#E9E9E9 1px =
+solid;line-height: 18px;font-size: 12px;font-family:'lucida =
+grande',tahoma,verdana,arial,sans-serif;"><a href=3D"https://www.facebook.=
+com/n/?groups%2FHarvardEntrepreneurs%2Fpermalink%2F630290300417158%2F&amp;=
+aref=3D160654294&amp;medium=3Demail&amp;mid=3Da76cf23G36c4bG99363d6G96Gc1c=
+d&amp;bcode=3D1.1410126325.Ablxaq1ifWSYaPhg&amp;n_m=3Ddgobaud%40gmail.com" =
+style=3D"color: #3b5998; text-decoration: none;">View Post on Facebook</a> =
+&middot; <a href=3D"https://www.facebook.com/n/?settings&amp;tab=3Dnotific=
+ations&amp;section=3Dgroup_notification&amp;aref=3D160654294&amp;medium=3D=
+email&amp;mid=3Da76cf23G36c4bG99363d6G96Gc1cd&amp;bcode=3D1.1410126325.Abl=
+xaq1ifWSYaPhg&amp;n_m=3Ddgobaud%40gmail.com" style=3D"color: #3b5998; =
+text-decoration: none;">Edit Email Settings</a> &middot; Reply to this =
+email to add a comment.<br =
+/></td></tr></table></td></tr></table></body></html>
+
+
+
+--b1_1b543da46bd2b75e3656ef9625481a5a--

@@ -1,0 +1,36 @@
+<div class="text-center animated fadeInDown" style="padding-top: 17.5%;">
+  <div>
+    <div>
+      <h1 class="logo-name" style="position: relative;right: 80px;">Turing</h1>
+    </div>
+    <h3>Register for Turing</h3>
+    <p>Create an account to see it in action.</p>
+    <br />
+    <% @user = User.new if @user.nil? %>
+    <%= form_for(@user, html: {role: "form"}) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
+
+      <div class="form-group">
+        <%= f.label :email, 'Email', class: 'sr-only' %>
+        <%= f.text_field :email, class: 'form-control email',  placeholder: 'Email', required: "" %>
+      </div>
+      
+      <div class="form-group">
+        <%= f.label :password, class: 'sr-only' %>
+        <%= f.password_field :password, class: 'form-control password',  placeholder: 'Password', required: "" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :password_confirmation, 'Confirm Password', class: 'sr-only' %>
+        <%= f.password_field :password_confirmation, class: "form-control password-confirmation",  placeholder: 'Confirm Password', required: "" %>
+      </div>
+
+      <%= f.submit 'Register', class: 'btn btn-primary block full-width m-b' %>
+    <% end %>
+
+    <p class="text-muted text-center"><small>Already have an account?</small></p>
+    <br />
+    <a class="btn btn-sm btn-white btn-block" href="/signin">Login</a>
+
+  </div>
+</div>

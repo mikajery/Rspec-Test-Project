@@ -1,0 +1,46 @@
+<%
+   max_sender_len = 25
+   max_subject_len = 40
+%>
+
+<table border="1" style="border: 1px solid #c7c7c7; font-size: 13px !important;">
+  <tr>
+    <th></th>
+    <th style="border: 1px solid #c7c7c7;"><span style="font-weight: bold; color: rgb(85, 85, 85);"><%= show_to ? 'To' : 'From' %></span></th>
+    <th style="border: 1px solid #c7c7c7;"><span style="font-weight: bold; color: rgb(85, 85, 85);">Subject</span></th>
+    <th style="border: 1px solid #c7c7c7;"><span style="font-weight: bold; color: rgb(85, 85, 85);">Date</span></th>
+    <% if include_auto_filed_folder %>
+      <th style="border: 1px solid #c7c7c7;"><span style="font-weight: bold; color: rgb(85, 85, 85);">Moved To</span></th>
+    <% end %>
+  </tr>
+
+  <% (0...emails.count).each do |email_num| %>
+    <% email = emails[email_num] %>
+    <tr>
+      <td><span style="font-weight: bold;"><%= email_num + 1 %></span></td>
+      <td style="color: #4ab59c;">
+        <% if show_to %>
+          <%= mail_to(email.tos.to_s() + email.ccs.to_s() + email.bccs.to_s(), :style => "color: #4ab59c;") do
+            truncate(email.tos.to_s() + email.ccs.to_s() + email.bccs.to_s(), :length => max_sender_len)
+          end %>
+        <% else %>
+          <%= mail_to(email.from_address, :style => "color: #4ab59c;") do
+              truncate(email.from_name ? email.from_name : email.from_address, :length => max_sender_len)
+            end %>
+        <% end %>
+      </td>
+      <td><%= link_to(truncate(email.subject, :length => max_subject_len), "#email_thread/#{email.email_thread.uid}", :style => "color: #4ab59c;") %></td>
+      <td><%= email.date.to_s_local() if email.date %></td>
+      <% if include_auto_filed_folder %>
+        <td><%= email.auto_filed_folder.name %></td>
+        <td style="color: #4ab59c;">
+          <% if email.list_id %>
+            <%= link_to('Never Autofile', "#list_id=#{email.list_id}", :style => "color: #4ab59c;") %>
+          <% else %>
+            <%= link_to('Never Autofile', "#from_address=#{email.from_address}", :style => "color: #4ab59c;") %>
+          <% end %>
+        </td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>

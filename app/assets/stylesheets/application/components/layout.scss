@@ -1,0 +1,244 @@
+// ---------------------------
+// APPLICATION LAYOUT
+// ---------------------------
+
+
+// Main container
+
+.tm_container {
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+  padding-top: 40px;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+
+// Top tabs
+
+.tm_toptabs {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  background: #4D4D4D;
+}
+
+
+// Primary pane
+
+.tm_primary {
+  overflow: hidden;
+  position: relative;
+}
+
+
+// Sidebar
+
+.tm_sidebar {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 240px;
+  overflow: hidden;
+  position: relative;
+  background: #0E181C;
+  box-sizing: border-box;
+}
+
+.tm_sidebar-logo {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  color: #FFF;
+  height: 64px;
+  cursor: default;
+  background: #09F;
+  line-height: 64px;
+  padding-left: 18px;
+  position: absolute;
+  box-sizing: border-box;
+
+  svg {
+    width: 102px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.tm_sidebar-content {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-right: -20px;
+  box-sizing: border-box;
+  padding: 64px 20px 30px 0;
+}
+
+
+// Full height container
+
+.tm_content {
+  padding: 20px;
+  overflow: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+  height: calc(100% - 64px);
+  &.tm_content-with-toolbar {
+    padding-top: 100px;
+  }
+}
+
+.tm_content-toolbar {
+  left: 0;
+  right: 0;
+  top: 64px;
+  z-index: 1;
+  height: 80px;
+  display: flex;
+  padding: 0 15px;
+  line-height: 16px;
+  position: absolute;
+  align-items: center;
+  background: rgba(#EFEFEF, 0.9);
+  box-shadow: 0 1px 0 rgba(#000, 0.1);
+
+  > * {
+    flex-shrink: 0;
+    margin: 0 0 0 30px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  > h1, .expander {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+
+
+// Empty pane centered container
+
+.tm_empty-pane {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #888;
+  display: flex;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.2em;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  .busy-indicator {
+    color: #333;
+  }
+}
+
+
+// Mail split pane
+
+.tm_mail-box {
+  background: #F8F8F8;
+
+  &.no-split-pane {
+    height: calc(100% - 64px);
+  }
+
+  .tm_mail-split-pane.horizontal-split-pane & {
+    width: 100% !important;
+  }
+}
+
+.tm_mail-view {
+  overflow: auto;
+  background: #EEE;
+  &.ui-layout-south {
+    padding: 5px 27px 15px 27px;
+  }
+  &.ui-layout-east {
+    padding: 20px 30px 15px 0;
+  }
+}
+
+.ui-layout-resizer {
+  position: relative;
+  border: 0 solid #DDD;
+  background-color: #EEE;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+  &:before {
+    content: '';
+    opacity: 0.3;
+    position: absolute;
+    transition: opacity 0.2s;
+  }
+  &.ui-layout-resizer-hover, &.ui-layout-resizer-drag {
+    border-color: #CCC;
+    &:before {
+      opacity: 0.7;
+    }
+  }
+  // Horizontal split
+  &.ui-layout-resizer-south {
+    border-top-width: 1px;
+    &:before {
+      top: 0;
+      left: 50%;
+      width: 30px;
+      height: 100%;
+      margin-left: -15px;
+      background-repeat: repeat-x;
+      background-position: center;
+      @include background-svg(10, 4, '<circle fill="#000" cx="5" cy="2" r="2"/>');
+    }
+  }
+  // Vertical split
+  &.ui-layout-resizer-east {
+    border-left-width: 1px;
+    &:before {
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      margin-top: -15px;
+      background-repeat: repeat-y;
+      background-position: center;
+      @include background-svg(4, 10, '<circle fill="#000" cx="2" cy="5" r="2"/>');
+    }
+  }
+  // Hide when dragging
+  &.ui-layout-resizer-dragging {
+    opacity: 0;
+  }
+}
+
+
+// Pace loading indicator
+
+.pace {
+  .pace-progress {
+    top: 0;
+    left: 0;
+    height: 2px;
+    z-index: 1039;
+    position: fixed;
+    background: #09F;
+    transition: width 1s;
+  }
+
+  &.pace-inactive {
+    display: none;
+  }
+}

@@ -1,0 +1,49 @@
+<div class="tm_page-header">
+  <h1>Email Signatures</h1>
+</div>
+
+<div class="tm_content-box">
+  <div class="tm_box-heading">
+    <svg class="icon"><use xlink:href="/images/symbols.svg#section-rules"></use></svg>
+    <div class="expander">
+      <h2>Compose Signature</h2>
+      <p>Create and manage email signatures that are used automatically when you are composing new emails.</p>
+    </div>
+    <button type="button" class="tm_button tm_button-submit create-email-signature">Create New Signature</button>
+  </div>
+
+  <div class="tm_signature-compose">
+    <textarea class="form-control compose-signature" rows="15"></textarea>
+  </div>
+</div>
+
+<ul class="tm_signatures">
+  <% for(var i = 0; i < emailSignatures.length; i++) { %>
+  <li class="tm_signature-preview" data-uid="<%= emailSignatures[i].uid %>">
+    <label class="tm_signature-preview-radio">
+      <input type="radio" name="email-signature" <%= emailSignatures[i].uid == emailSignatureUID ? "checked=true" : "" %>>
+      <span></span>
+    </label>
+    <div class="tm_signature-preview-name">
+      <%= emailSignatures[i].name %>
+    </div>
+    <div class="tm_signature-preview-html">
+      <%= emailSignatures[i].html %>
+    </div>
+    <div class="tm_signature-preview-buttons">
+      <small>Created: <%= emailSignatures[i].created_at_date %></small>
+      <button class="tm_button tm_button-ghost update-email-signature" title="Edit Signature">
+        <svg class="icon"><use xlink:href="/images/symbols.svg#edit"></use></svg>
+      </button>
+      <button class="tm_button tm_button-ghost delete-email-signature" title="Delete Signature">
+        <svg class="icon"><use xlink:href="/images/symbols.svg#delete"></use></svg>
+      </button>
+    </div>
+  </li>
+  <% } %>
+</ul>
+
+<div class="create-email-signatures-dialog-form" title="Create Email Signature">
+  <p>Please enter a name for the new email signature below and click &quot;Create&quot; button to continue.</p>
+  <input type="text" class="tm_input email-signature-name">
+</div>

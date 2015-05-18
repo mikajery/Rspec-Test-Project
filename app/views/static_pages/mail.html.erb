@@ -1,0 +1,30 @@
+<main id="main"></main>
+<script>
+  var userJSON = <%= Rabl::Renderer.json(current_user,
+                                         'api/v1/users/show',
+                                         :view_path => 'app/views').html_safe %>;
+
+  var userConfigurationJSON = <%= Rabl::Renderer.json(current_user.user_configuration,
+                                                 'api/v1/user_configurations/show',
+                                                 :view_path => 'app/views').html_safe %>;
+
+  var emailTemplateCategoriesJSON = <%= Rabl::Renderer.json(current_user.email_template_categories,
+                                              'api/v1/email_template_categories/index',
+                                              view_path: 'app/views').html_safe %>;
+
+  var emailTemplatesJSON = <%= Rabl::Renderer.json(current_user.email_templates,
+                                              'api/v1/email_templates/index',
+                                              view_path: 'app/views').html_safe %>;
+
+  var uploadAttachmentPostJSON = <%= upload_attachment_post.to_json.html_safe %>;
+
+  var emailFoldersJSON = <%= Rabl::Renderer.json(email_folders,
+                                            'api/v1/gmail_labels/index',
+                                            view_path: 'app/views').html_safe %>;
+
+  function onGoogleAPILoad() {
+    TuringEmailApp.start(userJSON, userConfigurationJSON, emailTemplateCategoriesJSON, emailTemplatesJSON,
+        uploadAttachmentPostJSON, emailFoldersJSON);
+  }
+</script>
+<script src="https://apis.google.com/js/client.js?onload=onGoogleAPILoad"></script>

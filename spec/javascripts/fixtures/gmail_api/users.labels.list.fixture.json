@@ -1,0 +1,91 @@
+{
+  "labels": [
+    {
+      "id": "CATEGORY_UPDATES"
+    },
+    {
+      "id": "Label_1"
+    },
+    {
+      "id": "Label_63"
+    },
+    {
+      "id": "Label_54"
+    },
+    {
+      "id": "UNREAD"
+    },
+    {
+      "id": "Label_55"
+    },
+    {
+      "id": "Label_53"
+    },
+    {
+      "id": "DRAFT"
+    },
+    {
+      "id": "Label_59"
+    },
+    {
+      "id": "Label_51"
+    },
+    {
+      "id": "Label_2"
+    },
+    {
+      "id": "Label_49"
+    },
+    {
+      "id": "INBOX"
+    },
+    {
+      "id": "CATEGORY_PROMOTIONS"
+    },
+    {
+      "id": "CATEGORY_SOCIAL"
+    },
+    {
+      "id": "CATEGORY_PERSONAL"
+    },
+    {
+      "id": "CATEGORY_FORUMS"
+    },
+    {
+      "id": "TRASH"
+    },
+    {
+      "id": "Label_64"
+    },
+    {
+      "id": "Label_60"
+    },
+    {
+      "id": "Label_50"
+    },
+    {
+      "id": "IMPORTANT"
+    },
+    {
+      "id": "SENT"
+    },
+    {
+      "id": "STARRED"
+    },
+    {
+      "id": "SPAM"
+    },
+    {
+      "id": "Label_56"
+    },
+    {
+      "id": "Label_52"
+    },
+    {
+      "id": "Label_61"
+    },
+    {
+      "id": "Label_62"
+    }
+  ]
+}

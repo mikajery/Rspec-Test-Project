@@ -1,0 +1,101 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.94.118 with SMTP id f109csp87488qge;
+        Fri, 5 Sep 2014 11:45:56 -0700 (PDT)
+X-Received: from mr.google.com ([10.194.179.73])
+        by 10.194.179.73 with SMTP id de9mr8903644wjc.87.1409942756270 (num_hops = 1);
+        Fri, 05 Sep 2014 11:45:56 -0700 (PDT)
+X-Received: by 10.194.179.73 with SMTP id de9mr16688325wjc.87.1409942755996;
+        Fri, 05 Sep 2014 11:45:55 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp159340wem;
+        Fri, 5 Sep 2014 11:45:55 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.230.197])
+        by 10.180.230.197 with SMTP id ta5mr3245335wic.10.1409942755569 (num_hops = 1);
+        Fri, 05 Sep 2014 11:45:55 -0700 (PDT)
+X-Received: by 10.180.230.197 with SMTP id ta5mr5702632wic.10.1409942755552;
+        Fri, 05 Sep 2014 11:45:55 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.188.109 with SMTP id fz13csp126217wjc;
+        Fri, 5 Sep 2014 11:45:54 -0700 (PDT)
+X-Received: by 10.70.119.97 with SMTP id kt1mr22664543pdb.54.1409942754157;
+        Fri, 05 Sep 2014 11:45:54 -0700 (PDT)
+Return-Path: <the_diaspora-bounces@mailman.stanford.edu>
+Received: from smtp.stanford.edu (smtp3.Stanford.EDU. [171.67.219.83])
+        by mx.google.com with ESMTPS id ge5si5808718pbc.3.2014.09.05.11.45.51
+        for <multiple recipients>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Sep 2014 11:45:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of the_diaspora-bounces@mailman.stanford.edu designates 171.67.219.83 as permitted sender) client-ip=171.67.219.83;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of the_diaspora-bounces@mailman.stanford.edu designates 171.67.219.83 as permitted sender) smtp.mail=the_diaspora-bounces@mailman.stanford.edu;
+       dkim=neutral (body hash did not verify) header.i=@
+Received: from codegreen1.stanford.edu (codegreen1.Stanford.EDU [171.67.224.2])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by smtp.stanford.edu (Postfix) with ESMTPS id 35BB3101FCB;
+	Fri,  5 Sep 2014 11:45:51 -0700 (PDT)
+Received: from codegreen1.stanford.edu (localhost.localdomain [127.0.0.1])
+	by codegreen1.stanford.edu (Postfix) with ESMTP id 1C9FF87;
+	Fri,  5 Sep 2014 11:45:51 -0700 (PDT)
+Received: from smtp.stanford.edu (smtp3.Stanford.EDU [171.67.219.83])
+	(using TLSv1 with cipher ADH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by codegreen1.stanford.edu (Postfix) with ESMTP id 0503287;
+	Fri,  5 Sep 2014 11:45:51 -0700 (PDT)
+Received: from smtp.stanford.edu (localhost [127.0.0.1])
+	by localhost (Postfix) with SMTP id DE05A102038;
+	Fri,  5 Sep 2014 11:45:50 -0700 (PDT)
+Received: from mailman.Stanford.EDU (mailman.Stanford.EDU [171.67.216.245])
+	by smtp.stanford.edu (Postfix) with ESMTP id 0641F101FCD;
+	Fri,  5 Sep 2014 11:45:47 -0700 (PDT)
+X-Original-To: the_diaspora@lists.stanford.edu
+Delivered-To: the_diaspora@lists.stanford.edu
+Received: from mailman.stanford.edu (localhost [127.0.0.1])
+ by mailman.stanford.edu (Postfix) with SMTP id 03D418165B;
+ Fri,  5 Sep 2014 11:45:41 -0700 (PDT)
+Received: from mail-qc0-f177.google.com (mail-qc0-f177.google.com
+ [209.85.216.177])
+ (using TLSv1 with cipher ECDHE-RSA-RC4-SHA (128/128 bits))
+ (No client certificate requested)
+ by mailman.stanford.edu (Postfix) with ESMTPS id 86CEC8164B;
+ Fri,  5 Sep 2014 11:45:40 -0700 (PDT)
+Received: by mail-qc0-f177.google.com with SMTP id i8so12870090qcq.36
+ for <multiple recipients>; Fri, 05 Sep 2014 11:45:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+ h=mime-version:sender:date:message-id:subject:from:to:content-type;
+ bh=ywZrQkJZC2chaJR2pgxxs44E+WCEckAaZ7GBzhNmh9o=;
+ b=X8iatGEtfz2NYK8jkKPqOtAh3fQDSlYo/+TkYsOWlHFuJLgwHrdrsvHYkNsA5P/0GJ
+ 0dOGQ/LrGTmpL+SW75BqebK1LGhZ9nyiTgYK+QsNy0AFuQTYY+4aSkTOg3rcvaNV/m6N
+ f8pfVQRCU3HiCTg8cJ83zwgFVS+TA9PjMlYxd0Irr0v/W/16cUeDswoZ1d8f6ve+7zGV
+ v/GheTyoDjDZsavaF0MWNQ26guM5apL+7u/sQfojnSqaKCK7Go18rHkNvTQJ0xBqO8Oo
+ bHg9R6sQdioi549meekbbmdnD6T8LsUJpnf2qkOW+E9Iso8Jn83LT9IUoUmENZGEn0vS
+ LBkg==
+MIME-Version: 1.0
+X-Received: by 10.140.40.84 with SMTP id w78mr20464036qgw.87.1409942739749;
+ Fri, 05 Sep 2014 11:45:39 -0700 (PDT)
+Received: by 10.140.104.176 with HTTP; Fri, 5 Sep 2014 11:45:39 -0700 (PDT)
+Date: Fri, 5 Sep 2014 11:45:39 -0700
+X-Google-Sender-Auth: CsE4EL4Efp9rOhvWC0z8v9Z5w4I
+Message-ID: <CAAVqjvJLj9AyUAhcKA-U8bCBVFD0n_AQVx6K=y3VmYgkpm0GWg@mail.gmail.com>
+Subject: Apple Diversity Scholarship
+From: Devin Guillory <deving09@stanford.edu>
+To: the diaspora <the_diaspora@lists.stanford.edu>, sbse@lists.stanford.edu
+X-BeenThere: the_diaspora@lists.stanford.edu
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: The virtual soul of the Black Community at Stanford
+ <the_diaspora.lists.stanford.edu>
+List-Unsubscribe: <https://mailman.stanford.edu/mailman/options/the_diaspora>, 
+ <mailto:the_diaspora-request@lists.stanford.edu?subject=unsubscribe>
+List-Archive: <https://mailman.stanford.edu/mailman/private/the_diaspora/>
+List-Post: <mailto:the_diaspora@lists.stanford.edu>
+List-Help: <mailto:the_diaspora-request@lists.stanford.edu?subject=help>
+List-Subscribe: <https://mailman.stanford.edu/mailman/listinfo/the_diaspora>, 
+ <mailto:the_diaspora-request@lists.stanford.edu?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1748186336824178546=="
+Errors-To: the_diaspora-bounces@lists.stanford.edu
+Sender: "the_diaspora" <the_diaspora-bounces@lists.stanford.edu>

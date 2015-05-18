@@ -1,0 +1,98 @@
+<div class="create_rule_view" style="display:none"></div>
+
+<div class="tm_page-header">
+  <h1>Settings</h1>
+</div>
+
+<div class="tm_content-box">
+  <ul class="tm_content-tabs">
+    <li class="active"><a data-toggle="tab" href="#tab-1">General</a></li>
+    <li><a data-toggle="tab" href="#tab-2">Installed Apps</a></li>
+    <li><a data-toggle="tab" href="#tab-3">Profile</a></li>
+  </ul>
+
+  <div id="tab-1" class="tm_content-tab-pane active">
+    <div class="tm_settings-switch">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#settings-shortcuts"></use></svg>
+      <strong>Keyboard Shortcuts</strong>
+      <input type="checkbox" class="keyboard-shortcuts-switch" <%= userConfiguration.keyboard_shortcuts_enabled ? "checked" : "" %>>
+    </div>
+    <div class="tm_settings-switch">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#settings-clean"></use></svg>
+      <strong>Inbox Cleaner</strong>
+      <input type="checkbox" class="genie-switch" <%= userConfiguration.genie_enabled ? "checked" : "" %>>
+    </div>
+    <div class="tm_settings-switch">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#settings-display"></use></svg>
+      <strong>Preview Panel</strong>
+      <select class="tm_select split-pane-select">
+        <option value="horizontal" <% if (userConfiguration.split_pane_mode == "horizontal") { %>selected<% } %>>Horizontal</option>
+        <option value="vertical" <% if (userConfiguration.split_pane_mode == "vertical") { %>selected<% } %>>Vertical</option>
+        <option value="off" <% if (userConfiguration.split_pane_mode == "off") { %>selected<% } %>>None</option>
+      </select>
+    </div>
+    <div class="tm_settings-switch">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#settings-automate"></use></svg>
+      <strong>Auto Cleaner</strong>
+      <input type="checkbox" class="auto-cleaner-switch" <%= userConfiguration.auto_cleaner_enabled ? "checked" : "" %>>
+    </div>
+    <div class="tm_settings-switch">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#settings-developer"></use></svg>
+      <strong>Developer Mode</strong>
+      <input type="checkbox" class="developer-switch" <%= userConfiguration.developer_enabled ? "checked" : "" %>>
+    </div>
+    <div class="tm_settings-switch">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#settings-tabs"></use></svg>
+      <strong>Inbox Tabs</strong>
+      <input type="checkbox" class="inbox-tabs-switch" <%= userConfiguration.inbox_tabs_enabled ? "checked" : "" %>>
+    </div>
+  </div>
+
+  <div id="tab-2" class="tm_content-tab-pane">
+    <div class="tm_box-heading">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#section-rules"></use></svg>
+      <div class="expander">
+        <h2>Installed Apps</h2>
+        <p>Here you can manage applications installed for your email account.</p>
+      </div>
+    </div>
+
+    <% if (userConfiguration.installed_apps && userConfiguration.installed_apps.length > 0) { %>
+      <table class="table table-striped settings-table installed-apps-table">
+        <thead>
+          <tr>
+            <th>App Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+        <% for(var i = 0; i < userConfiguration.installed_apps.length; i++) {
+          var installedApp = userConfiguration.installed_apps[i].app %>
+          <tr class="installed-app">
+            <td><%= installedApp.name %></td>
+            <td><%= installedApp.description %></td>
+            <td><button type="button" data="<%= installedApp.uid %>" class="btn btn-danger uninstall-app-button">Uninstall App</button></td>
+          </tr>
+        <% } %>
+        </tbody>
+      </table>
+    <% } else { %>
+      <p class="tm_settings-empty">You have no apps installed</p>
+    <% } %>
+  </div>
+
+  <div id="tab-3" class="tm_content-tab-pane">
+    <div class="tm_box-heading">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#section-rules"></use></svg>
+      <div class="expander">
+        <h2>Profile</h2>
+        <p>Edit your profile.</p>
+      </div>
+      <button class="tm_button tm_button-submit update-profile-button">Update Profile</button>
+    </div>
+
+    <div class="tm_content-padding">
+      <input type="text" class="tm_input name-input" placeholder="Your Name">
+    </div>
+  </div>
+</div>

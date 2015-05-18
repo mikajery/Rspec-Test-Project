@@ -1,0 +1,262 @@
+// ---------------------------
+// EMAIL LIST
+// ---------------------------
+
+
+// Mailbox tabs
+
+.tm_inbox-tabs {
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  margin: 0 0 5px 0;
+  display: inline-block;
+
+  li {
+    margin: 0;
+    width: 25%;
+    float: left;
+
+    &.active a, &.active a:hover {
+      color: #222;
+      background: none;
+    }
+
+    a {
+      margin: 0;
+      color: #999;
+      outline: none;
+      display: block;
+      font-size: 14px;
+      border-radius: 0;
+      line-height: 40px;
+      font-weight: bold;
+      text-align: center;
+      background: #E6E6E6;
+      transition: color 0.2s, background-color 0.1s;
+      &:hover {
+        color: #888;
+        background: #DDD;
+      }
+    }
+  }
+}
+
+
+// Scrollable container
+
+.tm_mail-box-scroll {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+
+// Loading indicator
+
+.tm_mail-box-loading, .tm_mail-email-thread-loading {
+  left: 50%;
+  color: #FFF;
+  width: 110px;
+  bottom: 20px;
+  display: none;
+  padding: 8px 0;
+  margin-left: -55px;
+  position: absolute;
+  text-align: center;
+  border-radius: 20px;
+  background: rgba(#000, 0.8);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  span {
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+
+// Email list table
+
+.tm_table-mail {
+  border: 0;
+  width: 100%;
+  border-collapse: collapse;
+
+  .tm_table-mail-body tr {
+    cursor: pointer;
+  }
+
+  td {
+    padding: 7px 5px;
+    background: none;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  .tm_table-mail-check {
+    padding-left: 26px;
+
+    .icheckbox {
+      vertical-align: top;
+    }
+  }
+
+  .tm_table-mail-contact {
+    width: 15%;
+    padding-right: 10px;
+  }
+
+  .mail-contact {
+    font-weight: 500;
+  }
+
+  .mail-subject, .mail-snippet {
+    font-size: 11px;
+  }
+
+  .tm_table-mail-extra {
+    text-align: right;
+    padding-right: 4px;
+  }
+
+  .tm_table-mail-subject {
+    width: 85%;
+    max-width: 300px;
+  }
+
+  .tm_table-mail-date {
+    text-align: right;
+    color: rgba(#000, 0.4);
+  }
+
+  .mail-contact, .mail-preview {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mail-snippet {
+    opacity: 0.6;
+    margin-left: 8px;
+  }
+
+  .mail-count {
+    color: #FFF;
+    padding: 0 6px;
+    font-size: 11px;
+    line-height: 16px;
+    border-radius: 3px;
+    vertical-align: top;
+    display: inline-block;
+    background: rgba(#000, 0.3);
+    width: 16px;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+
+  .single-email-date-preview {
+    margin-top: 18px
+  }
+
+  .mail-date {
+    font-size: 10.5px;
+  }
+
+  .mail-attachment {
+    margin: 0;
+    opacity: 0.7;
+    vertical-align: top;
+  }
+
+  span.mail-date {
+    margin-left: 3px;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  small {
+    display: block;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+
+  .tm_mail-split-pane.vertical-split-pane & {
+    .tm_table-mail-contact {
+      width: 100%;
+    }
+  }
+
+  tr:hover td {
+    background: #FFF;
+  }
+
+  tr {
+    border: 0 solid #EEE;
+    border-width: 1px 0;
+    &:first-child {
+      border-top: 0 !important;
+    }
+    &.unread {
+      border-color: #C6DCEC;
+      border-style: double;
+    }
+    &.checked-email-thread {
+      border-color: #08E;
+      border-style: double;
+    }
+  }
+
+  .read td {
+    background: #F8F8F8;
+  }
+
+  .unread {
+    td {
+      font-weight: normal;
+      background-color: #D6ECFC !important;
+    }
+
+    .mail-contact, .mail-subject {
+      font-weight: bold;
+    }
+
+    .mail-snippet {
+      opacity: 0.8;
+    }
+  }
+
+  .currently-being-read td {
+    font-weight: 500;
+    background: #FFF !important;
+  }
+
+  .checked-email-thread td {
+    color: #FFF;
+    background: #09F !important;
+  }
+}
+
+.horizontal-split-pane .mail-date, .no-split-pane .mail-date {
+  margin-top: 2px;
+}
+
+.horizontal-split-pane .tm_table-mail-date, .no-split-pane .tm_table-mail-date {
+  padding-right: 28px;
+  padding-left: 20px;
+}
+
+.horizontal-split-pane .tm_table-mail-contact, .no-split-pane .tm_table-mail-contact {
+  max-width: 200px;
+}
+
+.vertical-split-pane .tm_table-mail-date {
+  padding-right: 21px;
+}
+
+.vertical-split-pane .tm_table-mail-contact {
+  max-width: 100px;
+}

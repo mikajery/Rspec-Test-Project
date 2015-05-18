@@ -1,0 +1,21 @@
+<% if object.errors.any? %>
+  <div id="error_explanation">
+    <ul>
+    <%
+      object.errors.full_messages.each do |msg|
+        if msg == 'Password can\'t be blank' || msg == 'Password confirmation can\'t be blank' || msg == 'Username can\'t be blank'
+          next # error will appear again and be dealt with below
+        elsif msg =~ /Username/
+          msg << ' - can only contain letters, numbers, and periods.'
+        elsif msg =~ /Password is invalid/
+          msg << ' -  must be at least 8 characters with 1 uppercase letter, 1 lowercase letter, and 1 number.'
+        else
+          msg.gsub!(/Unverified email/, 'Email')
+        end
+    %>
+
+      <li>* <%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>

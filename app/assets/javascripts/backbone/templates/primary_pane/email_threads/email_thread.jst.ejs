@@ -1,0 +1,84 @@
+<div class="tm_mail-thread-header">
+  <% if(!TuringEmailApp.isSplitPaneMode()) { %>
+    <button class="tm_button tm_button-rounded email-back-button" title="Back">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#angle-left"></use></svg>
+    </button>
+  <% } %>
+
+  <h1 class="tm_mail-thread-subject"><%= escapeHTML(subjectPreview) %></h1>
+</div>
+
+<% _.each(emails, function(email, index) {
+  if(email.draft_id == null) {
+    var isCollapsed = (emails.length > 1 && index < emails.length - 1) && email.seen; %>
+  <div class="tm_email<%= isCollapsed ? " tm_email-collapsed" : "" %>" data-uid="<%= email.uid %>">
+
+    <div class="tm_email-info">
+      <div class="tm_email-user<%= emails.length > 1 ? " email-collapse-expand" : "" %>">
+        <span class="tm_email-user-avatar" style="background-image: url(/images/profile.png)"></span>
+        <span class="tm_email-user-name email-from">
+          <span><%= email.fromPreview %></span>
+          <% if(email.from_name != null) { %>
+            <small><%= email.from_address %></small>
+          <% } %>
+          <%/* if(email.tos) { %>
+            <small class="email-to" data-toggle="tooltip" data-placement="right" title="<%= email.tos.replace("<", "&lt;").replace(">", "&gt;") %>"> to <%= email.tos.split(" ")[0].replace(";", "") %></small>
+          <% } */%>
+        </span>
+      </div>
+      <div class="tm_email-date email-date"><%= email.datePreview %></div>
+      <div class="tm_button-stack email-response-btn-group">
+        <button type="button" class="tm_button email_reply_button">
+          <svg class="icon"><use xlink:href="/images/symbols.svg#return"></use></svg>
+        </button>
+        <div class="dropdown">
+          <button type="button" class="tm_button tm_button-caret" data-toggle="dropdown"></button>
+          <ul class="dropdown-menu pull-right email-response-dropdown-menu" role="menu">
+            <li><a class="email_forward_button">Forward</a></li>
+            <li><a class="reply-to-all">Reply to All</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="tm_email-body">
+      <% if (!isCollapsed) {
+        if(email.html_part != null) { %>
+          <div class="tm_email-body-html"><%= email.html_part %></div>
+        <% } else if(email.text_part != null) {%>
+          <pre class="tm_email-body-pre"><%= email.text_part %></pre>
+        <% } else if(email.body_text != null) {%>
+          <pre class="tm_email-body-pre"><%= email.body_text %></pre>
+        <% } %>
+      <% } %>
+    </div>
+
+    <% if(email.email_attachments.length > 0) { %>
+      <div class="tm_email-attachments">
+        <% _.each(email.email_attachments, function(email_attachment, index) { %>
+          <a data-prevent-default class="tm_email-attachment" href="<%= email_attachment.uid %>"><%= email_attachment.filename %></a>
+        <% }); %>
+      </div>
+    <% } %>
+
+  </div>
+
+  <% } else { %>
+
+  <div class="tm_email">
+    <div class="tm_email-info">
+      <div class="tm_email-user<%= emails.length > 1 ? " email-collapse-expand" : "" %>">
+        <span class="tm_email-user-avatar" style="background-image: url(/images/profile.png)"></span>
+        <span class="tm_email-user-name email-from">
+          <span>Draft message</span>
+          <small>from <%= email.fromPreview %></small>
+        </span>
+      </div>
+      <div class="tm_email-date email-date"><%= email.datePreview %></div>
+    </div>
+    <div class="tm_email-body tm_email-body-compose">
+      <div class="embedded_compose_view_<%= email.uid %>"></div>
+    </div>
+  </div>
+  <% }
+}); %>

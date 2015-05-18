@@ -1,0 +1,26 @@
+# Underscore + related
+asset "underscore", "~ 1.8.3"
+
+# Backbone + related
+asset "backbone", "~ 1.1.2"
+asset "backbone-validation", "~ 0.11.3"
+
+# Ractive + related
+asset "ractive", "~ 0.6.1"
+asset "ractive-adaptors-backbone", "~ 0.3.0"
+
+# jQuery + related
+asset "datetimepicker", "~ 2.4.1"
+asset "blueimp-file-upload", "~ 9.9.3"
+asset "jquery.hotkeys", "https://github.com/jeresig/jquery.hotkeys.git#346f1104e414c24d3323eff7f4863c9da8d9e6f3"
+asset "jquery-ui-layout", "~ 1.4.3"
+asset "iCheck", "~ 1.0.2"
+
+# Bootstrap + related
+asset "bootstrap-switch", "~ 2.0.1"
+asset "metisMenu", "~ 1.1.3"
+
+# Misc
+asset "moment", "~ 2.10.0"
+asset "svg4everybody", "~ 1.0.0"
+asset "tattletale", "https://github.com/vimeo/tattletale.js.git#93c2f52b8b02220e5509d56d6dbed2f35ba41e1e"

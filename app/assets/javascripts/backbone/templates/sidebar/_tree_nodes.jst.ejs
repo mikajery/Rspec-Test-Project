@@ -1,0 +1,49 @@
+<%
+var template = JST["backbone/templates/sidebar/_tree_nodes"];
+
+var renderChildren, emailFolder, haveChildren, style;
+
+renderChildren = function() {
+  var childNames, childIndex, childName;
+
+  childNames = _.keys(node.children).sort();
+
+  for (childIndex in childNames) {
+    childName = childNames[childIndex];
+    child = node.children[childName]; %>
+    <%= template({nodeName: childName, node: child}) %><%
+  }
+}
+
+emailFolder = node.emailFolder;
+
+if (emailFolder) {
+  haveChildren = _.keys(node.children).length > 0;
+
+  if (emailFolder.label_type !== "system") {
+    style = "";
+
+    if (emailFolder.num_unread_threads > 0) {
+      style += " tm_tree-unread";
+    }
+
+    style = style.trim();%>
+
+    <ul class="tm_tree tm_labels">
+      <li>
+        <a data-prevent-default id="<%= emailFolder.label_id %>" class="<%= style %>" href="<%= emailFolder.label_id %>" title="<%= nodeName %>">
+          <% if (haveChildren) { %>
+            <span class="tm_tree-bullet tm_tree-bullet-expanded"></span>
+          <% } %>
+          <span class="tm_tree-text"><%= nodeName %></span>
+          <span class="tm_tree-badge"><%= emailFolder.badgeString %></span>
+        </a><%
+  }
+
+  renderChildren();%>
+      </li>
+    </ul><%
+} else {
+  renderChildren();
+}
+%>

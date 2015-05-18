@@ -1,0 +1,93 @@
+// ---------------------------
+// SETTINGS AND ANALYTICS
+// ---------------------------
+
+
+// Settings page
+
+.tm_settings-pagination {
+  text-align: right;
+  padding: 15px 20px;
+
+  .pagination {
+    margin: 0;
+  }
+}
+
+.tm_settings-tab-loading {
+  height: 500px;
+  position: relative;
+}
+
+.tm_settings-switch {
+  display: flex;
+  padding: 12px 20px;
+  align-items: center;
+  border-top: 1px solid #EEE;
+  &:first-child {
+    border: 0;
+  }
+
+  > * {
+    flex-shrink: 0;
+    margin-left: 10px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .icon {
+    font-size: 24px;
+    color: rgba(#000, 0.15);
+  }
+
+  strong {
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 15px;
+    font-weight: normal;
+  }
+}
+
+.tm_settings-empty {
+  margin: 0;
+  color: #AAA;
+  font-size: 14px;
+  padding: 40px 20px;
+  text-align: center;
+  background: #F9F9F9;
+  border: 1px solid #EEE;
+  border-width: 1px 0;
+  &:last-child {
+    border-bottom: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+
+// Charts for analytics
+
+.tm_charts {
+  width: 100%;
+  padding-bottom: 10px;
+  display: inline-block;
+
+  > * {
+    float: left;
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .emails-per-week-chart, .emails-per-month-chart {
+    width: 50%;
+    height: 400px;
+  }
+
+  .incoming-emails-container, .outgoing-emails-container {
+    width: 50%;
+    height: 600px;
+  }
+}

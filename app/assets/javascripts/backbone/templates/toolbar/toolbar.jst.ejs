@@ -1,0 +1,130 @@
+<%
+function outputFolderDropdown(emailFolders, uniqueID, className) {
+  for (var i = 0; i < emailFolders.length; i++) {
+    var labelAsLinkID = _.uniqueId(uniqueID);
+
+    if (emailFolders[i].label_type != "system" || emailFolders[i].label_id == "INBOX") { %>
+      <li role="presentation">
+        <a role="menuitem" tabindex="-1" class="<%= className %>" id="<%= labelAsLinkID %>" name="<%= emailFolders[i]["label_id"] %>">
+          <%= emailFolders[i]["name"] %>
+        </a>
+      </li>
+<%  }
+  }
+} %>
+
+<div class="tm_headbar-toolbar threads-toolbar">
+  <div class="dropdown" data-toggle="tooltip" data-placement="top" title="Select">
+    <div class="tm_button tm_button-caret" data-toggle="dropdown">
+      <input type="checkbox" class="i-checks">
+    </div>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="label-as-dropdown-menu">
+      <li role="presentation"><a role="menuitem" tabindex="-1" class="all-bulk-action">All</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" class="none-bulk-action">None</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" class="read-bulk-action">Read</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" class="unread-bulk-action">Unread</a></li>
+    </ul>
+  </div>
+
+  <div class="tm_button-stack">
+    <button class="tm_button mark_as_read" data-toggle="tooltip" data-placement="top" title="Mark as Read">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#mark-read"></use></svg>
+    </button>
+    <button class="tm_button mark_as_unread" data-toggle="tooltip" data-placement="top" title="Mark as Unread">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#mark-unread"></use></svg>
+    </button>
+  </div>
+
+  <button class="tm_button refresh-button" data-toggle="tooltip" data-placement="top" title="Refresh">
+    <svg class="icon"><use xlink:href="/images/symbols.svg#refresh"></use></svg>
+  </button>
+
+  <div class="tm_button-stack">
+    <button class="tm_button pause-button" data-toggle="tooltip" data-placement="top" title="Pause">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#pause"></use></svg>
+    </button>
+
+    <div class="dropdown snooze-dropdown" data-toggle="tooltip" data-placement="top" title="Snooze">
+      <button class="tm_button tooltip-button snooze-dropdown-menu" data-toggle="dropdown">
+        <svg class="icon"><use xlink:href="/images/symbols.svg#clock"></use></svg>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="snooze-menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" class="one-hour">1 Hour</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" class="four-hours">4 Hour</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" class="eight-hours">8 Hour</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" class="one-day">1 Day</a></li>
+      </ul>
+    </div>
+
+    <button class="tm_button archive-button" data-toggle="tooltip" data-placement="top" title="Archive">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#archive"></use></svg>
+    </button>
+
+    <div class="dropdown label-as" data-toggle="tooltip" data-placement="top" title="Set a Label">
+      <button class="tm_button tooltip-button label-as-dropdown-menu" data-toggle="dropdown">
+        <svg class="icon"><use xlink:href="/images/symbols.svg#tag"></use></svg>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="label-as-dropdown-menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" class="createNewLabel">Create New</a></li>
+        <li role="presentation" class="divider"></li>
+        <% outputFolderDropdown(emailFolders, "labelAsLink", "label_as_link"); %>
+      </ul>
+    </div>
+
+    <div class="dropdown move-to" data-toggle="tooltip" data-placement="top" title="Move to Folder">
+      <button class="tm_button tooltip-button move-to-folder-dropdown-menu" data-toggle="dropdown">
+        <svg class="icon"><use xlink:href="/images/symbols.svg#folder"></use></svg>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="move-to-folder-dropdown-menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" class="createNewEmailFolder">Create New</a></li>
+        <li role="presentation" class="divider"></li>
+        <% outputFolderDropdown(emailFolders, "moveToFolderLink", "move_to_folder_link"); %>
+      </ul>
+    </div>
+
+    <button class="tm_button trash-button" data-toggle="tooltip" data-placement="top" title="Delete">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#trash"></use></svg>
+    </button>
+  </div>
+
+  <div class="tm_button-stack split-mode-btn-group">
+    {{#splitPaneModes}}
+    <button type="button" class="tm_button" data-toggle="tooltip" data-placement="top" title="{{name}}" data-split-mode="{{value}}">
+      <svg class="icon"><use xlink:href="/images/symbols.svg#{{icon}}"></use></svg>
+    </button>
+    {{/splitPaneModes}}
+  </div>
+</div>
+
+<div class="tm_headbar-toolbar shared-toolbar">
+  <form class="tm_search-form" role="search">
+    <input type="search" name="search" placeholder="Search for Emails..." value="{{ searchQuery }}">
+    <div class="tm_search-buttons">
+      <button type="reset">Reset</button>
+      <button type="submit">Search</button>
+    </div>
+  </form>
+
+  <div class="dropdown">
+    <div class="tm_user-details" data-toggle="dropdown">
+      <span class="tm_user-info">
+        <% if (typeof name !== "undefined" && name !== null) { %>
+          <strong><%= name %></strong>
+        <% } %>
+        <small><%= userAddress %></small>
+      </span>
+      <span class="tm_user-avatar" style="background-image: url(<%= profilePicture %>)"></span>
+    </div>
+    <ul class="tm_headbar-menu dropdown-menu pull-right" role="menu">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#welcome_tour" data-shortcut="T">Take the Tour</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#faq" data-shortcut="H">Support FAQ</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#about">About Turing</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#terms">Terms of Service</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#privacy">Privacy Policy</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" data-method="delete" href="/switch_account">Switch Account</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" data-method="delete" href="/signout">Sign Out</a></li>
+    </ul>
+  </div>
+</div>

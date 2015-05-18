@@ -1,0 +1,374 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.94.118 with SMTP id f109csp131613qge;
+        Thu, 4 Sep 2014 13:55:02 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.20.148])
+        by 10.180.20.148 with SMTP id n20mr4799462wie.22.1409864102535 (num_hops = 1);
+        Thu, 04 Sep 2014 13:55:02 -0700 (PDT)
+X-Received: by 10.180.20.148 with SMTP id n20mr9111753wie.22.1409864102130;
+        Thu, 04 Sep 2014 13:55:02 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp1167579wem;
+        Thu, 4 Sep 2014 13:55:01 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:delivered-to
+         :references:from:message-id:date:to:mime-version:thread-topic
+         :thread-index:subject:precedence:list-id:list-unsubscribe:list-post
+         :list-help:list-subscribe:content-type:errors-to:sender;
+        bh=Q1R7NbD6hBLNyXjSqyHL8EbmtRZqvhq+yjETrVdvfLk=;
+        b=eyuG0bmilFZ03t/HPrPpSGVG+K0ETD+saghOXTaMwuxDPn08+NziyMk3q9+rzqbGEU
+         WZnca5sm4W2WO9Y3n+Xs9mKJcgOsTP2+5b5EuOaJHUpuIoL5TDvfR2eg8ma2DCD/BRyQ
+         82C0nGFOUGGwKolhzmgCtkR496KL9MY7mmUCf8MGbetcCXaHcNpLLT9EBY+N2SEMARb5
+         Yb9RFjQ49TjYZ7Z7oCx1phPOoQyeezjc2YeQRVqYG/6Mhu2Q3kckiNN93CBzHs2s1rVQ
+         MDLiI3daRShU3N8vfZJKhQaM/jyOAz9THx/VaV++OPC1G545vVNMD0zNiCkdvbJrchyh
+         X9ww==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of activists-bounces@mailman.stanford.edu designates 171.67.219.81 as permitted sender) smtp.mail=activists-bounces@mailman.stanford.edu
+X-Received: from mr.google.com ([10.194.8.168])
+        by 10.194.8.168 with SMTP id s8mr4852599wja.129.1409864101617 (num_hops = 1);
+        Thu, 04 Sep 2014 13:55:01 -0700 (PDT)
+X-Received: by 10.194.8.168 with SMTP id s8mr9329621wja.129.1409864101598;
+        Thu, 04 Sep 2014 13:55:01 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.188.109 with SMTP id fz13csp1018616wjc;
+        Thu, 4 Sep 2014 13:55:00 -0700 (PDT)
+X-Received: by 10.70.134.205 with SMTP id pm13mr12844481pdb.80.1409864100040;
+        Thu, 04 Sep 2014 13:55:00 -0700 (PDT)
+Return-Path: <activists-bounces@mailman.stanford.edu>
+Received: from smtp.stanford.edu (smtp1.Stanford.EDU. [171.67.219.81])
+        by mx.google.com with ESMTPS id rk5si5590866pab.204.2014.09.04.13.54.58
+        for <multiple recipients>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 04 Sep 2014 13:55:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of activists-bounces@mailman.stanford.edu designates 171.67.219.81 as permitted sender) client-ip=171.67.219.81;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of activists-bounces@mailman.stanford.edu designates 171.67.219.81 as permitted sender) smtp.mail=activists-bounces@mailman.stanford.edu
+Received: from codegreen1.stanford.edu (codegreen1.Stanford.EDU [171.67.224.2])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by smtp.stanford.edu (Postfix) with ESMTPS id DAA8421F2D;
+	Thu,  4 Sep 2014 13:54:57 -0700 (PDT)
+Received: from codegreen1.stanford.edu (localhost.localdomain [127.0.0.1])
+	by codegreen1.stanford.edu (Postfix) with ESMTP id D02A284;
+	Thu,  4 Sep 2014 13:54:57 -0700 (PDT)
+Received: from smtp.stanford.edu (smtp2.Stanford.EDU [171.67.219.82])
+	(using TLSv1 with cipher ADH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by codegreen1.stanford.edu (Postfix) with ESMTP id BF94A85;
+	Thu,  4 Sep 2014 13:54:57 -0700 (PDT)
+Received: from smtp.stanford.edu (localhost [127.0.0.1])
+	by localhost (Postfix) with SMTP id A82933422E7;
+	Thu,  4 Sep 2014 13:54:57 -0700 (PDT)
+Received: from mailman.Stanford.EDU (mailman.Stanford.EDU [171.67.216.245])
+	by smtp.stanford.edu (Postfix) with ESMTP id 1116E340D27;
+	Thu,  4 Sep 2014 13:54:57 -0700 (PDT)
+X-Original-To: activists@mailman.stanford.edu
+Delivered-To: activists@mailman.stanford.edu
+Received: from mailman.stanford.edu (localhost [127.0.0.1])
+ by mailman.stanford.edu (Postfix) with SMTP id 4EF5081649
+ for <activists@mailman.stanford.edu>; Thu,  4 Sep 2014 13:54:55 -0700 (PDT)
+Received: from smtp.stanford.edu (smtp1.Stanford.EDU [171.67.219.81])
+ (using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits))
+ (No client certificate requested)
+ by mailman.stanford.edu (Postfix) with ESMTPS id EB06381644
+ for <activists@mailman.stanford.edu>; Thu,  4 Sep 2014 13:54:54 -0700 (PDT)
+Received: from codegreen2.stanford.edu (codegreen2.Stanford.EDU [171.67.224.3])
+ (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+ (No client certificate requested)
+ by smtp.stanford.edu (Postfix) with ESMTPS id E7063211BC
+ for <activists@mailman.stanford.edu>; Thu,  4 Sep 2014 13:54:54 -0700 (PDT)
+Received: from codegreen2.stanford.edu (localhost.localdomain [127.0.0.1])
+ by codegreen2.stanford.edu (Postfix) with ESMTP id D917465
+ for <activists@mailman.stanford.edu>; Thu,  4 Sep 2014 13:54:54 -0700 (PDT)
+Received: from smtp.stanford.edu (smtp2.Stanford.EDU [171.67.219.82])
+ (using TLSv1 with cipher ADH-AES256-SHA (256/256 bits))
+ (No client certificate requested)
+ by codegreen2.stanford.edu (Postfix) with ESMTP id C0B2065
+ for <activists@mailman.stanford.edu>; Thu,  4 Sep 2014 13:54:54 -0700 (PDT)
+Received: from smtp.stanford.edu (localhost [127.0.0.1])
+ by localhost (Postfix) with SMTP id AFC163422E8
+ for <activists@mailman.stanford.edu>; Thu,  4 Sep 2014 13:54:54 -0700 (PDT)
+Received: from zm07.stanford.edu (zm07.Stanford.EDU [171.67.219.139])
+ by smtp.stanford.edu (Postfix) with ESMTP id 5AB8F3422CE
+ for <activists@lists.stanford.edu>; Thu,  4 Sep 2014 13:54:54 -0700 (PDT)
+References: <3014714400.-485056018@org.orgDB.reply.salsalabs.com>
+From: Geoffry A Browning <geoffb2@stanford.edu>
+Message-Id: <A2B74A43-CFAC-4234-B553-D36E622CECF1@stanford.edu>
+Date: Thu, 4 Sep 2014 13:54:54 -0700 (PDT)
+To: activists <activists@lists.stanford.edu>
+MIME-Version: 1.0
+X-Mailer: Zimbra 8.0.7_GA_6021 (MobileSync - Apple-iPad2C5/1104.257)
+X-Authenticated-User: geoffb2@stanford.edu
+Thread-Topic: Victory for School of the America's Watch
+Thread-Index: ZciJutXWuqNuP+3Xzw3gmirjCTuq1w==
+Subject: [activists] Victory for School of the America's Watch
+X-BeenThere: activists@lists.stanford.edu
+X-Mailman-Version: 2.1.15
+Precedence: list
+List-Id: Activists at Stanford <activists.lists.stanford.edu>
+List-Unsubscribe: <https://mailman.stanford.edu/mailman/options/activists>,
+ <mailto:activists-request@lists.stanford.edu?subject=unsubscribe>
+List-Post: <mailto:activists@lists.stanford.edu>
+List-Help: <mailto:activists-request@lists.stanford.edu?subject=help>
+List-Subscribe: <https://mailman.stanford.edu/mailman/listinfo/activists>,
+ <mailto:activists-request@lists.stanford.edu?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============2477392219525076222=="
+Errors-To: activists-bounces@lists.stanford.edu
+Sender: "activists" <activists-bounces@lists.stanford.edu>
+
+
+--===============2477392219525076222==
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-EFA93F5E-101C-4A19-A7B3-F2AE59CF0F90
+Content-Transfer-Encoding: 7bit
+
+
+--Apple-Mail-EFA93F5E-101C-4A19-A7B3-F2AE59CF0F90
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQo+IA0KPiANCj4gDQo+IA0KPiBWaWN0b3J5OiBGaXJzdCBBbWVuZG1lbnQgUmlnaHRzIFRyaXVt
+cGggT3ZlciBDb2x1bWJ1cyBQb2xpY2UgYW5kIEZvcnQgQmVubmluZyBPZmZpY2lhbHMhDQo+IA0K
+PiBXZSBkaWQgaXQhIEZvcnQgQmVubmluZyBvZmZpY2lhbHMgYW5kIHRoZSBDb2x1bWJ1cyBwb2xp
+Y2UgdHJpZWQgdG8gc2h1dCBkb3duIHRoZSBOb3ZlbWJlciBWaWdpbCBieSBhdHRlbXB0aW5nIHRv
+IGxpbWl0IHRoZSBudW1iZXIgb2YgcGFydGljaXBhbnRzIGFuZCBieSBkZW55aW5nIFNPQSBXYXRj
+aCBhIHBlcm1pdCB0byBzZXQgdXAgYSBzdGFnZSBhbmQgc291bmQgc3lzdGVtLCBidXQganVzdGlj
+ZSBwcmV2YWlsZWQuIFdlIHdpbGwgcmV0dXJuIHRvIHRoZSBnYXRlcyBvZiBGb3J0IEJlbm5pbmcg
+ZnJvbSBOb3ZlbWJlciAyMS0yMy4gRm9sbG93aW5nIGEgY29vcmRpbmF0ZWQgZ3Jhc3Nyb290cyBw
+cmVzc3VyZSBjYW1wYWlnbiwgYW5kIG5lZ290aWF0aW9ucyB3aXRoIHRoZSBDb2x1bWJ1cyBQb2xp
+Y2UgRGVwYXJ0bWVudCBhbmQgdGhlaXIgdGVhbSBvZiBwcml2YXRlIGFuZCBwdWJsaWMgYXR0b3Ju
+ZXlzLCB0aGV5IGJhY2tlZCBkb3duIGFuZCBlbmRlZCB0aGVpciBlZmZvcnRzIHRvIGN1cnRhaWwg
+b3VyIGNvbnN0aXR1dGlvbmFsIHJpZ2h0cy4gDQo+IA0KPiANCj4gDQo+IEFzIHdlIGNvbnRpbnVl
+IHRvIG9yZ2FuaXplIG91ciAyNXRoIFZpZ2lsIGF0IHRoZSBnYXRlcyBvZiBGb3J0IEJlbm5pbmcs
+IHdlIGh1bWJseSByZW1lbWJlciB0aGF0IHRoaXMgdmljdG9yeSBpcyBub3Qgb3VycyBhbG9uZS4g
+VGhpcyB2aWN0b3J5IGlzIGFsc28gZm9yIHRoZSBjb25zdGl0dXRpb25hbCByaWdodHMgdG8gZnJl
+ZSBzcGVlY2ggYW5kIGFzc2VtYmx5IG9mIGNvdW50bGVzcyBvcmdhbml6YXRpb25zIGFuZCBjb21t
+dW5pdGllcyB0aGF0IGRhcmUgdG8gc3BlYWsgdXAgYW5kIG1vYmlsaXplLCBhbmQgYXJlIGZhY2Vk
+IHdpdGggcmVwcmVzc2lvbiBhbmQgY2Vuc29yc2hpcC4NCj4gDQo+IFRoaXMgZW50aXJlIHByb2Nl
+c3MgaXMgYSBjbGVhciBleGFtcGxlIG9mIHdoYXQgb3VyIG1vdmVtZW50IGNhbiBhY2NvbXBsaXNo
+IG9uIG1hbnkgbGV2ZWxzLCBib3RoIGxvY2FsbHkgYW5kIGludGVybmF0aW9uYWxseS4gVGhhbmtz
+IHRvIGEgbGV0dGVyIHNpZ25lZCBieSBvdXIgZnJpZW5kcyBhbmQgaHVtYW4gcmlnaHRzIGRlZmVu
+ZGVycyB0aHJvdWdob3V0IExhdGluIEFtZXJpY2EsIGluY2x1ZGluZyBOb2JlbCBQZWFjZSBQcml6
+ZSByZWNpcGllbnQgQWRvbGZvIFDDqXJleiBFc3F1aXZlbCwgYXMgd2VsbCBhcyA3NSBvcmdhbml6
+YXRpb25hbCBsZXR0ZXJzIG9mIHN1cHBvcnQsIGEgQ29uZ3Jlc3Npb25hbCBsZXR0ZXIgb2Ygc3Vw
+cG9ydCBzaWduZWQgYnkgMTIgUmVwcmVzZW50YXRpdmVzIGFuZCBhIHBldGl0aW9uIHdpdGggNyww
+MDAgc2lnbmF0dXJlcywgd2UgaGF2ZSBjb2xsZWN0aXZlbHkgc2VjdXJlZCBub3Qgb25seSBvdXIg
+aGlzdG9yaWNhbCBhbmQgc2FjcmVkIHNwYWNlIG9mIGNvbnZlcmdlbmNlIHRvIHJlbWVtYmVyIHRo
+ZSBtYXJ0eXJzLCBidXQgaGF2ZSBzdWNjZXNzZnVsbHkgZGVmZW5kZWQgYW5kIHByb3RlY3RlZCBv
+dXIgRmlyc3QgQW1lbmRtZW50IHJpZ2h0cyEgDQo+IA0KPiBTbyBqb2luIHVzIHRoaXMgTm92ZW1i
+ZXIgMjEg4oCTIDIzIGFzIHRob3VzYW5kcyBvZiBhY3RpdmlzdHMgZnJvbSBhY3Jvc3MgdGhlIEFt
+ZXJpY2FzIC0gY29tbXVuaXR5IGxlYWRlcnMsIGh1bWFuIHJpZ2h0cyBhZHZvY2F0ZXMsIG11c2lj
+aWFucywgbWlncmFudHMsIG51bnMsIHVuaW9uIHdvcmtlcnMsIHRvcnR1cmUgc3Vydml2b3JzLCB2
+ZXRlcmFucywgYXJ0aXN0cywgeW91dGggYW5kIGZhbWlsaWVzIC0gY29udmVyZ2UgZm9yIHRoZSAy
+NXRoIEFubnVhbCBWaWdpbCBhdCB0aGUgZ2F0ZXMgb2YgRnQuIEJlbm5pbmcgdG8gY2FsbCBmb3Ig
+YSBjbG9zaW5nIG9mIHRoZSBTY2hvb2wgb2YgdGhlIEFtZXJpY2FzIGFuZCBmb3IgYW4gZW5kIHRv
+IHRoZSByYWNpc3Qgc3lzdGVtIG9mIHZpb2xlbmNlIGFuZCBkb21pbmF0aW9uLiANCj4gDQo+IFRo
+YW5rIHlvdSBmb3IgcmFpc2luZyB5b3VyIHZvaWNlLiBUaGFuayB5b3UgZm9yIG1vYmlsaXppbmcu
+IFRoYW5rIHlvdSBmb3IgYmVpbmcgcGFydCBvZiB0aGlzIG1vdmVtZW50LiBXZSB3aWxsIG9ubHkg
+Y29udGludWUgdG8gZ3JvdyBzdHJvbmdlciBhbmQgcmVzaXN0IGluIHBlYWNlIGluIHRoZSBmYWNl
+IG9mIGluY3JlYXNlZCByZXByZXNzaW9uLiBTZWUgeW91IGF0IHRoZSBnYXRlcy4NCj4gDQo+IHdp
+dGggZ3JhdGl0dWRlLA0KPiANCj4gQXJ0dXJvLCBCcmlnaXR0ZSwgSGVuZHJpaywgSmVubmUsIEth
+cm9saW5hLCBLYXQsIE1hcsOtYSBMdWlzYSwgUGFibG8gYW5kIFJveQ0KPiANCj4gDQo+IA0KPiBT
+T0EgV2F0Y2gNCj4gICANCj4gDQo+IA0KPiANCj4gV2UgYXBwcmVjaWF0ZSB5b3VyIGludGVyZXN0
+ISBZb3UgYXJlIHN1YnNjcmliZWQgdG8gdGhlIFNPQSBXYXRjaCBsaXN0IGFzIEdlb2ZmLmJyb3du
+aW5nQHN0YW5mb3JkLmVkdS4NCj4gV2UgYmVsaWV2ZSB0aGF0IGVtYWlscyBhcmUgYSB2aXRhbCB3
+YXkgZm9yIFNPQSBXYXRjaCB0byBzdGF5IGluIGRpcmVjdCBjb250YWN0IHdpdGggc3VwcG9ydGVy
+cy4gDQo+IENsaWNrIGhlcmUgaWYgeW91J2QgbGlrZSB0byB1bnN1YnNjcmliZSBmcm9tIHRoZXNl
+IG1lc3NhZ2VzLCBvciBjaGFuZ2UgeW91ciBlbWFpbCBhZGRyZXNzLg0KPiBUaGUgbW92ZW1lbnQg
+dG8gY2xvc2UgdGhlIFNPQSBpcyBhIGNvbW11bml0eSwgYW5kIGFsbCBpZGVhcyBhcmUgd2VsY29t
+ZS4NCj4gV2UgYXBwcmVjaWF0ZSBhbnkgZmVlZGJhY2sgeW91IG1pZ2h0IGhhdmUgLS0gcG9zaXRp
+dmUgb3IgbmVnYXRpdmUuDQo+IENsaWNrIGhlcmUgdG8gY29udGFjdCBTT0EgV2F0Y2ggd2l0aCBh
+bnkgcXVlc3Rpb25zIG9yIGNvbmNlcm5zLg0KPiBTT0EgV2F0Y2gsIDU1MjUgSWxsaW5vaXMgQXZl
+LiBOVywgV2FzaGluZ3RvbiwgREMgMjAwMTENCj4gDQo+IA0KPiBUbyBtYWtlIGEgZG9uYXRpb24g
+dG8gc3VwcG9ydCB0aGUgbW92ZW1lbnQsIHBsZWFzZSB2aXNpdCBTT0FXLm9yZy9kb25hdGUuDQo+
+IFRvIG1ha2UgYSB0YXggZGVkdWN0aWJsZSBkb25hdGlvbiwgcGxlYXNlIHZpc2l0IFNPQVcub3Jn
+L2VkdWNhdGlvbmFsZnVuZC4NCj4gDQo=
+
+--Apple-Mail-EFA93F5E-101C-4A19-A7B3-F2AE59CF0F90
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGhlYWQ+PG1ldGEgaHR0cC1lcXVpdj0iY29udGVudC10eXBlIiBjb250ZW50PSJ0ZXh0
+L2h0bWw7IGNoYXJzZXQ9dXRmLTgiPjwvaGVhZD48Ym9keSBkaXI9ImF1dG8iPjxkaXY+PGJyPjwv
+ZGl2PjxibG9ja3F1b3RlIHR5cGU9ImNpdGUiPjxkaXY+PGJyPjwvZGl2PjwvYmxvY2txdW90ZT48
+YmxvY2txdW90ZSB0eXBlPSJjaXRlIj48ZGl2PjxwPjwvcD4NCjxwPjwvcD4NCjx0YWJsZSB3aWR0
+aD0iMTAwJSIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIxMCIgYmdjb2xvcj0iI0ZGRkZG
+RiI+DQogICAgPHRib2R5Pg0KICAgICAgICA8dHI+DQogICAgICAgICAgICA8dGQgdmFsaWduPSJ0
+b3AiIGFsaWduPSJjZW50ZXIiPjxicj4NCiAgICAgICAgICAgIDx0YWJsZSB3aWR0aD0iNzUwIiBj
+ZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiPg0KICAgICAgICAgICAgICAgIDx0Ym9keT4N
+CiAgICAgICAgICAgICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGFs
+aWduPSJjZW50ZXIiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNGRkZGRkY7Ym9yZGVyLXRvcDow
+cHggc29saWQgIzAwMDAwMDtib3JkZXItYm90dG9tOjFweCBzb2xpZCAjRkZGRkZGO3RleHQtYWxp
+Z246Y2VudGVyOyI+PC90ZD4NCiAgICAgICAgICAgICAgICAgICAgPC90cj4NCiAgICAgICAgICAg
+ICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHRkIHZhbGlnbj0ibWlkZGxl
+IiBhbGlnbj0ibGVmdCIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6I0ZGRkZGRjtib3JkZXItdG9w
+OjBweCBzb2xpZCAjMzMzMzMzO2JvcmRlci1ib3R0b206MTBweCBzb2xpZCAjRkZGRkZGOyI+PGNl
+bnRlcj48YSBocmVmPSJodHRwOi8vb3JnLnNhbHNhbGFicy5jb20vZGlhL3RyYWNrLmpzcD92PTIm
+YW1wO2M9dW9YTlRWVEhqbWxvZElTQjBPeDdIR2FsbWdkeGt5Z1AiPjxpbWcgYm9yZGVyPSIwIiBh
+bGlnbj0ibGVmdCIgc3JjPSJodHRwczovL29yZy5zYWxzYWxhYnMuY29tL28vNzI3L2ltYWdlcy9j
+b2xvcmJhbm5lck5vdjIwMTQuanBnIiBoZWlnaHQ9IjkwIiBhbHQ9IiI+PC9hPjwvY2VudGVyPjwv
+dGQ+DQogICAgICAgICAgICAgICAgICAgIDwvdHI+DQogICAgICAgICAgICAgICAgPC90Ym9keT4N
+CiAgICAgICAgICAgIDwvdGFibGU+DQogICAgICAgICAgICA8dGFibGUgY2VsbHNwYWNpbmc9IjAi
+IGNlbGxwYWRkaW5nPSIxNSIgYmdjb2xvcj0iI0ZGRkZGRiIgc3R5bGU9IndpZHRoOiA3NTBweDsg
+aGVpZ2h0OiAxNTM0cHg7Ij4NCiAgICAgICAgICAgICAgICA8dGJvZHk+DQogICAgICAgICAgICAg
+ICAgICAgIDx0cj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCB3aWR0aD0iNjUwIiB2YWxp
+Z249InRvcCIgYmdjb2xvcj0iI0ZGRkZGRiI+DQogICAgICAgICAgICAgICAgICAgICAgICA8cCBz
+dHlsZT0iY29sb3I6IHJnYigwLCAwLCAwKTsgZm9udC1mYW1pbHk6ICd0cmVidWNoZXQgbXMnOyBm
+b250LXNpemU6IDE0cHg7IGxpbmUtaGVpZ2h0OiAxNTAlOyI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6
+ZTogMjBweDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGZvbnQtZmFtaWx5OiBhcmlhbDsgbGluZS1oZWln
+aHQ6IDExMCU7Ij5WaWN0b3J5OiA8L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMjU1LCAx
+MDIsIDApOyBmb250LWZhbWlseTogYXJpYWw7IGZvbnQtc2l6ZTogMjBweDsgZm9udC13ZWlnaHQ6
+IGJvbGQ7IGxpbmUtaGVpZ2h0OiAyMnB4OyI+Rmlyc3QgQW1lbmRtZW50IFJpZ2h0czwvc3Bhbj48
+c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IGFyaWFsOyBmb250LXNpemU6IDIwcHg7IGZvbnQtd2Vp
+Z2h0OiBib2xkOyBsaW5lLWhlaWdodDogMTEwJTsgY29sb3I6IHJnYigyNTUsIDEwMiwgMCk7Ij4m
+bmJzcDtUcml1bXBoIE92ZXIgQ29sdW1idXMgUG9saWNlIGFuZCBGb3J0IEJlbm5pbmcgT2ZmaWNp
+YWxzITwvc3Bhbj48L3A+DQogICAgICAgICAgICAgICAgICAgICAgICA8cCBzdHlsZT0iY29sb3I6
+IHJnYigwLCAwLCAwKTsgZm9udC1mYW1pbHk6ICd0cmVidWNoZXQgbXMnOyBmb250LXNpemU6IDE0
+cHg7IGxpbmUtaGVpZ2h0OiAxNTAlOyI+PC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHAg
+c3R5bGU9ImNvbG9yOiByZ2IoMCwgMCwgMCk7IGZvbnQtZmFtaWx5OiAndHJlYnVjaGV0IG1zJzsg
+Zm9udC1zaXplOiAxNHB4OyBsaW5lLWhlaWdodDogMTUwJTsiPjxiPjxzcGFuIHN0eWxlPSJsaW5l
+LWhlaWdodDogMTUwJTsiPldlIGRpZCBpdCEgPC9zcGFuPkZvcnQgQmVubmluZyBvZmZpY2lhbHMg
+YW5kIHRoZSBDb2x1bWJ1cyBwb2xpY2UgdHJpZWQgdG8gPC9iPjxiIHN0eWxlPSJsaW5lLWhlaWdo
+dDogMTUwJTsiPjxhIGhyZWY9Imh0dHA6Ly9vcmcuc2Fsc2FsYWJzLmNvbS9kaWEvdHJhY2suanNw
+P3Y9MiZhbXA7Yz1qRyUyRmpJJTJCb01BVmNIbG03UDdyMFhmV2FsbWdkeGt5Z1AiPnNodXQgZG93
+biB0aGUgTm92ZW1iZXIgVmlnaWw8L2E+PC9iPjxiIHN0eWxlPSJsaW5lLWhlaWdodDogMTUwJTsi
+PiZuYnNwO2J5IGF0dGVtcHRpbmcgdG8gbGltaXQgdGhlIG51bWJlciBvZiBwYXJ0aWNpcGFudHMg
+YW5kIGJ5IGRlbnlpbmcgU09BIFdhdGNoIGEgcGVybWl0IHRvIHNldCB1cCBhIHN0YWdlIGFuZCBz
+b3VuZCBzeXN0ZW0sIGJ1dCBqdXN0aWNlIHByZXZhaWxlZC4gV2Ugd2lsbCByZXR1cm4gdG8gdGhl
+IGdhdGVzIG9mIEZvcnQgQmVubmluZyBmcm9tIDxhIGhyZWY9Imh0dHA6Ly9vcmcuc2Fsc2FsYWJz
+LmNvbS9kaWEvdHJhY2suanNwP3Y9MiZhbXA7Yz1mZTJ1U3ExZjNKUUhrbzclMkZ6M1NJdm1hbG1n
+ZHhreWdQIj5Ob3ZlbWJlciAyMS0yMzwvYT4uPC9iPiBGb2xsb3dpbmcgYSBjb29yZGluYXRlZCBn
+cmFzc3Jvb3RzIHByZXNzdXJlIGNhbXBhaWduLCBhbmQgbmVnb3RpYXRpb25zIHdpdGggdGhlIENv
+bHVtYnVzIFBvbGljZSBEZXBhcnRtZW50IGFuZCB0aGVpciB0ZWFtIG9mIHByaXZhdGUgYW5kIHB1
+YmxpYyBhdHRvcm5leXMsIHRoZXkgYmFja2VkIGRvd24gYW5kIGVuZGVkIHRoZWlyIGVmZm9ydHMg
+dG8gY3VydGFpbCBvdXIgY29uc3RpdHV0aW9uYWwgcmlnaHRzLiZuYnNwOzwvcD4NCiAgICAgICAg
+ICAgICAgICAgICAgICAgIDxwPjxhIGhyZWY9Imh0dHA6Ly9vcmcuc2Fsc2FsYWJzLmNvbS9kaWEv
+dHJhY2suanNwP3Y9MiZhbXA7Yz1STkdWYzl5MWtIcGQxU3JlUXFzM20yYWxtZ2R4a3lnUCI+PGlt
+ZyBzcmM9Imh0dHBzOi8vb3JnLnNhbHNhbGFicy5jb20vby83MjcvaW1hZ2VzL2NvdmVyQ09MTEFH
+RVBBRE5lbWFpbC5qcGciIGhzcGFjZT0iNSIgdnNwYWNlPSI1IiBhbGlnbj0icmlnaHQiIHdpZHRo
+PSIyMjAiIGFsdD0iIj48L2E+PC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHA+QXMgd2Ug
+Y29udGludWUgdG8gb3JnYW5pemUgb3VyIDI1dGggVmlnaWwgYXQgdGhlIGdhdGVzIG9mIEZvcnQg
+QmVubmluZywgd2UgaHVtYmx5IHJlbWVtYmVyIHRoYXQgdGhpcyB2aWN0b3J5IGlzIG5vdCBvdXJz
+IGFsb25lLiBUaGlzIHZpY3RvcnkgaXMgYWxzbyBmb3IgdGhlIGNvbnN0aXR1dGlvbmFsIHJpZ2h0
+cyB0byBmcmVlIHNwZWVjaCBhbmQgYXNzZW1ibHkgb2YgY291bnRsZXNzIG9yZ2FuaXphdGlvbnMg
+YW5kIGNvbW11bml0aWVzIHRoYXQgZGFyZSB0byBzcGVhayB1cCBhbmQgbW9iaWxpemUsIGFuZCBh
+cmUgZmFjZWQgd2l0aCByZXByZXNzaW9uIGFuZCBjZW5zb3JzaGlwLjwvcD4NCiAgICAgICAgICAg
+ICAgICAgICAgICAgIDxwPlRoaXMgZW50aXJlIHByb2Nlc3MgaXMgYSBjbGVhciBleGFtcGxlIG9m
+IHdoYXQgb3VyIG1vdmVtZW50IGNhbiBhY2NvbXBsaXNoIG9uIG1hbnkgbGV2ZWxzLCBib3RoIGxv
+Y2FsbHkgYW5kIGludGVybmF0aW9uYWxseS4gPGI+VGhhbmtzIHRvIGEmbmJzcDs8L2I+PGI+PGEg
+aHJlZj0iaHR0cDovL29yZy5zYWxzYWxhYnMuY29tL2RpYS90cmFjay5qc3A/dj0yJmFtcDtjPVFH
+Z0hWYjdOcU9nJTJCaHlBNHpRbDNZV2FsbWdkeGt5Z1AiPmxldHRlciBzaWduZWQgYnkgb3VyIGZy
+aWVuZHMgYW5kIGh1bWFuIHJpZ2h0cyBkZWZlbmRlcnMgdGhyb3VnaG91dCBMYXRpbiBBbWVyaWNh
+PC9hPiwgaW5jbHVkaW5nIE5vYmVsIFBlYWNlIFByaXplIHJlY2lwaWVudCBBZG9sZm8gUMOpcmV6
+IEVzcXVpdmVsLCBhcyB3ZWxsIGFzJm5ic3A7PGEgaHJlZj0iaHR0cDovL29yZy5zYWxzYWxhYnMu
+Y29tL2RpYS90cmFjay5qc3A/dj0yJmFtcDtjPU1JJTJCcEFVV3IxNldqJTJGdjV4T3YlMkZSRjVW
+NTcxNXpsMWFRIj43NSBvcmdhbml6YXRpb25hbCBsZXR0ZXJzIG9mIHN1cHBvcnQ8L2E+LCZuYnNw
+O2EmbmJzcDs8YSBocmVmPSJodHRwOi8vb3JnLnNhbHNhbGFicy5jb20vZGlhL3RyYWNrLmpzcD92
+PTImYW1wO2M9a3lhWTdjNEk4cm9ueUtKZVV2eXdRV2FsbWdkeGt5Z1AiPkNvbmdyZXNzaW9uYWwg
+bGV0dGVyIG9mIHN1cHBvcnQ8L2E+Jm5ic3A7c2lnbmVkIGJ5IDEyIFJlcHJlc2VudGF0aXZlcyZu
+YnNwOzwvYj48Yj5hbmQgYTwvYj48Yj4mbmJzcDs8YSBocmVmPSJodHRwOi8vb3JnLnNhbHNhbGFi
+cy5jb20vZGlhL3RyYWNrLmpzcD92PTImYW1wO2M9MzFTb3UyJTJGZlRZZmdLbFhBUDJiaG1tYWxt
+Z2R4a3lnUCI+cGV0aXRpb248L2E+PC9iPjxiPiZuYnNwO3dpdGggNywwMDAgc2lnbmF0dXJlcywg
+d2UgaGF2ZSBjb2xsZWN0aXZlbHkgc2VjdXJlZCBub3Qgb25seSBvdXIgaGlzdG9yaWNhbCBhbmQg
+c2FjcmVkIHNwYWNlIG9mIGNvbnZlcmdlbmNlIHRvIHJlbWVtYmVyIHRoZSBtYXJ0eXJzLCBidXQg
+aGF2ZSBzdWNjZXNzZnVsbHkgZGVmZW5kZWQgYW5kIHByb3RlY3RlZCBvdXIgRmlyc3QgQW1lbmRt
+ZW50IHJpZ2h0cyEmbmJzcDs8L2I+PC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHA+U28g
+am9pbiB1cyB0aGlzIE5vdmVtYmVyIDIxIOKAkyAyMyBhcyB0aG91c2FuZHMgb2YgYWN0aXZpc3Rz
+IGZyb20gYWNyb3NzIHRoZSBBbWVyaWNhcyAtIGNvbW11bml0eSBsZWFkZXJzLCBodW1hbiByaWdo
+dHMgYWR2b2NhdGVzLCBtdXNpY2lhbnMsIG1pZ3JhbnRzLCBudW5zLCB1bmlvbiB3b3JrZXJzLCB0
+b3J0dXJlIHN1cnZpdm9ycywgdmV0ZXJhbnMsIGFydGlzdHMsIHlvdXRoIGFuZCBmYW1pbGllcyAt
+IGNvbnZlcmdlIGZvciB0aGUgMjV0aCBBbm51YWwgVmlnaWwgYXQgdGhlIGdhdGVzIG9mIEZ0LiBC
+ZW5uaW5nIHRvIGNhbGwgZm9yIGEgY2xvc2luZyBvZiB0aGUgU2Nob29sIG9mIHRoZSBBbWVyaWNh
+cyBhbmQgZm9yIGFuIGVuZCB0byB0aGUgcmFjaXN0IHN5c3RlbSBvZiB2aW9sZW5jZSBhbmQgZG9t
+aW5hdGlvbi4mbmJzcDs8L3A+DQogICAgICAgICAgICAgICAgICAgICAgICA8cD5UaGFuayB5b3Ug
+Zm9yIHJhaXNpbmcgeW91ciB2b2ljZS4gVGhhbmsgeW91IGZvciBtb2JpbGl6aW5nLiBUaGFuayB5
+b3UgZm9yIGJlaW5nIHBhcnQgb2YgdGhpcyBtb3ZlbWVudC4gV2Ugd2lsbCBvbmx5IGNvbnRpbnVl
+IHRvIGdyb3cgc3Ryb25nZXIgYW5kIHJlc2lzdCBpbiBwZWFjZSBpbiB0aGUgZmFjZSBvZiBpbmNy
+ZWFzZWQgcmVwcmVzc2lvbi4gU2VlIHlvdSBhdCB0aGUgZ2F0ZXMuPC9wPg0KICAgICAgICAgICAg
+ICAgICAgICAgICAgPHA+PC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHA+d2l0aCBncmF0
+aXR1ZGUsPC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHA+PC9wPg0KICAgICAgICAgICAg
+ICAgICAgICAgICAgPHA+QXJ0dXJvLCBCcmlnaXR0ZSwgSGVuZHJpaywgSmVubmUsIEthcm9saW5h
+LCBLYXQsIE1hcsOtYSBMdWlzYSwgUGFibG8gYW5kIFJveTwvcD4NCiAgICAgICAgICAgICAgICAg
+ICAgICAgIDxhIGhyZWY9Imh0dHA6Ly9vcmcuc2Fsc2FsYWJzLmNvbS9kaWEvdHJhY2suanNwP3Y9
+MiZhbXA7Yz1FdUlybmFQMEluS1RaZ0ZlVW5XbmUyYWxtZ2R4a3lnUCI+PGltZyBzcmM9Imh0dHBz
+Oi8vb3JnLnNhbHNhbGFicy5jb20vby83MjcvaW1hZ2VzLzMwNTk1MDQ0OTJfYTFjY2E5YjBkMF96
+LmpwZyIgYWxpZ249ImNlbnRlciIgYWx0PSIiPjwvYT48L3RkPg0KICAgICAgICAgICAgICAgICAg
+ICA8L3RyPg0KICAgICAgICAgICAgICAgICAgICA8dHI+DQogICAgICAgICAgICAgICAgICAgICAg
+ICA8dGQgdmFsaWduPSJ0b3AiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNGRkZGRkY7Ym9yZGVy
+LXRvcDoxMHB4IHNvbGlkICNGRkZGRkY7IiBjb2xzcGFuPSIyIj48c3BhbiBzdHlsZT0iZm9udC1z
+aXplOjEwcHg7Y29sb3I6Izk5NjYwMDtsaW5lLWhlaWdodDoxMDAlO2ZvbnQtZmFtaWx5OnZlcmRh
+bmE7Ij4gPGNlbnRlcj48YnI+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGFsaWduPSJj
+ZW50ZXIiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHA+PHNwYW4gc3R5bGU9ImNvbG9yOiBy
+Z2IoMTAyLCAxMDIsIDE1Myk7Ij48c3Ryb25nPlNPQSBXYXRjaDxicj4NCiAgICAgICAgICAgICAg
+ICAgICAgICAgIDxhIGhyZWY9Imh0dHA6Ly9vcmcuc2Fsc2FsYWJzLmNvbS9kaWEvdHJhY2suanNw
+P3Y9MiZhbXA7Yz1ZZjVWbE9Oa09vYlBiOGZmZDMzN2syYWxtZ2R4a3lnUCI+PGltZyB3aWR0aD0i
+NzAiIGhlaWdodD0iNzAiIHNyYz0iaHR0cDovL29yZy5zYWxzYWxhYnMuY29tL28vMzAyL2ltYWdl
+cy9pbWFnZXMoMSkuanBnIiBhbHQ9IkpvaW4gU09BIFdhdGNoIG9uIGZhY2Vib29rIj48L2E+PGEg
+aHJlZj0iaHR0cDovL29yZy5zYWxzYWxhYnMuY29tL2RpYS90cmFjay5qc3A/dj0yJmFtcDtjPWcz
+R1pWUElRREpOV0J4dWV3QU9MNUdhbG1nZHhreWdQIj48aW1nIHdpZHRoPSI3MCIgaGVpZ2h0PSI3
+MCIgc3JjPSJodHRwOi8vb3JnLnNhbHNhbGFicy5jb20vby8zMDIvaW1hZ2VzL2ltYWdlcy0xLmpw
+ZyIgYWx0PSJGb2xsb3cgU09BIFdhdGNoIG9uIHR3aXR0ZXIiPjwvYT4gPGEgaHJlZj0iaHR0cDov
+L29yZy5zYWxzYWxhYnMuY29tL2RpYS90cmFjay5qc3A/dj0yJmFtcDtjPXpsTVFXRlVkZXozdURZ
+WFpvQnU0UlpWNTcxNXpsMWFRIj48aW1nIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCIgc3JjPSJodHRw
+czovL29yZy5zYWxzYWxhYnMuY29tL28vNzI3L2ltYWdlcy9pbnN0YWdyYW0uanBnIiBhbHQ9IiI+
+PC9hPiA8YSBocmVmPSJodHRwOi8vb3JnLnNhbHNhbGFicy5jb20vZGlhL3RyYWNrLmpzcD92PTIm
+YW1wO2M9NHR2R0N1bWpBYk00UnN2Wm9CWFlDbWFsbWdkeGt5Z1AiPjxpbWcgd2lkdGg9IjcwIiBo
+ZWlnaHQ9IjcwIiBzcmM9Imh0dHBzOi8vb3JnLnNhbHNhbGFicy5jb20vby83MjcvaW1hZ2VzL3Jl
+ZC1zcXVhcmUtZG9uYXRlLWJ1dHRvbi5wbmciIGFsdD0iRG9uYXRlIj48L2E+PGJyPg0KICAgICAg
+ICAgICAgICAgICAgICAgICAgPGJyPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGJyPg0KICAg
+ICAgICAgICAgICAgICAgICAgICAgPGJyPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGk+V2Ug
+YXBwcmVjaWF0ZSB5b3VyIGludGVyZXN0ISBZb3UgYXJlIHN1YnNjcmliZWQgdG8gdGhlIFNPQSBX
+YXRjaCBsaXN0IGFzIDxhIGhyZWY9Im1haWx0bzpHZW9mZi5icm93bmluZ0BzdGFuZm9yZC5lZHUi
+Pkdlb2ZmLmJyb3duaW5nQHN0YW5mb3JkLmVkdTwvYT4uPC9pPjxicj4NCiAgICAgICAgICAgICAg
+ICAgICAgICAgIFdlIGJlbGlldmUgdGhhdCBlbWFpbHMgYXJlIGEgdml0YWwgd2F5IGZvciBTT0Eg
+V2F0Y2ggdG8gc3RheSBpbiBkaXJlY3QgY29udGFjdCB3aXRoIHN1cHBvcnRlcnMuIDxicj4NCiAg
+ICAgICAgICAgICAgICAgICAgICAgIENsaWNrIDxhIGhyZWY9Imh0dHA6Ly9vcmcuc2Fsc2FsYWJz
+LmNvbS9kaWEvdHJhY2suanNwP3Y9MiZhbXA7Yz1hVmhrdGwlMkJJSlIlMkYyNjM3Z1JJV3hWMmFs
+bWdkeGt5Z1AiPmhlcmU8L2E+IGlmIHlvdSdkIGxpa2UgdG8gdW5zdWJzY3JpYmUgZnJvbSB0aGVz
+ZSBtZXNzYWdlcywgb3IgY2hhbmdlIHlvdXIgZW1haWwgYWRkcmVzcy48YnI+DQogICAgICAgICAg
+ICAgICAgICAgICAgICBUaGUgbW92ZW1lbnQgdG8gY2xvc2UgdGhlIFNPQSBpcyBhIGNvbW11bml0
+eSwgYW5kIGFsbCBpZGVhcyBhcmUgd2VsY29tZS48YnI+DQogICAgICAgICAgICAgICAgICAgICAg
+ICBXZSBhcHByZWNpYXRlIGFueSBmZWVkYmFjayB5b3UgbWlnaHQgaGF2ZSAtLSBwb3NpdGl2ZSBv
+ciBuZWdhdGl2ZS48YnI+DQogICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJodHRwOi8v
+b3JnLnNhbHNhbGFicy5jb20vZGlhL3RyYWNrLmpzcD92PTImYW1wO2M9NmtieXgwNFpwRFdIeERG
+NHNKRlc5bWFsbWdkeGt5Z1AiPkNsaWNrIGhlcmUgdG8gY29udGFjdCBTT0EgV2F0Y2g8L2E+IHdp
+dGggYW55IHF1ZXN0aW9ucyBvciBjb25jZXJucy48YnI+DQogICAgICAgICAgICAgICAgICAgICAg
+ICBTT0EgV2F0Y2gsIDU1MjUgSWxsaW5vaXMgQXZlLiBOVywgV2FzaGluZ3RvbiwgREMgMjAwMTE8
+YnI+DQogICAgICAgICAgICAgICAgICAgICAgICA8YnI+DQogICAgICAgICAgICAgICAgICAgICAg
+ICA8YnI+DQogICAgICAgICAgICAgICAgICAgICAgICBUbyBtYWtlIGEgZG9uYXRpb24gdG8gc3Vw
+cG9ydCB0aGUgbW92ZW1lbnQsIHBsZWFzZSB2aXNpdCA8YSBocmVmPSJodHRwOi8vb3JnLnNhbHNh
+bGFicy5jb20vZGlhL3RyYWNrLmpzcD92PTImYW1wO2M9UTV4M3hWRWVDRTZQMVB3VGFIR3hMMmFs
+bWdkeGt5Z1AiPlNPQVcub3JnL2RvbmF0ZTwvYT4uPGJyPg0KICAgICAgICAgICAgICAgICAgICAg
+ICAgVG8gbWFrZSBhIHRheCBkZWR1Y3RpYmxlIGRvbmF0aW9uLCBwbGVhc2UgdmlzaXQgPGEgaHJl
+Zj0iaHR0cDovL29yZy5zYWxzYWxhYnMuY29tL2RpYS90cmFjay5qc3A/dj0yJmFtcDtjPWFLUHBL
+djRaMGxjZkFJSFpYQ1JTc0dhbG1nZHhreWdQIj5TT0FXLm9yZy9lZHVjYXRpb25hbGZ1bmQ8L2E+
+LiA8L3N0cm9uZz48L3NwYW4+PC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQog
+ICAgICAgICAgICAgICAgICAgICAgICA8L2NlbnRlcj48L3NwYW4+PC90ZD4NCiAgICAgICAgICAg
+ICAgICAgICAgPC90cj4NCiAgICAgICAgICAgICAgICA8L3Rib2R5Pg0KICAgICAgICAgICAgPC90
+YWJsZT4NCiAgICAgICAgICAgIDwvdGQ+DQogICAgICAgIDwvdHI+DQogICAgPC90Ym9keT4NCjwv
+dGFibGU+DQo8cD48L3A+PGltZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBzcmM9Imh0dHA6Ly9vcmcu
+c2Fsc2FsYWJzLmNvbS9kaWEvVHJhY2tJbWFnZT9rZXk9MzAxNDcxNDQwMCI+PGRpYWVtYWlsaWQ9
+JzMwMTQ3MTQ0MDAnIHRocmVhZD0iMTA5NTciPjwvZGlhZW1haWxpZD0nMzAxNDcxNDQwMCc+PC9k
+aXY+PC9ibG9ja3F1b3RlPjwvYm9keT48L2h0bWw+
+--Apple-Mail-EFA93F5E-101C-4A19-A7B3-F2AE59CF0F90--
+
+
+--===============2477392219525076222==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+activists mailing list
+activists@lists.stanford.edu
+https://mailman.stanford.edu/mailman/listinfo/activists
+
+--===============2477392219525076222==--
+
+

@@ -1,0 +1,50 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ * require_self
+ * require_tree ../../../vendor/assets/stylesheets/
+ *
+ * require jquery-ui/autocomplete
+ * require jquery-ui/dialog
+ * require jquery-ui/draggable
+ *
+ * require application/themes/default
+ */
+
+@import "application/bootstrap/bootstrap-sprockets";
+@import "application/bootstrap/bootstrap";
+
+@import "application/plugins/redactor";
+@import "application/plugins/datetimepicker";
+
+@import "application/base/normalize";
+@import "application/base/helpers";
+@import "application/base/global";
+@import "application/base/controls";
+
+@import "application/components/alert";
+@import "application/components/layout";
+@import "application/components/toptabs";
+@import "application/components/sidebar";
+@import "application/components/headbar";
+@import "application/components/email-list";
+@import "application/components/email-thread";
+@import "application/components/email-schedule";
+@import "application/components/email-tracker";
+@import "application/components/email-template";
+@import "application/components/email-signature";
+@import "application/components/compose";
+@import "application/components/modal";
+@import "application/components/settings";
+
+@import "application/components/tour";
+@import "application/components/info";

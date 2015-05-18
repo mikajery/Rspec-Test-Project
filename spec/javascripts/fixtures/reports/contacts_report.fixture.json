@@ -1,0 +1,50 @@
+{
+  "top_senders": {
+    "access@interactive.wsj.com": 136,
+    "calendar-notification@google.com": 72,
+    "account@seekingalpha.com": 57,
+    "notifications@github.com": 28,
+    "noreply@r.groupon.com": 27,
+    "onlinealerts@morganstanleysmithbarney.com": 18,
+    "member@linkedin.com": 15,
+    "noreply-278e909a@plus.google.com": 14,
+    "noreply@medium.com": 14,
+    "portfolio@wsj.com": 10
+  },
+  "top_recipients": {
+    "alexkennedyusa@gmail.com": 5,
+    "jmdliving@gmail.com": 3,
+    "carol@draperuniversity.com": 3,
+    "kirstymacgregor@mac.com": 3,
+    "ernestine.fu@gmail.com": 2,
+    "herman.a.bates@morganstanley.com": 2,
+    "finances@turinginc.com": 2,
+    "vicki.bones@wolterskluwer.com": 2,
+    "dgobaud@gmail.com": 2,
+    "david@turinginc.com": 2
+  },
+  "bottom_senders": {
+    "alumni-opinions@stanford.edu": 1,
+    "thestanfordfund@stanford.edu": 1,
+    "alexkennedyusa@gmail.com": 1,
+    "neal@challengepost.com": 1,
+    "AccountStatus@GoDaddy.com": 1,
+    "david.kim@startupdigestmail.com": 1,
+    "customerengagement@gallup4.com": 1,
+    "info@email.glassdoor.com": 1,
+    "support@wrapbootstrap.com": 1,
+    "noreply@comments.wsj.com": 1
+  },
+  "bottom_recipients": {
+    "mkent@draperuniversity.com": 1,
+    "ava_dennis2@hotmail.com": 1,
+    "macgregordennis@gmail.com": 1,
+    "chriscross0411@gmail.com": 1,
+    "ernestine.fu@gmail.com": 2,
+    "herman.a.bates@morganstanley.com": 2,
+    "finances@turinginc.com": 2,
+    "vicki.bones@wolterskluwer.com": 2,
+    "dgobaud@gmail.com": 2,
+    "david@turinginc.com": 2
+  }
+}

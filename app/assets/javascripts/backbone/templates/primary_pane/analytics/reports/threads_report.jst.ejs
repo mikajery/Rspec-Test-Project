@@ -1,0 +1,22 @@
+<div class="tm_box-heading">
+  <svg class="icon"><use xlink:href="/images/symbols.svg#section-rules"></use></svg>
+  <div class="expander">
+    <h2>Threads Report</h2>
+    <p>The statistics below represent key data points on email threads you have sent and received.</p>
+  </div>
+</div>
+
+<table class="tm_datagrid tm_datagrid-lined list-report-statistics">
+  <tr>
+    <th colspan="2"><h5>Top Email Threads</h5></th>
+  </tr>
+  <% for (var i = 0; i < top_email_threads.length; i++) { %>
+    <tr>
+      <td><a href="#email_thread/<%= top_email_threads[i].uid %>"><%= top_email_threads[i].email_subject %></a></td>
+      <td><%= top_email_threads[i].emails_count %> emails</td>
+    </tr>
+  <% } %>
+</table>
+<div class="tm_content-padding">
+  <h5 class="nomargin">Average Thread Length: <%= average_thread_length %></h5>
+</div>

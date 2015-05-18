@@ -1,0 +1,2 @@
+action_controller:
+  asset_host: "https://dgc7nkudr50yb.cloudfront.net"

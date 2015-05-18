@@ -1,0 +1,1 @@
+worker: rake jobs:work_multi NUM_PROCESSES=8 QUEUE=worker

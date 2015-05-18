@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd /home/beta/turing-beta
+source /home/beta/.rvm/environments/ruby-2.1.5
+foreman run -e ../env/beta.env rake heroku_maintenance >> log/beta.cron.log 2>&1

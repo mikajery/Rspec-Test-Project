@@ -1,0 +1,89 @@
+Delivered-To: gobaudd6@gmail.com
+Received: by 10.140.94.118 with SMTP id f109csp134393qge;
+        Thu, 4 Sep 2014 14:22:01 -0700 (PDT)
+X-Received: from mr.google.com ([10.180.94.161])
+        by 10.180.94.161 with SMTP id dd1mr4843553wib.22.1409865721642 (num_hops = 1);
+        Thu, 04 Sep 2014 14:22:01 -0700 (PDT)
+X-Received: by 10.180.94.161 with SMTP id dd1mr9172933wib.22.1409865721243;
+        Thu, 04 Sep 2014 14:22:01 -0700 (PDT)
+X-Forwarded-To: gobaudd6@gmail.com
+X-Forwarded-For: gobaudd@gmail.com gobaudd6@gmail.com
+Delivered-To: gobaudd@gmail.com
+Received: by 10.216.186.193 with SMTP id w43csp1170771wem;
+        Thu, 4 Sep 2014 14:22:00 -0700 (PDT)
+X-Received: from mr.google.com ([10.194.243.230])
+        by 10.194.243.230 with SMTP id xb6mr5081118wjc.100.1409865720518 (num_hops = 1);
+        Thu, 04 Sep 2014 14:22:00 -0700 (PDT)
+X-Received: by 10.194.243.230 with SMTP id xb6mr9752399wjc.100.1409865720503;
+        Thu, 04 Sep 2014 14:22:00 -0700 (PDT)
+X-Forwarded-To: gobaudd@gmail.com
+X-X-Forwarded-For: dgobaud@gmail.com gobaudd@gmail.com
+Delivered-To: dgobaud@gmail.com
+Received: by 10.194.188.109 with SMTP id fz13csp1021285wjc;
+        Thu, 4 Sep 2014 14:21:58 -0700 (PDT)
+X-Received: by 10.236.30.69 with SMTP id j45mr9087382yha.37.1409865715626;
+        Thu, 04 Sep 2014 14:21:55 -0700 (PDT)
+Return-Path: <david+caf_=dgobaud=gmail.com@turinginc.com>
+Received: from mail-yk0-x231.google.com (mail-yk0-x231.google.com [2607:f8b0:4002:c07::231])
+        by mx.google.com with ESMTPS id s1si13960441yha.202.2014.09.04.14.21.55
+        for <dgobaud@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 04 Sep 2014 14:21:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of david+caf_=dgobaud=gmail.com@turinginc.com designates 2607:f8b0:4002:c07::231 as permitted sender) client-ip=2607:f8b0:4002:c07::231;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of david+caf_=dgobaud=gmail.com@turinginc.com designates 2607:f8b0:4002:c07::231 as permitted sender) smtp.mail=david+caf_=dgobaud=gmail.com@turinginc.com;
+       dkim=pass header.i=@vrent.com
+Received: by mail-yk0-f177.google.com with SMTP id 79so3690ykr.8
+        for <dgobaud@gmail.com>; Thu, 04 Sep 2014 14:21:55 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version
+         :in-reply-to:references:from:date:message-id:subject:to:content-type;
+        bh=TLzaEcWqpowxL6SSwQaCQsfRem47b5WAVCwVSz1v5ho=;
+        b=XMH9e5l5ZhfttaB9l2qLh00xidE+ywUlDgNM6wTgo6Hseg0PmqR/fX7Vk9qyPxH9ot
+         zecsKMEEod/tmtcejFdKTnc7Lf3mFyNrmVOEx3uXNRg9ESD5yWLbn4PWFEC6gVOoNEnl
+         6mcGDUNW0P1e1Ki+gnVMKrFONFr5gztWhvTjVMPjudOdio9pnmD5Ix28S2WK2eDbplde
+         GVNDdZXCQG7CFv0MUpEsJTeS0K0rYdnO1I8uBPH0OewvV9Mggt2QcdUm5FsFliHpx69K
+         4PVXYjCjEhF4Is1p4e2r6IFSBQaBqC/sXZ1PwF3r/bLg4zgF6+QSFW5d6rwOZNaTuVtc
+         uabA==
+X-Gm-Message-State: ALoCoQmy1DReds/E4zTamwv9Fg3632OQ+fT6GaQCzios06DIWwpJtTA27D/2JHhcPtoIqraX+k2r
+X-Received: by 10.236.53.69 with SMTP id f45mr8758412yhc.53.1409865715083;
+        Thu, 04 Sep 2014 14:21:55 -0700 (PDT)
+X-Forwarded-To: dgobaud@gmail.com
+X-X-Forwarded-For: david@turinginc.com dgobaud@gmail.com
+Delivered-To: david@turinginc.com
+Received: by 10.170.95.70 with SMTP id m67csp1062240yka;
+        Thu, 4 Sep 2014 14:21:54 -0700 (PDT)
+X-Received: by 10.224.161.140 with SMTP id r12mr11457295qax.74.1409865714545;
+        Thu, 04 Sep 2014 14:21:54 -0700 (PDT)
+Return-Path: <frontdesk@vrent.com>
+Received: from mail-qc0-x22a.google.com (mail-qc0-x22a.google.com [2607:f8b0:400d:c01::22a])
+        by mx.google.com with ESMTPS id l5si224580qaf.97.2014.09.04.14.21.52
+        for <david@turinginc.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 04 Sep 2014 14:21:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of frontdesk@vrent.com designates 2607:f8b0:400d:c01::22a as permitted sender) client-ip=2607:f8b0:400d:c01::22a;
+Received: by mail-qc0-f170.google.com with SMTP id r5so11582637qcx.29
+        for <david@turinginc.com>; Thu, 04 Sep 2014 14:21:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=vrent.com; s=google;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type;
+        bh=TLzaEcWqpowxL6SSwQaCQsfRem47b5WAVCwVSz1v5ho=;
+        b=bl18iJaiVNLTVokUGntQ15zxsm/7Pxd2vwaPmgTTgaU/PKHPxGvPrUYNFiuhUsss+a
+         sDZynNGwFtsmfpMoMEurnSrls3IfjJsTIsMtIp7A1YvpBTKpMP5ZWvWxkvnUH/TqpEAn
+         bQDzK80y0kjUugUPs1fDjTxLUbkcx6pmaqHIY=
+X-Received: by 10.229.140.70 with SMTP id h6mr11690577qcu.3.1409865711162;
+ Thu, 04 Sep 2014 14:21:51 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.96.58.163 with HTTP; Thu, 4 Sep 2014 14:21:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mmwoodbury@gmail.com designates 10.112.11.170 as permitted sender) client-ip=10.112.11.170
+X-Originating-IP: [50.197.164.77]
+In-Reply-To: <CAMwYsmvjdVwx9qfgMdx-61bTJfw0w=F0Mq01FqwGZMKHoADtZg@mail.gmail.com>
+References: <86DF5A34-71D3-4F89-AC0F-882354836779@gmail.com> <CAMwYsmvjdVwx9qfgMdx-61bTJfw0w=F0Mq01FqwGZMKHoADtZg@mail.gmail.com>
+From: Front Office <frontdesk@vrent.com>
+Date: Thu, 4 Sep 2014 14:21:31 -0700
+Message-ID: <CAJqXf8bX4qHZGTmAWXDzNqXhZWOhtswbOkMqQw=e4DU_-+ymWQ@mail.gmail.com>
+Subject: Re: Fixit
+To: David Gobaud <david@turinginc.com>
+Content-Type: multipart/alternative; boundary=001a1132ec32e5b4dc050243f05e

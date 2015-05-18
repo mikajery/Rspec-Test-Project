@@ -1,0 +1,74 @@
+<div class="tm_content-toolbar">
+  <div class="tm_button-stack tm_schedule-compose">
+    <input type="text" class="tm_input tm_input-big datetimepicker" placeholder="Date &amp; Time">
+    <button class="tm_button tm_button-submit new-delayed-email-button" disabled>Compose</button>
+  </div>
+
+  <div class="expander"></div>
+
+  <div class="tm_counter">
+    <span class="tm_counter-label">This Week</span>
+    <span class="tm_counter-value fgred"><%= weekTotal %></span>
+  </div>
+
+  <div class="tm_counter">
+    <span class="tm_counter-label">All Queue</span>
+    <span class="tm_counter-value"><%= total %></span>
+  </div>
+
+  <div class="tm_counter">
+    <span class="tm_counter-label">Filter</span>
+    <div class="dropdown period-dropdown">
+      <button class="tm_button tm_button-caret period-dropdown-menu" data-toggle="dropdown">All Time</button>
+      <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="period-menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1" data-days="-1">All Time</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" data-days="0">Today</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" data-days="1">Tomorrow</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" data-days="7">1 Week</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" data-days="14">2 Weeks</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" data-days="30">1 Month</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<% for (var month in delayedEmails) {
+  current_month = month == moment(new Date()).format('MMMM YYYY') %>
+  <dl>
+    <dt class="tm_schedule-month month-collapse-expand"><%= month %></dt>
+    <dd>
+    <% _.each(delayedEmails[month], function(email, i) { %>
+      <div class="tm_email tm_email-schedule" data-uid="<%= email.get('uid') %>">
+
+        <div class="tm_email-info">
+          <div class="tm_email-user email-collapse-expand">
+            <span class="tm_email-user-avatar" style="background-image: url(/images/profile.png)"></span>
+            <span class="tm_email-user-name email-from">
+              <!-- <span>John Appleseed</span> -->
+              <small><%= email.get("tos").join(", ") %></small>
+            </span>
+          </div>
+          <div class="tm_email-snippet email-collapse-expand"><%= email.get("subject") %></div>
+          <div class="tm_email-date<%= current_month ? ' fgred' : '' %>">
+            <%= new Date(email.get('send_at')).toLocaleString(navigator.language,
+              {month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit'}) %>
+          </div>
+          <div class="tm_button-stack">
+            <button type="button" class="tm_button delete-delayed-email-button">Delete</button>
+            <button type="button" class="tm_button edit-delayed-email-button">Edit</button>
+            <button type="button" class="tm_button send-delayed-email-button">Send</button>
+          </div>
+          <div class="tm_email-collapser email-collapse-expand"></div>
+        </div>
+
+        <div class="tm_email-subject"><%= email.get("subject") %></div>
+        <div class="tm_email-body"><%= email.get("html_part") %></div>
+
+        <!-- <div class="tm_email-attachments">
+          <a class="tm_email-attachment">Attached_file.pdf</a>
+        </div> -->
+      </div>
+    <% }); %>
+    </dd>
+  </dl>
+<% } %>

@@ -1,0 +1,132 @@
+<div class="tm_page-header">
+  <h1>Email Trackers</h1>
+  <!-- TODO: implement back-end for associating sent emails with email templates.
+  <div>
+    <span class="tm_toolbar-label">Tracking</span>
+    <div class="dropdown">
+      <button class="tm_button tm_button-caret" data-toggle="dropdown">Always</button>
+      <ul class="dropdown-menu pull-right" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1">Always</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1">Email Templates</a></li>
+      </ul>
+    </div>
+  </div>
+  -->
+</div>
+
+<div class="tm_tracker-chart email-tracker-chart"></div>
+
+<!--div class="tm_toolbar">
+  <div>
+    TODO: implement.
+    <div class="tm_input-search tm_tracker-search">
+      <input type="search" class="tm_input" placeholder="Filter by subject, recipient, etc">
+      <button type="reset">
+        <svg class="icon"><use xlink:href="/images/symbols.svg#reset"></use></svg>
+      </button>
+    </div>
+
+    TODO: figure out useful options for this.
+    <div class="dropdown">
+      <button class="tm_button tm_button-caret" data-toggle="dropdown">All Messages</button>
+      <ul class="dropdown-menu pull-right" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1">All Messages</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1">Any Messages</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1">Some Messages</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="expander"></div>
+
+  <div>
+    TODO: implement.
+    <span class="tm_toolbar-label">Sort by</span>
+    <div class="dropdown">
+      <button class="tm_button tm_button-caret" data-toggle="dropdown">Sent</button>
+      <ul class="dropdown-menu pull-right" role="menu">
+        <li role="presentation"><a role="menuitem" tabindex="-1">Sent</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1">Date</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1">Subject</a></li>
+      </ul>
+    </div>
+  </div>
+</div -->
+
+<table class="tm_tracker-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Subject</th>
+      <th>Opens</th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% for(var i = 0; i < emailTrackers.length; i++) {
+      var emailTracker = emailTrackers[i];
+      var hasViews = false;
+
+      for(var j = 0; j < emailTracker.email_tracker_recipients.length; j++) {
+        emailTrackerRecipient = emailTracker.email_tracker_recipients[j];
+
+        if (emailTrackerRecipient.email_tracker_views.length > 0) {
+          hasViews = true;
+          break;
+        }
+      } %>
+    <tr>
+      <td>
+        <span class="tm_tracker-date">
+          <%= new Date(emailTracker.email_date).toLocaleString(navigator.language, {month: 'short', day: 'numeric', year: 'numeric'}) %>
+        </span>
+        <span class="tm_tracker-time">
+          <%= new Date(emailTracker.email_date).toLocaleString(navigator.language, {hour: '2-digit', minute: '2-digit'}) %>
+        </span>
+      </td>
+      <td>
+        <span class="tm_tracker-subject"><%= emailTracker.email_subject %></span>
+      </td>
+      <td>
+        <% if (hasViews) {
+          for(var j = 0; j < emailTracker.email_tracker_recipients.length; j++) {
+            var emailTrackerRecipient = emailTracker.email_tracker_recipients[j];
+            if (emailTrackerRecipient.email_tracker_views.length == 0) {
+              continue;
+            } %>
+            <dl class="tm_tracker-open">
+              <dt><%= emailTrackerRecipient.email_address %></dt>
+              <dd>
+                <table>
+                  <tr>
+                    <th>Date</th>
+                    <th>IP Address</th>
+                    <th>User Agent</th>
+                  </tr>
+                  <% for(var k = 0; k < emailTrackerRecipient.email_tracker_views.length; k++) {
+                    var emailTrackerView = emailTrackerRecipient.email_tracker_views[k]; %>
+                    <tr>
+                      <td>
+                        <span class="tm_tracker-date">
+                          <%= new Date(emailTrackerView.created_at).toLocaleString(navigator.language, {month: 'short', day: 'numeric', year: 'numeric'}) %>
+                        </span>
+                        <span class="tm_tracker-time">
+                          <%= new Date(emailTrackerView.created_at).toLocaleString(navigator.language, {hour: '2-digit', minute: '2-digit'}) %>
+                        </span>
+                      </td>
+                      <td><%= emailTrackerView.ip_address %></td>
+                      <td><%= emailTrackerView.user_agent %></td>
+                    </tr>
+                  <% } %>
+                </table>
+              </dd>
+            </dl>
+          <% } %>
+        <% } else { %>
+          <span class="tm_tracker-notopen">Email was not open yet</span>
+        <% } %>
+      </td>
+    </tr>
+  <% } %>
+  </tbody>
+</table>

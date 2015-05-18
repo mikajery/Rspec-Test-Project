@@ -1,0 +1,702 @@
+{"result": {
+  "313448064": {
+    "result": {
+      "id": "Label_52",
+      "name": "Unimportant/Notes to Self",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 1,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_52\",\n \"name\": \"Unimportant/Notes to Self\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/VQnish_VO4OWbpEGQAfnaq2AHoU\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "232"
+    }
+  },
+  "355393905": {
+    "result": {
+      "id": "Label_55",
+      "name": "Unimportant/Automatic Replies",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 1,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_55\",\n \"name\": \"Unimportant/Automatic Replies\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/lj5VVyiKFYkm0yJ1P3mmeMkeNFI\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "236"
+    }
+  },
+  "365813345": {
+    "result": {
+      "id": "DRAFT",
+      "name": "DRAFT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system",
+      "messagesTotal": 8,
+      "messagesUnread": 0,
+      "threadsTotal": 8,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"DRAFT\",\n \"name\": \"DRAFT\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 8,\n \"messagesUnread\": 0,\n \"threadsTotal\": 8,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/oeUn5ChVu85LZ21gKD4GlaEoqHQ\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "211"
+    }
+  },
+  "383809234": {
+    "result": {
+      "id": "CATEGORY_SOCIAL",
+      "name": "CATEGORY_SOCIAL",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "threadsTotal": 0,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"CATEGORY_SOCIAL\",\n \"name\": \"CATEGORY_SOCIAL\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/IiohhaadlohU5xFU47SDU6_A2YE\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "231"
+    }
+  },
+  "401396014": {
+    "result": {
+      "id": "Label_64",
+      "name": "333333333333333333333",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 1,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_64\",\n \"name\": \"333333333333333333333\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/RmTjLlv8h78740HTnktcsNtTsig\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "228"
+    }
+  },
+  "426233433": {
+    "result": {
+      "id": "Label_63",
+      "name": "ddddddddddddddd",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 1,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_63\",\n \"name\": \"ddddddddddddddd\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/D5fQJdmhhqa1bW1jHz6pR6w0guE\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "222"
+    }
+  },
+  "451576026": {
+    "result": {
+      "id": "Label_56",
+      "name": "Purchases",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 1,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_56\",\n \"name\": \"Purchases\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/FvUmyc9PyN86BchFid91Xc_6Oxc\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "216"
+    }
+  },
+  "477385623": {
+    "result": {
+      "id": "TRASH",
+      "name": "TRASH",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system",
+      "messagesTotal": 2,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"TRASH\",\n \"name\": \"TRASH\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 2,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/iHEmKrBKtoR3TGFQVQ_Kn9k5eZs\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "211"
+    }
+  },
+  "516074959": {
+    "result": {
+      "id": "CATEGORY_PROMOTIONS",
+      "name": "CATEGORY_PROMOTIONS",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "threadsTotal": 0,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"CATEGORY_PROMOTIONS\",\n \"name\": \"CATEGORY_PROMOTIONS\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/TRZY35XODUzYaDzn_h_39DtzC6E\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "239"
+    }
+  },
+  "536302941": {
+    "result": {
+      "id": "Label_50",
+      "name": "Unimportant/Calendar",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 280,
+      "messagesUnread": 262,
+      "threadsTotal": 162,
+      "threadsUnread": 148
+    },
+    "body": "{\n \"id\": \"Label_50\",\n \"name\": \"Unimportant/Calendar\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 280,\n \"messagesUnread\": 262,\n \"threadsTotal\": 162,\n \"threadsUnread\": 148\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/2e0vDGN0-Yo-kgnOqBI6TxRwk3E\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "235"
+    }
+  },
+  "621257903": {
+    "result": {
+      "id": "Label_49",
+      "name": "Unimportant",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 955,
+      "messagesUnread": 624,
+      "threadsTotal": 484,
+      "threadsUnread": 346
+    },
+    "body": "{\n \"id\": \"Label_49\",\n \"name\": \"Unimportant\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 955,\n \"messagesUnread\": 624,\n \"threadsTotal\": 484,\n \"threadsUnread\": 346\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/__-YEwUNtI4T5VdttZ556J-cj0Q\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "226"
+    }
+  },
+  "662164649": {
+    "result": {
+      "id": "CATEGORY_FORUMS",
+      "name": "CATEGORY_FORUMS",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "threadsTotal": 0,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"CATEGORY_FORUMS\",\n \"name\": \"CATEGORY_FORUMS\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/qEacVuSO0pEFmvZUrrWac7tYC04\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "231"
+    }
+  },
+  "698680175": {
+    "result": {
+      "id": "INBOX",
+      "name": "INBOX",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system",
+      "messagesTotal": 140,
+      "messagesUnread": 132,
+      "threadsTotal": 52,
+      "threadsUnread": 49
+    },
+    "body": "{\n \"id\": \"INBOX\",\n \"name\": \"INBOX\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 140,\n \"messagesUnread\": 132,\n \"threadsTotal\": 52,\n \"threadsUnread\": 49\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/acFt_ydSy_BOfwoOg5eY7-EtgUo\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "217"
+    }
+  },
+  "703926466": {
+    "result": {
+      "id": "Label_51",
+      "name": "Unimportant/Completed Conversations",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 12,
+      "messagesUnread": 8,
+      "threadsTotal": 11,
+      "threadsUnread": 7
+    },
+    "body": "{\n \"id\": \"Label_51\",\n \"name\": \"Unimportant/Completed Conversations\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 12,\n \"messagesUnread\": 8,\n \"threadsTotal\": 11,\n \"threadsUnread\": 7\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/1tv1tCEP0dWtqvU1aE7adaxbwL0\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "244"
+    }
+  },
+  "745116275": {
+    "result": {
+      "id": "CATEGORY_UPDATES",
+      "name": "CATEGORY_UPDATES",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system",
+      "messagesTotal": 32,
+      "messagesUnread": 28,
+      "threadsTotal": 23,
+      "threadsUnread": 20
+    },
+    "body": "{\n \"id\": \"CATEGORY_UPDATES\",\n \"name\": \"CATEGORY_UPDATES\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 32,\n \"messagesUnread\": 28,\n \"threadsTotal\": 23,\n \"threadsUnread\": 20\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/fHpJoJLiRT3HXc3BlUn5LtIDAVA\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "237"
+    }
+  },
+  "759943234": {
+    "result": {
+      "id": "STARRED",
+      "name": "STARRED",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "threadsTotal": 0,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"STARRED\",\n \"name\": \"STARRED\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/MZU1obyO7fRrDhDKMRADlPKwRhQ\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "215"
+    }
+  },
+  "764968598": {
+    "result": {
+      "id": "UNREAD",
+      "name": "UNREAD",
+      "type": "system",
+      "messagesTotal": 1060,
+      "messagesUnread": 1060,
+      "threadsTotal": 530,
+      "threadsUnread": 530
+    },
+    "body": "{\n \"id\": \"UNREAD\",\n \"name\": \"UNREAD\",\n \"type\": \"system\",\n \"messagesTotal\": 1060,\n \"messagesUnread\": 1060,\n \"threadsTotal\": 530,\n \"threadsUnread\": 530\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/mxcCzqVKHx10cQdO8PIQ_03VCnU\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "152"
+    }
+  },
+  "785190483": {
+    "result": {
+      "id": "Label_62",
+      "name": "bbbbbbbbbbbbb",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 1,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_62\",\n \"name\": \"bbbbbbbbbbbbb\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/GX04pFSobhKULOMGluVF5yWeMoI\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "220"
+    }
+  },
+  "794813536": {
+    "result": {
+      "id": "Label_60",
+      "name": "testtest3",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 2,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_60\",\n \"name\": \"testtest3\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 2,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/K44NDX-WufoYvAJTKasoMqoz12E\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "216"
+    }
+  },
+  "816137219": {
+    "result": {
+      "id": "SPAM",
+      "name": "SPAM",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "threadsTotal": 0,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"SPAM\",\n \"name\": \"SPAM\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/nB_6MxCJHilOkSAGfyskwD6LCyo\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "209"
+    }
+  },
+  "870367400": {
+    "result": {
+      "id": "Label_61",
+      "name": "aaaaaaaaaaaaaaaaa",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 1,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_61\",\n \"name\": \"aaaaaaaaaaaaaaaaa\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/B68BnhupQBoarpOk-TZkRs8cveo\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "224"
+    }
+  },
+  "888873115": {
+    "result": {
+      "id": "Label_54",
+      "name": "List Emails",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 1,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_54\",\n \"name\": \"List Emails\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/qAC0h-Hc8LBjb4tJaEKBfdvN2oM\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "218"
+    }
+  },
+  "893435084": {
+    "result": {
+      "id": "Label_59",
+      "name": "testtest",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 2,
+      "messagesUnread": 0,
+      "threadsTotal": 1,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_59\",\n \"name\": \"testtest\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 2,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/xSIfoCs2a16ZJfD-mKU0I34wOj0\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "215"
+    }
+  },
+  "905768992": {
+    "result": {
+      "id": "Label_53",
+      "name": "Unimportant/Group Conversations",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 1,
+      "messagesUnread": 1,
+      "threadsTotal": 1,
+      "threadsUnread": 1
+    },
+    "body": "{\n \"id\": \"Label_53\",\n \"name\": \"Unimportant/Group Conversations\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 1,\n \"threadsTotal\": 1,\n \"threadsUnread\": 1\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/4I_peQ55sTSxw9-axCxK5FRBLyg\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "238"
+    }
+  },
+  "1181363733": {
+    "result": {
+      "id": "Label_2",
+      "name": "Test/child",
+      "type": "user",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "threadsTotal": 0,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_2\",\n \"name\": \"Test/child\",\n \"type\": \"user\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/F9aMUr_SEWpP3AwXk336foZVp2A\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "145"
+    }
+  },
+  "1348112291": {
+    "result": {
+      "id": "Label_1",
+      "name": "Test",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "type": "user",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "threadsTotal": 0,
+      "threadsUnread": 0
+    },
+    "body": "{\n \"id\": \"Label_1\",\n \"name\": \"Test\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/MIKAkvEFvMKLI-xUCtAhjYF2xZs\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "210"
+    }
+  },
+  "1361273101": {
+    "result": {
+      "id": "IMPORTANT",
+      "name": "IMPORTANT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system",
+      "messagesTotal": 10,
+      "messagesUnread": 5,
+      "threadsTotal": 5,
+      "threadsUnread": 3
+    },
+    "body": "{\n \"id\": \"IMPORTANT\",\n \"name\": \"IMPORTANT\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 10,\n \"messagesUnread\": 5,\n \"threadsTotal\": 5,\n \"threadsUnread\": 3\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/_21nhOZuRH6Xxg1NcfEwmzdZWAQ\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "220"
+    }
+  },
+  "1572161972": {
+    "result": {
+      "id": "CATEGORY_PERSONAL",
+      "name": "CATEGORY_PERSONAL",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system",
+      "messagesTotal": 155,
+      "messagesUnread": 72,
+      "threadsTotal": 18,
+      "threadsUnread": 12
+    },
+    "body": "{\n \"id\": \"CATEGORY_PERSONAL\",\n \"name\": \"CATEGORY_PERSONAL\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 155,\n \"messagesUnread\": 72,\n \"threadsTotal\": 18,\n \"threadsUnread\": 12\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/Yx2MgGNzHJJ8GEt_78CTRVwlC9Q\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "240"
+    }
+  },
+  "1576265502": {
+    "result": {
+      "id": "SENT",
+      "name": "SENT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system",
+      "messagesTotal": 262,
+      "messagesUnread": 112,
+      "threadsTotal": 159,
+      "threadsUnread": 44
+    },
+    "body": "{\n \"id\": \"SENT\",\n \"name\": \"SENT\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 262,\n \"messagesUnread\": 112,\n \"threadsTotal\": 159,\n \"threadsUnread\": 44\n}\n",
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "etag": "\"r-ILTqgn2Bedks0vsgiPBVbgG78/kRikLXHTZ3NSHuEKDJJMm1zLxeA\"",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+      "cache-control": "private, max-age=0",
+      "content-length": "216"
+    }
+  }
+}, "body": "--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-745116275>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/fHpJoJLiRT3HXc3BlUn5LtIDAVA\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 237\r\n\r\n{\n \"id\": \"CATEGORY_UPDATES\",\n \"name\": \"CATEGORY_UPDATES\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 32,\n \"messagesUnread\": 28,\n \"threadsTotal\": 23,\n \"threadsUnread\": 20\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-1348112291>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/MIKAkvEFvMKLI-xUCtAhjYF2xZs\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 210\r\n\r\n{\n \"id\": \"Label_1\",\n \"name\": \"Test\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-426233433>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/D5fQJdmhhqa1bW1jHz6pR6w0guE\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 222\r\n\r\n{\n \"id\": \"Label_63\",\n \"name\": \"ddddddddddddddd\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-888873115>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/qAC0h-Hc8LBjb4tJaEKBfdvN2oM\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 218\r\n\r\n{\n \"id\": \"Label_54\",\n \"name\": \"List Emails\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-764968598>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/mxcCzqVKHx10cQdO8PIQ_03VCnU\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 152\r\n\r\n{\n \"id\": \"UNREAD\",\n \"name\": \"UNREAD\",\n \"type\": \"system\",\n \"messagesTotal\": 1060,\n \"messagesUnread\": 1060,\n \"threadsTotal\": 530,\n \"threadsUnread\": 530\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-355393905>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/lj5VVyiKFYkm0yJ1P3mmeMkeNFI\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 236\r\n\r\n{\n \"id\": \"Label_55\",\n \"name\": \"Unimportant/Automatic Replies\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-905768992>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/4I_peQ55sTSxw9-axCxK5FRBLyg\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 238\r\n\r\n{\n \"id\": \"Label_53\",\n \"name\": \"Unimportant/Group Conversations\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 1,\n \"threadsTotal\": 1,\n \"threadsUnread\": 1\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-365813345>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/oeUn5ChVu85LZ21gKD4GlaEoqHQ\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 211\r\n\r\n{\n \"id\": \"DRAFT\",\n \"name\": \"DRAFT\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 8,\n \"messagesUnread\": 0,\n \"threadsTotal\": 8,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-893435084>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/xSIfoCs2a16ZJfD-mKU0I34wOj0\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 215\r\n\r\n{\n \"id\": \"Label_59\",\n \"name\": \"testtest\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 2,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-703926466>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/1tv1tCEP0dWtqvU1aE7adaxbwL0\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 244\r\n\r\n{\n \"id\": \"Label_51\",\n \"name\": \"Unimportant/Completed Conversations\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 12,\n \"messagesUnread\": 8,\n \"threadsTotal\": 11,\n \"threadsUnread\": 7\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-1181363733>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/F9aMUr_SEWpP3AwXk336foZVp2A\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 145\r\n\r\n{\n \"id\": \"Label_2\",\n \"name\": \"Test/child\",\n \"type\": \"user\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-621257903>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/__-YEwUNtI4T5VdttZ556J-cj0Q\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 226\r\n\r\n{\n \"id\": \"Label_49\",\n \"name\": \"Unimportant\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 955,\n \"messagesUnread\": 624,\n \"threadsTotal\": 484,\n \"threadsUnread\": 346\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-698680175>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/acFt_ydSy_BOfwoOg5eY7-EtgUo\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 217\r\n\r\n{\n \"id\": \"INBOX\",\n \"name\": \"INBOX\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 140,\n \"messagesUnread\": 132,\n \"threadsTotal\": 52,\n \"threadsUnread\": 49\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-516074959>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/TRZY35XODUzYaDzn_h_39DtzC6E\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 239\r\n\r\n{\n \"id\": \"CATEGORY_PROMOTIONS\",\n \"name\": \"CATEGORY_PROMOTIONS\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-383809234>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/IiohhaadlohU5xFU47SDU6_A2YE\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 231\r\n\r\n{\n \"id\": \"CATEGORY_SOCIAL\",\n \"name\": \"CATEGORY_SOCIAL\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-1572161972>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/Yx2MgGNzHJJ8GEt_78CTRVwlC9Q\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 240\r\n\r\n{\n \"id\": \"CATEGORY_PERSONAL\",\n \"name\": \"CATEGORY_PERSONAL\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 155,\n \"messagesUnread\": 72,\n \"threadsTotal\": 18,\n \"threadsUnread\": 12\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-662164649>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/qEacVuSO0pEFmvZUrrWac7tYC04\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 231\r\n\r\n{\n \"id\": \"CATEGORY_FORUMS\",\n \"name\": \"CATEGORY_FORUMS\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-477385623>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/iHEmKrBKtoR3TGFQVQ_Kn9k5eZs\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 211\r\n\r\n{\n \"id\": \"TRASH\",\n \"name\": \"TRASH\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 2,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-401396014>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/RmTjLlv8h78740HTnktcsNtTsig\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 228\r\n\r\n{\n \"id\": \"Label_64\",\n \"name\": \"333333333333333333333\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-794813536>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/K44NDX-WufoYvAJTKasoMqoz12E\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 216\r\n\r\n{\n \"id\": \"Label_60\",\n \"name\": \"testtest3\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 2,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-536302941>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/2e0vDGN0-Yo-kgnOqBI6TxRwk3E\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 235\r\n\r\n{\n \"id\": \"Label_50\",\n \"name\": \"Unimportant/Calendar\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 280,\n \"messagesUnread\": 262,\n \"threadsTotal\": 162,\n \"threadsUnread\": 148\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-1361273101>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/_21nhOZuRH6Xxg1NcfEwmzdZWAQ\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 220\r\n\r\n{\n \"id\": \"IMPORTANT\",\n \"name\": \"IMPORTANT\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 10,\n \"messagesUnread\": 5,\n \"threadsTotal\": 5,\n \"threadsUnread\": 3\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-1576265502>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/kRikLXHTZ3NSHuEKDJJMm1zLxeA\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 216\r\n\r\n{\n \"id\": \"SENT\",\n \"name\": \"SENT\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 262,\n \"messagesUnread\": 112,\n \"threadsTotal\": 159,\n \"threadsUnread\": 44\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-759943234>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/MZU1obyO7fRrDhDKMRADlPKwRhQ\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 215\r\n\r\n{\n \"id\": \"STARRED\",\n \"name\": \"STARRED\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-816137219>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/nB_6MxCJHilOkSAGfyskwD6LCyo\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 209\r\n\r\n{\n \"id\": \"SPAM\",\n \"name\": \"SPAM\",\n \"messageListVisibility\": \"hide\",\n \"labelListVisibility\": \"labelHide\",\n \"type\": \"system\",\n \"messagesTotal\": 0,\n \"messagesUnread\": 0,\n \"threadsTotal\": 0,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-451576026>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/FvUmyc9PyN86BchFid91Xc_6Oxc\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 216\r\n\r\n{\n \"id\": \"Label_56\",\n \"name\": \"Purchases\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-313448064>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/VQnish_VO4OWbpEGQAfnaq2AHoU\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 232\r\n\r\n{\n \"id\": \"Label_52\",\n \"name\": \"Unimportant/Notes to Self\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-870367400>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/B68BnhupQBoarpOk-TZkRs8cveo\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 224\r\n\r\n{\n \"id\": \"Label_61\",\n \"name\": \"aaaaaaaaaaaaaaaaa\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0\r\nContent-Type: application/http\r\nContent-ID: <response-785190483>\r\n\r\nHTTP/1.1 200 OK\r\nETag: \"r-ILTqgn2Bedks0vsgiPBVbgG78/GX04pFSobhKULOMGluVF5yWeMoI\"\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Wed, 22 Oct 2014 08:20:41 GMT\r\nExpires: Wed, 22 Oct 2014 08:20:41 GMT\r\nCache-Control: private, max-age=0\r\nContent-Length: 220\r\n\r\n{\n \"id\": \"Label_62\",\n \"name\": \"bbbbbbbbbbbbb\",\n \"messageListVisibility\": \"show\",\n \"labelListVisibility\": \"labelShow\",\n \"type\": \"user\",\n \"messagesTotal\": 1,\n \"messagesUnread\": 0,\n \"threadsTotal\": 1,\n \"threadsUnread\": 0\n}\n\r\n--batch_4sbNqbO0OVg_AAdpIfHV4m0--\r\n", "headers": {
+  "date": "Wed, 22 Oct 2014 08:20:41 GMT",
+  "content-encoding": "gzip",
+  "expires": "Wed, 22 Oct 2014 08:20:41 GMT",
+  "server": "GSE",
+  "content-type": "multipart/mixed; boundary=batch_4sbNqbO0OVg_AAdpIfHV4m0",
+  "cache-control": "private, max-age=0",
+  "content-length": "1993"
+}, "status": 200, "statusText": "OK"}

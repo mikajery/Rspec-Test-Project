@@ -1,0 +1,106 @@
+// ---------------------------
+// EMAIL SIGNATURES
+// ---------------------------
+
+
+// Signature editor
+
+.tm_signature-compose {
+  overflow: hidden;
+  background: #F9F9F9;
+  border-top: 1px solid #EEE;
+  border-radius: 0 0 5px 5px;
+
+  .redactor-editor {
+    border-bottom: 0;
+  }
+}
+
+
+// Signature preview
+
+.tm_signatures {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: inline-block;
+}
+
+.tm_signature-preview {
+  padding: 0;
+  min-width: 250px;
+  max-width: 520px;
+  background: #FFF;
+  border-radius: 5px;
+  position: relative;
+  vertical-align: top;
+  margin: 15px 15px 0 0;
+  display: inline-block;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tm_signature-preview-radio {
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  position: absolute;
+  &:hover span {
+    border: 2px solid #09F;
+  }
+
+  input {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+    &:checked + span {
+      background: #09F url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAQAAACR313BAAAAVElEQVQY02NgoAn4n/D//H8DXJIG/9////8/AJ9kAXZJAbDkfFyS51EkgY7oR5M8j8Oo//NBkv8FMB0yHyp5H0USScF9IH6P1a9QBe/xB0QAdUMeADLXWwXvMSYdAAAAAElFTkSuQmCC') no-repeat center;
+      border-color: #09F;
+    }
+  }
+
+  span {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #E3E3E3;
+    transition: background-color 0.2s, border 0.2s;
+  }
+}
+
+.tm_signature-preview-name {
+  width: 100%;
+  color: #999;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  padding: 20px 50px 0 20px;
+}
+
+.tm_signature-preview-html {
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+}
+
+.tm_signature-preview-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 1px solid #EEE;
+  padding: 10px 10px 10px 20px;
+
+  > :first-child {
+    flex-grow: 1;
+  }
+
+  small {
+    color: #BBB;
+    font-size: 11px;
+  }
+}

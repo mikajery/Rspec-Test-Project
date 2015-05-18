@@ -1,0 +1,23 @@
+[
+  {
+    "uid" : "4a3c0fca-3bab-46b9-ba0a-1e484743f53e",
+    "from_address" : "test",
+    "to_address" : null,
+    "subject" : "test",
+    "list_id" : null
+  },
+  {
+    "uid" : "918d9eb9-4d97-4130-902b-ba9f150a804a",
+    "from_address" : "from test",
+    "to_address" : null,
+    "subject" : "subject test",
+    "list_id" : null
+  },
+  {
+    "uid" : "d9188ab4-1749-4bf1-991f-c487b2de66eb",
+    "from_address" : "from test",
+    "to_address" : "to test",
+    "subject" : "subject test",
+    "list_id" : "list name test"
+  }
+]

@@ -1,0 +1,34 @@
+<div class="text-center animated fadeInDown" style="padding-top: 17.5%;">
+  <div>
+
+    <div>
+      <h1 class="logo-name" style="position: relative;right: 80px;">Turing</h1>
+    </div>
+    <h3>Login to Turing</h3>
+    <p>Login in to see it in action.</p>
+    <br />
+
+    <%= form_for(:session, url: sessions_path, html: {role: 'form'}) do |f| %>
+
+      <div class="form-group">
+        <%= f.label :email, class: 'sr-only' %>
+        <%= f.text_field :email, class: 'form-control email', placeholder: 'Email', required: "" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :password, class: 'sr-only' %>
+        <%= f.password_field :password, class: 'form-control password',  placeholder: 'Password', required: "" %>
+      </div>
+
+      <%= f.submit 'Login', class: 'btn btn-primary block full-width m-b' %>
+    <% end %>
+
+    <a href="#"><small>Forgot password?</small></a>
+    <br />
+    <br />
+    <p class="text-muted text-center"><small>Do not have an account?</small></p>
+    <br />
+    <%= link_to 'Register', signup_path, class: "btn btn-sm btn-white btn-block" %>
+
+  </div>
+</div>

@@ -1,0 +1,29 @@
+{"result": {
+  "drafts": [
+    {
+      "id": "1483364802585493276",
+      "message": {
+        "id": "1495f86dc26cff1c",
+        "threadId": "1495f86dc26cff1c"
+      }
+    },
+    {
+      "id": "r8627847596386461336",
+      "message": {
+        "id": "1491d24f6845f83c",
+        "threadId": "149159633415d557"
+      }
+    }
+  ],
+  "resultSizeEstimate": 2
+}, "body": "{\n \"drafts\": [\n  {\n   \"id\": \"1483364802585493276\",\n   \"message\": {\n    \"id\": \"1495f86dc26cff1c\",\n    \"threadId\": \"1495f86dc26cff1c\"\n   }\n  },\n  {\n   \"id\": \"r8627847596386461336\",\n   \"message\": {\n    \"id\": \"1491d24f6845f83c\",\n    \"threadId\": \"149159633415d557\"\n   }\n  }\n ],\n \"resultSizeEstimate\": 2\n}\n", "headers": {
+  "date": "Thu, 30 Oct 2014 08:05:23 GMT",
+  "content-encoding": "gzip",
+  "pragma": "no-cache",
+  "server": "GSE",
+  "etag": "\"yEJ6cH_j8v1sh2SNo0PjBwIT__w/GBDjdGosptcvZF14JXq2VwqqqQE\"",
+  "content-type": "application/json; charset=UTF-8",
+  "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+  "content-length": "181",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+}, "status": 200, "statusText": "OK"}

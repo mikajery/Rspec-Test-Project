@@ -1,0 +1,55 @@
+{
+  "average_thread_length": 12,
+  "top_email_threads": [
+    {
+      "uid": "14b32bd16d74b275",
+      "email_subject": "Re: Update.",
+      "emails_count": 85
+    },
+    {
+      "uid": "147d1b03147a160c",
+      "email_subject": "Re: Thank you & confirmation of Turing investment.",
+      "emails_count": 81
+    },
+    {
+      "uid": "14bec5152ea7a018",
+      "email_subject": "Re: Follow-up; do, need, what I\u2019d be willing to give up",
+      "emails_count": 65
+    },
+    {
+      "uid": "147cb9db4dac6839",
+      "email_subject": "Re: Recent CS grad - data security advice",
+      "emails_count": 63
+    },
+    {
+      "uid": "14920befb319a9ed",
+      "email_subject": "Re: Turing Email (development) - JOB FAILURE!!!",
+      "emails_count": 62
+    },
+    {
+      "uid": "14be65391786066e",
+      "email_subject": "Turing Email (beta) - JOB FAILURE!!!",
+      "emails_count": 62
+    },
+    {
+      "uid": "149834624e111bb6",
+      "email_subject": "Turing Email (beta) - JOB FAILURE!!!",
+      "emails_count": 61
+    },
+    {
+      "uid": "149821d00041c4dd",
+      "email_subject": "Turing Email (beta) - JOB FAILURE!!!",
+      "emails_count": 61
+    },
+    {
+      "uid": "1498346b12231033",
+      "email_subject": "Turing Email (beta) - sync_email_partial ncaarules@gmail.com EMAIL AUTH ERROR",
+      "emails_count": 61
+    },
+    {
+      "uid": "14983551074b7039",
+      "email_subject": "Turing Email (beta) - JOB FAILURE!!!",
+      "emails_count": 61
+    }
+  ]
+}

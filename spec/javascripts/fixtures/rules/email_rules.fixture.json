@@ -1,0 +1,10 @@
+[
+  {
+    "uid" : "663193eb-6365-4fe6-9055-2b3951b71eb5",
+    "from_address" : "a",
+    "to_address" : "b",
+    "subject" : "c",
+    "list_id" : "d",
+    "destination_folder_name" : "e"
+  }
+]

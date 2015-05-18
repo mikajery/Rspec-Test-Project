@@ -1,0 +1,31 @@
+<%
+  function drawChart(data, divSelector, chartTitle) {
+    if ($(divSelector).length == 0) {
+      return
+    }
+
+    var options = {
+      title: chartTitle,
+      hAxis: {titleTextStyle: {color: 'black'}},
+      vAxis: {titleTextStyle: {color: 'black'}}
+    };
+
+    var chart = new google.visualization.ColumnChart($(divSelector)[0]);
+    var dataTable = google.visualization.arrayToDataTable(data);
+
+    chart.draw(dataTable, options);
+  }
+
+  google.load("visualization", "1.0", {
+    callback: function() {
+      drawChart(obj.wordCountsGChartData, ".word-count-chart-div", "Word Counts")
+    },
+    packages:["corechart"]
+  })
+%>
+
+<div class="tm_page-header">
+  <h1>Word Counts</h1>
+</div>
+
+<div class="word-count-chart-div"></div>
